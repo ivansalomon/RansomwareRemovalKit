@@ -1,0 +1,282 @@
+body {
+	margin: 0px !important;
+	font-family:sans-serif;
+	font-size:14px;
+}
+.episode-title {
+	margin: 0 auto !important;
+	color: gray;
+	font-size: 10px;
+	overflow: hidden;
+	height: 12px;
+	position:absolute;
+	top:-24px;
+	width:100%;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}	
+h2{font-size:15pt;margin-top:0px}
+#info_text h2{margin-bottom:0px}
+.info-show-icon{clear:right;float:right;width:100px;margin:10px 0px 10px 10px}
+h3{font-size:11pt;margin:0px;}
+div.release_date{margin:10px auto}
+div.back_to_menu{float:right;cursor:pointer}
+#modal_content h2{margin-top:0px;margin-bottom:10px;}
+#player_menu a{cursor:pointer}
+/* info modal */ 
+.modal_content{display:none;}
+#episode_ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+#episode_ul li{
+	margin:0px 5px 15px 0px;
+	padding:0px 5px 15px 35px;
+	border-bottom:1px white solid;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+#episode_ul li.video_item{background-image: url(https://directory.libsyn.com/img/dir_video_22x.png);}
+#episode_ul li.audio_item{background-image: url(https://directory.libsyn.com/img/dir_audio_22x.png);}
+#episode_ul li a{text-decoration:none;}
+div.menu-option{
+	float:left;
+	text-align:center;
+	width:75px;
+	margin:5px;
+}
+div.menu-option img{height:75px;width:75px}
+div.row-break{height:0px;width:0px;clear:both}
+
+.premium_title{text-decoration:line-through}
+.premium_desc{color:red}
+a.premium_link{text-decoration:underline !important}
+a.premium_link:link{text-decoration:underline}
+a.premium_link:visited{text-decoration:underline}
+
+.premium_access{color:green}
+
+.internal-controls{
+	position:relative
+}
+.jp-progress-slider{
+	width: 100%;
+	position: relative;
+	margin: 12px auto auto auto;
+	top: -6px;
+}
+
+
+.jp-gui ul {
+	margin:0;
+	padding:0;
+}
+.jp-gui ul li {
+	position:relative;
+	float:left;
+	list-style:none;
+	margin:2px;
+	padding:4px 0;
+	cursor:pointer;
+}
+.jp-gui ul li a {
+	margin:0 4px;
+}
+
+.jp-gui li.jp-mute,
+.jp-gui li.jp-unmute {
+	margin-left:20px;
+}
+.jp-gui li.jp-volume-max {
+	margin-left:120px;
+}
+li.jp-pause,
+li.jp-repeat-off,
+li.jp-unmute,
+.jp-no-solution {
+	display:none;
+}
+.jp-progress-slider .ui-slider-handle {
+	cursor:pointer;
+}
+
+.jp-current-time,
+.jp-duration {
+	position:absolute;
+	top:42px;
+	font-size:0.8em;
+	cursor:default;
+}
+.jp-current-time {
+	left:100px;
+}
+.jp-duration {
+	right:266px;
+}
+.jp-gui.jp-no-volume .jp-duration {
+	right:70px;
+}
+.jp-clearboth {
+	clear:both;
+}
+.ui-slider-horizontal {
+	height: 4px;
+	background-color: #ffffff;
+}
+.ui-slider-handle {
+	background: url("https://ssl-static.libsyn.com/p/assets/platform/html5player/slider-handle-45px.png") no-repeat !important;
+	top: -0.35em !important;
+	border: none !important;
+	margin-left: -1px !important;
+}
+
+.play-pause-cell {
+	text-align: center; 
+	width: 36px;
+}
+.jp-play, .jp-pause {
+	bottom: 2px;
+	left: -1px;
+	height: 39px;
+	width: 36px;
+	cursor: pointer;
+}
+.jp-play {
+	background: url("https://ssl-static.libsyn.com/p/assets/platform/html5player/player-play-45px.png") no-repeat center;
+}
+.jp-pause {
+	background: url("https://ssl-static.libsyn.com/p/assets/platform/html5player/player-pause-45px.png") no-repeat center;
+}
+.play-pause.loading {
+	background: url("https://ssl-static.libsyn.com/p/assets/platform/html5player/player-spinner-45px.gif") no-repeat center;
+}
+.player-logo {
+	background: url("https://ssl-static.libsyn.com/p/assets/platform/html5player/player-libsyn-45px.png") no-repeat center;
+	width: 68px;
+	height: 22px;
+	margin-top:5px;
+}
+.player-logo-cell {
+	width: 74px;
+}
+
+.jp-gui {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	max-height: 46px;
+	background: #cccccc;
+	left: 0px;
+	overflow: hidden;
+}
+
+.jp-controls-holder {
+	height: 46px;
+	position:relative;
+	width:100%;
+}
+
+	.jp-controls {
+		width: 100%;
+		display:table;
+		padding:0;
+		margin:0;
+		height:46px;
+		position:absolute;
+		top:0;
+	}
+
+		.player-control-row {
+			width: 100%; 
+			display:table-row;
+			margin:0;
+			padding:0;
+		}
+
+		.player-cell {
+			display:table-cell;
+			vertical-align:middle;
+			padding-left: 3px;
+			margin:0;
+		}
+
+
+div.jp-seek-bar {
+	background: #575757;
+	height: 5px;
+}
+.jp-play-bar {
+	background-color: #81b82d;
+	height: 5px;
+}
+.jp-current-time {
+	left: 0px;
+}
+.jp-duration {
+	right: 0px;
+}
+.jp-current-time, .jp-duration {
+	top: 11px;
+	color: gray;
+	font-size: 10px;
+}
+.ui-slider-range {
+	height: 0% !important;
+}
+.ui-widget-content {
+ border: none;
+}
+
+.hover-menu {
+	position: absolute;
+	width: 100%;
+	background-color: rgba(0,0,0,.25);
+	color: #ffffff;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	cursor: pointer;
+}
+.hover-menu-item {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.menu-option a:hover, .hover-menu-item a:hover {
+	color: #81b82d !important; 
+}
+div.menu-option {
+	float: none !important;
+	display: block;
+	
+	text-align: left !important;
+	width: 100% !important;
+	height: 45px;
+	position: relative;
+	margin-bottom: 5px;
+}
+.share-image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.share-text {
+	line-height: 45px !important;
+	margin-left: 82px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.menu-option a {
+	text-decoration: none;
+}
+
+.displace {
+	position: absolute;
+	left: -5000px;
+}
+#share_episode {
+	padding: 28px !important;
+	margin-left: 22px;
+}

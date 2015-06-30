@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" >
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" >
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" >
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html class="wf-opensans-i4-active wf-opensans-n4-active wf-opensans-n6-active wf-active"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+
+<title>How to remove CoinVault ransomware and restore your files | Kaspersky Lab Official Blog</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="stylesheet" href="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/style.css" type="text/css" media="screen, projection">
+<link rel="pingback" href="https://blog.kaspersky.com/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://46qasb3uw5yn639ko4bz2ptr8u-wpengine.netdna-ssl.com/wp-content/themes/wt_metro/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<script async="" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/cbgapi.loaded_1"></script><script async="" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/cbgapi.loaded_0"></script><script src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/all.js" id="facebook-jssdk"></script><script type="text/javascript" async="" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/2140.js"></script><script gapi_processed="true" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/platform.js" async="" type="text/javascript"></script><script src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/prum.js" async=""></script><script src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/analytics.js" async=""></script><script type="text/javascript">
+	var themeDir = "https://blog.kaspersky.com/wp-content/themes/wt_metro";
+</script>
+
+<!-- All in One SEO Pack 2.2.6.2 by Michael Torbert of Semper Fi Web Design[309,427] -->
+<meta name="description" itemprop="description" content="Kaspersky Lab and Dutch cyber-police created a tool that restores files encrypted by CoinVault ransomware.">
+
+<meta name="keywords" itemprop="keywords" content="bitcoin,coinvault,decryption tool,malware,police,ransomware,securitywithoutborders">
+
+<link rel="canonical" href="https://blog.kaspersky.com/coinvault-ransomware-removal-instruction/">
+<!-- /all in one seo pack -->
+<link rel="dns-prefetch" href="https://connect.facebook.net/">
+<link rel="alternate" type="application/rss+xml" title="Kaspersky Lab. The Power to Protect | Official Blog » Feed" href="https://blog.kaspersky.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Kaspersky Lab. The Power to Protect | Official Blog » Comments Feed" href="https://blog.kaspersky.com/comments/feed/">
+
+<!-- JM Twitter Cards by Julien Maury 5.4.2 -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@kaspersky">
+<meta name="twitter:site" content="@kaspersky">
+<meta name="twitter:title" content="How to remove CoinVault ransomware and restore your files">
+<meta name="twitter:description" content="Kaspersky Lab and Dutch cyber-police created a tool that restores files encrypted by CoinVault ransomware.">
+<meta name="twitter:image:src" content="https://blog.kaspersky.com/files/2015/04/coinvault-logo-560x420.jpg">
+<meta name="twitter:image:width" content="280">
+<meta name="twitter:image:height" content="150">
+<!-- /JM Twitter Cards 5.4.2 -->
+
+<link rel="alternate" type="application/rss+xml" title="Kaspersky Lab. The Power to Protect | Official Blog » How to remove CoinVault ransomware and restore your files Comments Feed" href="https://blog.kaspersky.com/coinvault-ransomware-removal-instruction/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"https:\/\/blog.kaspersky.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.2"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script type="text/javascript" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/wp-emoji-release.js"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="pw-style-group-css" href="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a.css" type="text/css" media="all">
+<link rel="stylesheet" id="wt-lightbox-group-css" href="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a_002.css" type="text/css" media="all">
+<script type="text/javascript" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/jquery.js"></script>
+<script type="text/javascript" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/jquery-migrate.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var kss = {"counter_url":"https:\/\/blog.kaspersky.com\/wp-content\/plugins\/kaspersky-social-sharing\/counter\/index.php","twitter_account":"kaspersky"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a_003.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blog.kaspersky.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blog.kaspersky.com/wp-includes/wlwmanifest.xml"> 
+<link rel="shortlink" href="https://kas.pr/Z963">
+<style type="text/css">.oembed-instagram{box-shadow: 1px 1px 3px #eeeeee;  background-color: #ffffff; border: 1px solid #dedede; margin: 1em 5px;}.oembed-instagram iframe{display: block; margin: 0 auto; max-width: 100%; box-sizing: border-box;}</style>
+<script src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a_011.htm" type="text/javascript"></script><meta http-equiv="X-UA-Compatible" content="IE=8">
+<!-- BEGIN SimplyInstagram IE -->
+<!-- [if IE 9]>
+<style type="text/css">
+
+.comment-profile{
+	margin: 2px;
+	width: 45px;
+	float: left;
+}
+.comment-profile img{
+	vertical-align: top;
+}
+.comment-holder{
+	top: 0px;
+	width: 200px;
+	float: left !important;	
+}
+
+.comments-holder{
+	width: 210px;
+	float: left;
+}
+</style>
+<![endif]-->
+<!-- END SimplyInstagram IE -->
+
+<style type="text/css">img#wpstats{display:none}</style><link rel="shortcut icon" href="https://kasperskycontenthub.com/global/files/2014/07/favicon.ico">	
+<meta name="google-site-verification" content="XOla9rxO6zH_aL1JcEF1ghR3PcYhy3mw7chaz6fadfk"><meta name="google-site-verification" content="UxkEpg9JbmL0zu63-i0lwgtFUhbyb3ekdbqecSaJLvo">
+<meta name="pocket-site-verification" content="ab673486cc482dbac0bd0af0056c38">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35676203-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<meta property="og:site_name" content="Kaspersky Lab. The Power to Protect | Official Blog">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="fb:app_id" content="307769532755023">
+<meta property="og:url" content="https://blog.kaspersky.com/coinvault-ransomware-removal-instruction/">
+<meta property="og:title" content="How to remove CoinVault ransomware and restore your files">
+<meta property="og:description" content="Kaspersky Lab and the Dutch cyber-police created a tool that restores files encrypted by CoinVault ransomware.">
+<meta property="og:image" content="https://blog.kaspersky.com/files/2015/04/coinvault-logo.jpg">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="420">
+<meta property="og:image" content="https://blog.kaspersky.com/files/2015/04/coinvault-decryption-4.jpg">
+<meta property="og:image:width" content="603">
+<meta property="og:image:height" content="311">
+<meta property="og:image" content="https://blog.kaspersky.com/files/2015/04/coinvault-decryption-3.jpg">
+<meta property="og:image:width" content="527">
+<meta property="og:image:height" content="260">
+<meta property="article:published_time" content="2015-04-14T14:00:14+00:00">
+<meta property="article:modified_time" content="2015-04-14T16:05:59+00:00">
+<meta property="article:author" content="https://blog.kaspersky.com/author/alexdrozhzhin/">
+<meta property="article:section" content="Featured Post">
+<meta property="article:tag" content="Malware">
+<meta property="article:tag" content="News">
+<meta property="article:tag" content="Security">
+<meta property="article:tag" content="bitcoin">
+<meta property="article:tag" content="CoinVault">
+<meta property="article:tag" content="decryption tool">
+<meta property="article:tag" content="malware">
+<meta property="article:tag" content="police">
+<meta property="article:tag" content="Ransomware">
+<meta property="article:tag" content="securitywithoutborders">
+<style type="text/css" media="screen">
+			html { margin-top: 0px !important; }
+			* html body { margin-top: 0px !important; }
+			</style><script>
+var _prum = [['id', '5203a69cabe53d1b06000000'],
+             ['mark', 'firstbyte', (new Date()).getTime()]];
+(function() {
+    var s = document.getElementsByTagName('script')[0]
+      , p = document.createElement('script');
+    p.async = 'async';
+    p.src = '//rum-static.pingdom.net/prum.min.js';
+    s.parentNode.insertBefore(p, s);
+})();
+</script><link href="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/css.css" rel="stylesheet">
+
+
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f8;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3a5795;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #2f477a;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f8;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head>
+<body class="single single-post postid-8363 single-format-standard windows firefox ff3 ms-7">
+
+
+<div id="container" class="hfeed">
+		<header id="header" role="banner">
+		<div class="wrap">
+			<div class="logo">
+										<h1>
+					<a href="https://blog.kaspersky.com/" title="Kaspersky Lab. The Power to Protect | Official Blog">
+												<img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/kas_daily_red.png" alt="Kaspersky Lab. The Power to Protect | Official Blog">
+					</a>
+				</h1>
+						</div>	<!-- /logo -->
+
+			<div class="date">
+				May 20, 2015			</div>
+
+			<div class="search">
+					<form method="get" id="searchform" action="https://blog.kaspersky.com/">
+		<input class="searchfield" name="s" id="s" placeholder="Search" type="text">
+		<input class="submit" name="submit" id="searchsubmit" value="Search" type="submit">
+	</form>
+			</div>
+
+						<div class="social">
+				<ul>
+											<li><a class="twitter" href="http://twitter.com/kaspersky">Twitter</a></li>
+					
+											<li><a class="fb" href="https://www.facebook.com/Kaspersky">Facebook</a></li>
+					
+											<li><a class="yt" href="http://www.youtube.com/Kaspersky">YouTube</a></li>
+					
+											<li><a class="li" href="https://www.linkedin.com/company/kaspersky-lab">LinkedIn</a></li>
+					
+											<li><a class="gplus" href="https://plus.google.com/+KasperskyLab/posts">Google+</a></li>
+									
+					
+					
+					
+											<li><a class="rss" href="https://blog.kaspersky.com/feed/">RSS</a></li>
+									</ul>
+			</div>
+
+			
+			<div class="flags">
+				<div class="lang-select"><a href="#" class="lang-select">Select Language</a></div>
+				<div class="flagmenu">
+					<div>
+		<a href="https://blog.kaspersky.com/" title="Blog in English">
+			<img class="en" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/english.png" alt="Blog in English"> English		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.ru/" title="Блог на русском">
+			<img class="ru" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/russia.png" alt="Блог на русском"> Russian		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.es/" title="Blog en Español">
+			<img class="es" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/spain.png" alt="Blog en Español"> Español		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.de/" title="Blog in German">
+			<img class="de" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/germany.png" alt="Blog in German"> German		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.fr/" title="Blog en Français">
+			<img class="fr" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/france.png" alt="Blog en Français"> Français		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.it/" title="Blog in Italiano">
+			<img class="it" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/italy.png" alt="Blog in Italiano"> Italiano		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.com.br/" title="Blog in Portuguese">
+			<img class="pt" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/brazil.png" alt="Blog in Portuguese"> Portuguese		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.co.jp/" title="Blog in Japanese">
+			<img class="ja" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/japan.png" alt="Blog in Japanese"> Japanese		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.com.mx/" title="LatAm blog">
+			<img class="es" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/mexico.png" alt="LatAm blog"> LatAm		</a>
+		</div><div>
+		<a href="http://plblog.kaspersky.com/" title="Polish Blog">
+			<img class="pl" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/poland.png" alt="Polish Blog"> Polish		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.com.tr/" title="Turkish">
+			<img class="tr" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/turkey.png" alt="Turkish"> Turkish		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.com.cn/" title="Chinese">
+			<img class="cn" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/china.png" alt="Chinese"> Chinese		</a>
+		</div><div>
+		<a href="http://arabic.kaspersky.com/" title="Saudi Arabia ">
+			<img class="sa" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/saudi.png" alt="Saudi Arabia "> Arabic		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.ae/" title="United Arab Emirates">
+			<img class="en" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/uae.png" alt="United Arab Emirates"> UAE		</a>
+		</div>				</div>
+			</div>
+
+		</div> <!-- /wrap -->
+
+		<div id="main-menu">
+			<ul id="menu-menu" class="menu sf-js-enabled sf-shadow"><li id="menu-item-325" class="first home menu-item menu-item-type-custom menu-item-object-custom menu-item-325"><a href="http://blog.kaspersky.com/">Home</a></li>
+<li id="menu-item-513" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-513"><a href="https://blog.kaspersky.com/category/news/">News</a></li>
+<li id="menu-item-520" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-520"><a href="https://blog.kaspersky.com/category/security/">Security</a></li>
+<li id="menu-item-521" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521"><a href="https://blog.kaspersky.com/category/products/">Products</a></li>
+<li id="menu-item-516" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-516"><a href="https://blog.kaspersky.com/category/tips/">Tips</a></li>
+<li id="menu-item-522" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-522"><a href="https://blog.kaspersky.com/category/malware/">Malware</a></li>
+<li id="menu-item-523" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-523"><a href="https://blog.kaspersky.com/category/interviews/">Interviews</a></li>
+<li id="menu-item-3194" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3194"><a href="https://blog.kaspersky.com/category/special-project/">Projects</a></li>
+<li id="menu-item-387" class="last menu-item menu-item-type-post_type menu-item-object-page menu-item-387"><a href="https://blog.kaspersky.com/contact/">Contact</a></li>
+</ul><select class="select-menu"><option selected="selected" value="#">Navigate to...</option><option value="http://blog.kaspersky.com/">&nbsp;Home</option><option value="https://blog.kaspersky.com/category/news/">&nbsp;News</option><option value="https://blog.kaspersky.com/category/security/">&nbsp;Security</option><option value="https://blog.kaspersky.com/category/products/">&nbsp;Products</option><option value="https://blog.kaspersky.com/category/tips/">&nbsp;Tips</option><option value="https://blog.kaspersky.com/category/malware/">&nbsp;Malware</option><option value="https://blog.kaspersky.com/category/interviews/">&nbsp;Interviews</option><option value="https://blog.kaspersky.com/category/special-project/">&nbsp;Projects</option><option value="https://blog.kaspersky.com/contact/">&nbsp;Contact</option></select>			<div class="flags">
+				<div class="lang-select"><a href="#" class="lang-select">Select Language</a></div>
+				<div class="flagmenu">
+					<div>
+		<a href="https://blog.kaspersky.com/" title="Blog in English">
+			<img class="en" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/english.png" alt="Blog in English"> English		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.ru/" title="Блог на русском">
+			<img class="ru" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/russia.png" alt="Блог на русском"> Russian		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.es/" title="Blog en Español">
+			<img class="es" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/spain.png" alt="Blog en Español"> Español		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.de/" title="Blog in German">
+			<img class="de" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/germany.png" alt="Blog in German"> German		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.fr/" title="Blog en Français">
+			<img class="fr" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/france.png" alt="Blog en Français"> Français		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.it/" title="Blog in Italiano">
+			<img class="it" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/italy.png" alt="Blog in Italiano"> Italiano		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.com.br/" title="Blog in Portuguese">
+			<img class="pt" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/brazil.png" alt="Blog in Portuguese"> Portuguese		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.co.jp/" title="Blog in Japanese">
+			<img class="ja" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/japan.png" alt="Blog in Japanese"> Japanese		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.com.mx/" title="LatAm blog">
+			<img class="es" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/mexico.png" alt="LatAm blog"> LatAm		</a>
+		</div><div>
+		<a href="http://plblog.kaspersky.com/" title="Polish Blog">
+			<img class="pl" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/poland.png" alt="Polish Blog"> Polish		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.com.tr/" title="Turkish">
+			<img class="tr" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/turkey.png" alt="Turkish"> Turkish		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.com.cn/" title="Chinese">
+			<img class="cn" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/china.png" alt="Chinese"> Chinese		</a>
+		</div><div>
+		<a href="http://arabic.kaspersky.com/" title="Saudi Arabia ">
+			<img class="sa" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/saudi.png" alt="Saudi Arabia "> Arabic		</a>
+		</div><div>
+		<a href="http://blog.kaspersky.ae/" title="United Arab Emirates">
+			<img class="en" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/uae.png" alt="United Arab Emirates"> UAE		</a>
+		</div>				</div>
+			</div>
+		</div>
+
+		<div class="clearfix"></div>
+
+	</header>
+
+	<div id="main">
+
+<section id="primary">
+	<div id="content" role="main">
+
+					
+<div itemscope="" itemtype="http://schema.org/BlogPosting">
+<article id="post-8363" class="post-8363 post type-post status-publish format-standard has-post-thumbnail hentry category-featured-post category-malware category-news category-security tag-bitcoin tag-coinvault tag-decryption-tool tag-malware-2 tag-police tag-ransomware tag-securitywithoutborders">
+				<div class="post-nav">
+				<div class="prev"><div class="wrap"><a href="https://blog.kaspersky.com/simda-botnet-check/" rel="prev">Previous</a></div></div>				<div class="next"><div class="wrap"><a href="https://blog.kaspersky.com/keep-your-child-safe-oversee-the-apps/" rel="next">Next</a></div></div>			</div>
+			<header class="entry-header">
+		<h1 class="entry-title" itemprop="name">How to remove CoinVault ransomware and restore your files</h1>
+		<div class="entry-meta">
+			<span class="date"><time itemprop="datePublished" datetime="2015-04-14">April 14, 2015</time></span>
+			<span class="author" itemprop="author"><a href="https://blog.kaspersky.com/author/alexdrozhzhin/" title="Posts by Alex Drozhzhin" rel="author">Alex Drozhzhin</a></span>
+			<span class="category" itemprop="keywords"><a href="https://blog.kaspersky.com/category/featured-post/" rel="category tag">Featured Post</a>, <a href="https://blog.kaspersky.com/category/malware/" rel="category tag">Malware</a>, <a href="https://blog.kaspersky.com/category/news/" rel="category tag">News</a>, <a href="https://blog.kaspersky.com/category/security/" rel="category tag">Security</a></span>
+							<span class="comments"><a href="https://blog.kaspersky.com/coinvault-ransomware-removal-instruction/#respond"><fb:comments-count class="" fb-xfbml-state="rendered" xmlns="http://ogp.me/ns/fb#" href="https://blog.kaspersky.com/coinvault-ransomware-removal-instruction/"><span class="fb_comments_count">3</span></fb:comments-count> Comments</a></span>
+					</div><!-- /entry-meta -->
+	</header><!-- /entry-header -->
+
+	<div class="entry-content">
+				<div itemprop="articleBody"><p>In most cases, if you are a victim of
+ ransomware, there’s nothing you can do. Luckily, from time to time 
+police and cybersecurity companies take down command and control servers
+ of ransomware and retrieve information from them. This information is 
+really useful, because it helps to create decryption tools and to 
+recover users’ files. Recently, Dutch cyber-police and Kaspersky Lab 
+created such a solution for CoinVault victims.</p>
+<p><a href="https://kasperskycontenthub.com/global/files/2015/04/coinvault-logo.jpg"><img class="aligncenter size-full wp-image-8365" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/coinvault-logo.jpg" alt="How to remove CoinVault ransomware and restore your files" height="420" width="640"></a></p>
+<p>If you want to know more about CoinVault itself, you can read our <a href="https://securelist.com/blog/virus-watch/67699/a-nightmare-on-malware-street/">detailed report at Securelist</a>. If you are interested in exactly how we created a decryption solution, we covered it in a very detailed&nbsp;<a href="https://securelist.com/blog/69595/challenging-coinvault-its-time-to-free-those-files/">&nbsp;blog post</a>. If you are looking for instruction on how to get rid of this ransomware and restore your files, then keep reading below.</p>
+<h3>Step 1: Are you infected with CoinVault?</h3>
+<p>First, make sure your files are stolen by CoinVault and not by 
+another ransomware. It’s fairly easy to determine: If you are infected 
+with CoinVault, you will see an image like below:</p>
+<p><a href="https://kasperskycontenthub.com/global/files/2015/04/convault-decryption-1.jpg"><img class="aligncenter size-full wp-image-8369" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/convault-decryption-1.jpg" alt="How to remove CoinVault ransomware and restore your files" height="1133" width="1901"></a></p>
+<h3>Step 2: Get the Bitcoin wallet address</h3>
+<p>In the bottom right of CoinVault you will see the Bitcoin wallet 
+address (it’s marked with a black circle&nbsp;on the image above). It’s 
+very important for you to copy and save this address!</p>
+<h3>Step 3: Get the encrypted file list</h3>
+<p>In the top left corner of the malware window you will see a ‘View 
+encrypted filelist’ button (it’s marked with blue circle&nbsp;on the 
+image above). Click this button and save the output to a file.</p>
+<h3>Step 4: Remove CoinVault</h3>
+<p>Go to <a href="https://kas.pr/kismd-cvault">https://kas.pr/kismd-cvault</a>
+ and download the trial version of Kaspersky Internet Security. Install 
+it and it will remove CoinVault from your system. Be sure to save all 
+information retrieved in steps 2 and 3.</p>
+<h3>Step 5: Check <a href="https://noransom.kaspersky.com/?utm_source=KD&amp;utm_medium=text&amp;utm_campaign=kd-com">https://noransom.kaspersky.com</a></h3>
+<p>At <a href="https://noransom.kaspersky.com/?utm_source=KD&amp;utm_medium=text&amp;utm_campaign=kd-com">https://noransom.kaspersky.com</a>
+ you should enter the Bitcoin wallet address from step 2. If your 
+Bitcoin wallet address is known, the IV and Key will appear on the 
+screen. Please note that multiple keys and IVs may appear. In this case 
+save all the keys and IVs to your computer, you will need them later.</p>
+<p><a href="https://kasperskycontenthub.com/global/files/2015/04/coinvault-decryption-2.jpg"><img class="aligncenter size-full wp-image-8370" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/coinvault-decryption-2.jpg" alt="How to remove CoinVault ransomware and restore your files" height="660" width="1280"></a></p>
+<h3>Step 6: Download the decryption tool</h3>
+<p>Download the decryption tool at <a href="https://noransom.kaspersky.com/?utm_source=KD&amp;utm_medium=text&amp;utm_campaign=kd-com">https://noransom.kaspersky.com</a>
+ and run it on your computer. If you get an error message, as shown 
+below, go to step 7. If not, skip step 7 and proceed to step 8.</p>
+<p><a href="https://kasperskycontenthub.com/global/files/2015/04/coinvault-decryption-3.jpg"><img class="aligncenter size-full wp-image-8368" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/coinvault-decryption-3.jpg" alt="How to remove CoinVault ransomware and restore your files" height="260" width="527"></a></p>
+<h3>Step 7: Download and install additional libraries</h3>
+<p>Go to <a href="http://www.microsoft.com/en-us/download/details.aspx?id=40779">http://www.microsoft.com/en-us/download/details.aspx?id=40779</a> and follow the instructions on the website. Then install the software.</p>
+<h3>Step 8: Start the decryption tool</h3>
+<p>Start the tool and you will see a screen like&nbsp;below:</p>
+<p><a href="https://kasperskycontenthub.com/global/files/2015/04/coinvault-decryption-4.jpg"><img class="aligncenter size-full wp-image-8367" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/coinvault-decryption-4.jpg" alt="How to remove CoinVault ransomware and restore your files" height="311" width="603"></a></p>
+<h3>Step 9: Test if&nbsp;the decryption works properly</h3>
+<p>When running the tool for the first time, we strongly advise you to do a test decryption. Do the following:</p>
+<ul>
+<li>Click “Select file” button in the “Single File Decryption” box and select one file you want to decrypt;</li>
+<li>Enter the IV from the webpage into the IV box;</li>
+<li>Enter the key from the webpage into the key box;</li>
+<li>Click “Start” button.</li>
+</ul>
+<p>Verify whether the newly created file is properly decrypted.</p>
+<h3>Step 10: Decrypt all files stolen by CoinVault</h3>
+<p>If everything was okay in step 9, then you can recover all your files
+ at once. To do that select the file list from step 3, enter IV and key 
+and click start. You can select “Overwrite encrypted file with decrypted
+ contents” if you want.</p>
+<blockquote class="twitter-pullquote"><p>Recover your files stolen by #CoinVault #ransomware. Free of charge</p><a href="https://twitter.com/share?url=https%3A%2F%2Fkas.pr%2FZ963&amp;text=Recover+your+files+stolen+by+%23CoinVault+%23ransomware.+Free+of+charge" class="btn btn-twhite" data-lang="en" data-count="0">Tweet</a></blockquote>
+<p>If you received multiple IVs and keys when you entered your Bitcoin 
+wallet address, please be very careful. At the moment we are not 100% 
+sure where the multiple IVs and keys for one Bitcoin wallet come from. 
+In this case, we strongly recommend leaving the “Overwrite encrypted 
+file with decrypted contents” box unticked. If something goes wrong with
+ the decryption you can try another IV+key pair until the file is 
+successfully decrypted.</p>
+<p>If you didn’t receive the IV and key at all, you should wait and check <a href="https://noransom.kaspersky.com/?utm_source=KD&amp;utm_medium=text&amp;utm_campaign=kd-com">https://noransom.kaspersky.com</a>. The investigation is ongoing, and we will add new keys as soon as they are available.</p>
+</div>
+			</div><!-- /entry-content -->
+
+		<div class="social-likes social-likes_visible social-likes_ready" data-title="How to remove CoinVault ransomware and restore your files" data-url="http://blog.kaspersky.com/coinvault-ransomware-removal-instruction/" data-counters="yes" data-zeroes="yes"><div class="social-likes__widget social-likes__widget_facebook" title="Share link on Facebook"><span class="social-likes__button social-likes__button_facebook"><span class="social-likes__icon social-likes__icon_facebook"></span>Facebook</span><span class="social-likes__counter social-likes__counter_facebook">5</span></div><div class="social-likes__widget social-likes__widget_plusone" title="Share link on Google+"><span class="social-likes__button social-likes__button_plusone"><span class="social-likes__icon social-likes__icon_plusone"></span>Google+</span><span class="social-likes__counter social-likes__counter_plusone">3</span></div><div class="social-likes__widget social-likes__widget_twitter" data-url="https://kas.pr/Z963" data-counturl="http://blog.kaspersky.com/coinvault-ransomware-removal-instruction/" data-counter="https://cdn.api.twitter.com/1/urls/count.json?url=http://blog.kaspersky.com/coinvault-ransomware-removal-instruction/&amp;callback=?" title="Share link on Twitter"><span class="social-likes__button social-likes__button_twitter"><span class="social-likes__icon social-likes__icon_twitter"></span>Twitter</span><span class="social-likes__counter social-likes__counter_twitter">44</span></div><div class="social-likes__widget social-likes__widget_linkedin" title="Share link on LinkedIn"><span class="social-likes__button social-likes__button_linkedin"><span class="social-likes__icon social-likes__icon_linkedin"></span>LinkedIn</span><span class="social-likes__counter social-likes__counter_linkedin">22</span></div><div class="social-likes__widget social-likes__widget_pinterest" title="Share image on Pinterest" data-media="https://kasperskycontenthub.com/global/files/2015/04/coinvault-logo.jpg"><span class="social-likes__button social-likes__button_pinterest"><span class="social-likes__icon social-likes__icon_pinterest"></span>Pinterest</span><span class="social-likes__counter social-likes__counter_pinterest">0</span></div><div class="social-likes__widget social-likes__widget_pocket" title="Save to Pocket"><span class="social-likes__button social-likes__button_pocket"><span class="social-likes__icon social-likes__icon_pocket"></span>Pocket</span><span class="social-likes__counter social-likes__counter_pocket">0</span></div><div class="social-likes__widget social-likes__widget_reddit" title="Share link on Reddit"><span class="social-likes__button social-likes__button_reddit"><span class="social-likes__icon social-likes__icon_reddit"></span>Reddit</span><span class="social-likes__counter social-likes__counter_reddit">0</span></div></div><div class="kindleWidget"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/white-15.png"><span>Send to Kindle</span></div>
+	<footer class="entry-footer">
+
+		<div class="entry-tags">
+			<a href="https://blog.kaspersky.com/tag/bitcoin/" rel="tag">bitcoin</a><a href="https://blog.kaspersky.com/tag/coinvault/" rel="tag">CoinVault</a><a href="https://blog.kaspersky.com/tag/decryption-tool/" rel="tag">decryption tool</a><a href="https://blog.kaspersky.com/tag/malware-2/" rel="tag">malware</a><a href="https://blog.kaspersky.com/tag/police/" rel="tag">police</a><a href="https://blog.kaspersky.com/tag/ransomware/" rel="tag">Ransomware</a><a href="https://blog.kaspersky.com/tag/securitywithoutborders/" rel="tag">securitywithoutborders</a>		</div>
+
+	</footer><!-- /entry-footer -->
+
+</article><!-- /post-8363 -->
+
+					<div class="entry-author" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+				<h3 class="title">About <span itemprop="name">Alex Drozhzhin</span></h3>
+				<div class="author-avatar" itemprop="image">
+					<img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/user-avatar-pic_002.png" alt="" class=" avatar  avatar-68  photo user-421-avatar" height="68" width="68">				</div><!-- /author-avatar -->
+				<div class="author-description">
+					<span itemprop="description"></span>
+					<div id="author-link">
+						<a href="https://blog.kaspersky.com/author/alexdrozhzhin/" rel="author" itemprop="url">
+							View all posts by Alex Drozhzhin <span class="meta-nav">→</span>						</a>
+					</div><!-- /author-link	-->
+				</div><!-- /author-description -->
+			</div><!-- /author-info -->
+
+		
+</div>
+			
+<div id="comments" class="comments-area">
+<div id="respond" class="comment-respond">
+<div fb-xfbml-state="rendered" class="fb-social-plugin comment-form fb-comments fb_iframe_widget" id="commentform" data-href="https://blog.kaspersky.com/coinvault-ransomware-removal-instruction/" data-width="640" data-order-by="time"><span style="height: 348px; width: 640px;"><iframe src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/comments.htm" class="fb_ltr" title="Facebook Social Plugin" style="border: medium none; overflow: hidden; height: 348px; width: 640px;" scrolling="no" name="f66a418fd04396" id="f1027d45547e47e"></iframe></span></div>
+</div></div>
+
+			<div class="related-posts"><h3>Related Posts</h3><ul>			<li>
+				<a href="https://blog.kaspersky.com/naikon-apt-south-china-sea/"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/map_01-75x75.png" class="attachment-wt-medium-thumb wp-post-image" alt="Naikon APT steals geopolitical data from the South China Sea" title="Naikon APT steals geopolitical data from the South China Sea" height="75" width="75"></a>
+				<h4><a href="https://blog.kaspersky.com/naikon-apt-south-china-sea/">
+						Naikon APT steals geopolitical data from...				</a>
+				</h4>
+				<div class="date">May 19, 2015</div>
+			</li>
+					<li>
+				<a href="https://blog.kaspersky.com/kaspersky-lab-european-research-center/"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/london-kerc-VK-75x75.jpg" class="attachment-wt-medium-thumb wp-post-image" alt="Kaspersky Lab opens its new European Research Center in London" title="Five ways to protect you: welcome to our European Research Center" height="75" width="75"></a>
+				<h4><a href="https://blog.kaspersky.com/kaspersky-lab-european-research-center/">
+						Five ways to protect you: welcome to our...				</a>
+				</h4>
+				<div class="date">May 13, 2015</div>
+			</li>
+					<li>
+				<a href="https://blog.kaspersky.com/no-monkeys-for-cozyduke/"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/cozyduke-apt-featured-75x75.png" class="attachment-wt-medium-thumb wp-post-image" alt="How to mitigate CozyDuke / Office Monkey threat" title="No monkeys for CozyDuke" height="75" width="75"></a>
+				<h4><a href="https://blog.kaspersky.com/no-monkeys-for-cozyduke/">
+						No monkeys for CozyDuke				</a>
+				</h4>
+				<div class="date">April 28, 2015</div>
+			</li>
+					<li>
+				<a href="https://blog.kaspersky.com/stop-or-my-mom-will-shoot/"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/2000-75x75.png" class="attachment-wt-medium-thumb wp-post-image" alt="How to save $2000 on one call, or Why I am so proud of my Mom" title="How to save $2000 on one call, or Why I am so proud of my Mom" height="75" width="75"></a>
+				<h4><a href="https://blog.kaspersky.com/stop-or-my-mom-will-shoot/">
+						How to save $2000 on one call, or Why I ...				</a>
+				</h4>
+				<div class="date">April 21, 2015</div>
+			</li>
+		</ul></div>		
+	</div><!-- /content -->
+</section><!-- /primary -->
+
+<div id="left-sidebar" class="sidebar">
+		<aside id="wellthemes_popular_posts_widget-2" class="widget widget_popular_posts"><h3>Popular Posts</h3>
+			<div class="item-post ">
+				<div class="post-number">1</div>
+				<div class="post-right">
+					<h4>
+						<a href="https://blog.kaspersky.com/venom-virtualization-vulnerability/" rel="bookmark" title="Permanent Link to All you need to know about VENOM virtualization vulnerability">
+							All you need to know about VENOM virtualization vu...						</a>
+					</h4>
+					<div class="entry-meta">
+						<span class="date">May 20, 2015</span>
+											</div>
+				</div>
+
+			</div><!-- /item-post -->
+	       
+			<div class="item-post ">
+				<div class="post-number">2</div>
+				<div class="post-right">
+					<h4>
+						<a href="https://blog.kaspersky.com/hack-it-in-the-air/" rel="bookmark" title="Permanent Link to Air raid warning: what hackers can actually do with modern aircrafts?">
+							Air raid warning: what hackers can actually do wit...						</a>
+					</h4>
+					<div class="entry-meta">
+						<span class="date">April 23, 2015</span>
+													<span class="comments"><a href="https://blog.kaspersky.com/hack-it-in-the-air/#respond"><fb:comments-count class=" fb_comments_count_zero" fb-xfbml-state="rendered" xmlns="http://ogp.me/ns/fb#" href="https://blog.kaspersky.com/hack-it-in-the-air/"><span class="fb_comments_count">0</span></fb:comments-count> Comments</a></span>
+											</div>
+				</div>
+
+			</div><!-- /item-post -->
+	       
+			<div class="item-post ">
+				<div class="post-number">3</div>
+				<div class="post-right">
+					<h4>
+						<a href="https://blog.kaspersky.com/keep-your-child-safe-beware-of-dangerous-content/" rel="bookmark" title="Permanent Link to Keep your child safe: beware of dangerous content">
+							Keep your child safe: beware of dangerous content						</a>
+					</h4>
+					<div class="entry-meta">
+						<span class="date">April 22, 2015</span>
+											</div>
+				</div>
+
+			</div><!-- /item-post -->
+	       
+			<div class="item-post ">
+				<div class="post-number">4</div>
+				<div class="post-right">
+					<h4>
+						<a href="https://blog.kaspersky.com/stop-or-my-mom-will-shoot/" rel="bookmark" title="Permanent Link to How to save $2000 on one call, or Why I am so proud of my Mom">
+							How to save $2000 on one call, or Why I am so prou...						</a>
+					</h4>
+					<div class="entry-meta">
+						<span class="date">April 21, 2015</span>
+													<span class="comments"><a href="https://blog.kaspersky.com/stop-or-my-mom-will-shoot/#respond"><fb:comments-count class=" fb_comments_count_zero" fb-xfbml-state="rendered" xmlns="http://ogp.me/ns/fb#" href="https://blog.kaspersky.com/stop-or-my-mom-will-shoot/"><span class="fb_comments_count">0</span></fb:comments-count> Comments</a></span>
+											</div>
+				</div>
+
+			</div><!-- /item-post -->
+	       
+			<div class="item-post ">
+				<div class="post-number">5</div>
+				<div class="post-right">
+					<h4>
+						<a href="https://blog.kaspersky.com/maritime-drones-deployment/" rel="bookmark" title="Permanent Link to Maritime drones: flying, swimming and diving">
+							Maritime drones: flying, swimming and diving						</a>
+					</h4>
+					<div class="entry-meta">
+						<span class="date">April 20, 2015</span>
+													<span class="comments"><a href="https://blog.kaspersky.com/maritime-drones-deployment/#respond"><fb:comments-count class=" fb_comments_count_zero" fb-xfbml-state="rendered" xmlns="http://ogp.me/ns/fb#" href="https://blog.kaspersky.com/maritime-drones-deployment/"><span class="fb_comments_count">0</span></fb:comments-count> Comments</a></span>
+											</div>
+				</div>
+
+			</div><!-- /item-post -->
+	       		   </aside><aside id="widget_kspr_podcast-2" class="widget widget_podcast_posts"><h3>Kaspersky Podcasts</h3><script type="text/javascript">
+	jQuery(document).ready(function($) {
+		jQuery('.accordion').find('.accordion-toggle').click(function(){
+			jQuery(this).toggleClass('active');
+			jQuery(this).next().slideToggle('fast');
+			jQuery(".accordion-content").not($(this).next()).slideUp('fast');
+			jQuery(".accordion-toggle").not($(this)).removeClass('active');
+		});
+	});
+</script>
+  <div class="accordion">	<div class="accordion-8291">
+		<h4 class="accordion-toggle active">
+			<img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/pocast-150x150.png" class="attachment-thumbnail wp-post-image" alt="Talk Security: Million Dollar Malware, Githib DDoS" height="150" width="150">			Talk Security: Million Dollar Malware, Github DDoS		</h4>
+		<div class="accordion-content" style="display:block">
+
+			<p>Threatpost security reporters Chris Brook and Brian Donohue 
+discuss the Github DDoS, Dyre banking malware, privacy threats, hacking 
+and more</p>
+				<div class="podcastembed"><iframe style="border: none" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a.htm" scrolling="no" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" height="270" width="270"></iframe></div>
+		</div>
+	</div>
+  	<div class="accordion-7745">
+		<h4 class="accordion-toggle">
+			<img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/VK_2-150x150.png" class="attachment-thumbnail wp-post-image" alt="Talk Security Podcast: #theSAS2015" height="150" width="150">			Talk Security: Kaspersky Lab Security Analyst Summit 2015		</h4>
+		<div class="accordion-content">
+
+			<p>Brian Donohue and Chris Brook of Threatpost discuss Kaspersky 
+Lab’s Security Analyst Summit, which took place last week in Cancun, 
+Mexico</p>
+				<div class="podcastembed"><iframe style="border: none" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a_002.htm" scrolling="no" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" height="270" width="270"></iframe></div>
+		</div>
+	</div>
+  	<div class="accordion-7466">
+		<h4 class="accordion-toggle">
+			<img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/VK-150x150.png" class="attachment-thumbnail wp-post-image" alt="Talk Security Podcast: theSAS2015, Ghost vulnerability, Flash 0day, Anthem breach" height="150" width="150">			Talk Security: Flash, Ghost, Anthem and Previewing SAS		</h4>
+		<div class="accordion-content">
+
+			<p>In this talk security podcast, Chris Brook and Brian Donohue 
+discuss the upcoming Security Analyst Summit, Flash zero days, the Ghost
+ vulnerability and the...</p>
+				<div class="podcastembed"><iframe style="border: none" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a_003.htm" scrolling="no" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" height="270" width="270"></iframe></div>
+		</div>
+	</div>
+  	<div class="accordion-7244">
+		<h4 class="accordion-toggle">
+			<img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/microsoft_micro-150x150.png" class="attachment-thumbnail wp-post-image" alt="microsoft_micro" height="150" width="150">			Talk Security: Google and Microsoft Face Off on Disclosure		</h4>
+		<div class="accordion-content">
+
+			<p>Security reporters Brian Donohue and Chris Brook discuss security 
+and privacy headlines from the first few weeks of the new year.</p>
+				<div class="podcastembed"><iframe style="border: none" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a_004.htm" scrolling="no" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" height="270" width="270"></iframe></div>
+		</div>
+	</div>
+  	<div class="accordion-6899">
+		<h4 class="accordion-toggle">
+			<img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/podcast-2-150x150.png" class="attachment-thumbnail wp-post-image" alt="podcast (2)" height="150" width="150">			Talk Security Podcast: Crypto and Regin		</h4>
+		<div class="accordion-content">
+
+			<p>In this Talk Security podcast, Threatpost's Chris Brook and Brian 
+Donohue discuss the move to encrypt the Web, the Regin APT campaign and 
+more.</p>
+				<div class="podcastembed"><iframe style="border: none" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a_005.htm" scrolling="no" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" height="270" width="270"></iframe></div>
+		</div>
+	</div>
+  </div>
+<div class="subscribe">
+	<a class="itunes" href="https://itunes.apple.com/us/podcast/talk-security/id909407206?mt=2&amp;uo=4" target="_blank"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/button-subscribe-itunes.png"></a>
+	<a class="rss" href="http://talksecurity.kaspersky-podcasts.libsynpro.com/rss" target="_blank"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/button-subscribe-rss.jpg"></a>
+</div>
+  
+  </aside><aside id="text-6" class="widget widget_text">			<div class="textwidget"><a href="http://www.kaspersky.com/multi-device-security?redef=1&amp;reseller=blog_en-global"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/kismd2015.png" height="270" width="270"></a></div>
+		</aside><aside id="text-12" class="widget widget_text">			<div class="textwidget"><a href="http://cybermap.kaspersky.com/"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/cybermap_banner.png" height="248" width="270"></a></div>
+		</aside><aside id="text-8" class="widget widget_text">			<div class="textwidget"><a href="https://blog.kaspersky.com/category/infographic-2/"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/ig_banner.png"></a></div>
+		</aside><aside id="text-14" class="widget widget_text"><h3>Kaspersky Cyberstat</h3>			<div class="textwidget"><iframe src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a_006.htm" frameborder="0" height="150" width="280"></iframe></div>
+		</aside><aside id="text-15" class="widget widget_text">			<div class="textwidget"><iframe src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a_007.htm" frameborder="0" height="150" width="280"></iframe></div>
+		</aside><aside id="text-16" class="widget widget_text">			<div class="textwidget"><iframe src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a_008.htm" frameborder="0" height="150" width="280"></iframe></div>
+		</aside><aside id="text-17" class="widget widget_text">			<div class="textwidget"><iframe src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a_009.htm" frameborder="0" height="330" width="280"></iframe></div>
+		</aside><aside id="text-18" class="widget widget_text">			<div class="textwidget"><iframe src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a_010.htm" frameborder="0" height="330" width="280"></iframe></div>
+		</aside>
+</div><!-- /sidebar -->
+<div id="right-sidebar" class="sidebar">
+
+		<aside id="wellthemes_social_subscribers_widget-2" class="widget widget_social_counter">			<div class="wrap">
+
+				<div class="facebook">
+					<a target="_blank" href="https://www.facebook.com/Kaspersky"><span class="social_link"></span></a>
+					<div class="icon"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/fb32_1.png"></div>
+					<div class="bottom">
+						<div class="count"><a target="_blank" href="https://www.facebook.com/Kaspersky">2861874</a></div>
+						<div class="text">Likes</div>
+					</div>
+				</div><!-- /facebook -->
+
+				<div class="twitter">
+					<a target="_blank" href="http://twitter.com/kaspersky"><span class="social_link"></span></a>
+					<div class="icon"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/twitter32_1.png"></div>
+					<div class="bottom">
+						<div class="count"><a target="_blank" href="http://twitter.com/kaspersky">226747</a></div>
+						<div class="text">Followers</div>
+					</div>
+				</div> <!-- /twitter -->
+
+			</div><!-- /wrap -->
+			</aside><aside id="wellthemes_last_tweet_widget-5" class="widget widget_tweet"><div class="user"><h3>@<a href="http://twitter.com/kaspersky">kaspersky</a></h3></div><div class="recent-tweets-list"><div style="overflow: hidden; position: relative;" class="flex-viewport"><ul style="width: 1400%; transition-duration: 0.8s; transform: translate3d(-492px, 0px, 0px);" class="slides"><li style="width: 246px; float: left; display: block;" class="clone"><div class="tweet">Mobile adoption amongst SMB's is high, but mobile security isn't - <a href="http://t.co/AyzcVIg4yO">http://t.co/AyzcVIg4yO</a></div><div class="time">4 hours ago</div><div class="retweet"><a target="_blank" href="http://twitter.com/home/?status=RT+%40kaspersky+Mobile+adoption+amongst+SMB%27s+is+high%2C+but+mobile+security+isn%27t+-+http%3A%2F%2Ft.co%2FAyzcVIg4yO">Retweet</a></div></li><li style="width: 246px; float: left; display: block;" class=""><div class="tweet">The cybersecurity threat that all small businesses face - <a href="http://t.co/KL99x5rvlQ">http://t.co/KL99x5rvlQ</a></div><div class="time">1 hour ago</div><div class="retweet"><a target="_blank" href="http://twitter.com/home/?status=RT+%40kaspersky+The+cybersecurity+threat+that+all+small+businesses+face+-+http%3A%2F%2Ft.co%2FKL99x5rvlQ">Retweet</a></div></li><li class="flex-active-slide" style="width: 246px; float: left; display: block;"><div class="tweet"><a href="http://twitter.com/barry_niamh">@barry_niamh</a> Can you DM us your email account please? We can look into it. ^David.</div><div class="time">2 hours ago</div><div class="retweet"><a target="_blank" href="http://twitter.com/home/?status=RT+%40kaspersky+%40barry_niamh+Can+you+DM+us+your+email+account+please%3F+We+can+look+into+it.+%5EDavid.">Retweet</a></div></li><li class="" style="width: 246px; float: left; display: block;"><div class="tweet"><a href="http://twitter.com/barry_niamh">@barry_niamh</a> 2/2 and download the trial for the new version. Then just pop your product key in to re-activate. Drop a msg if you're unsure.</div><div class="time">2 hours ago</div><div class="retweet"><a target="_blank" href="http://twitter.com/home/?status=RT+%40kaspersky+%40barry_niamh+2%2F2+and+download+the+trial+for+the+new+version.+Then+just+pop+your+product+key+in+to+re-activate.+Drop+a+msg+if+you%27re+unsure.">Retweet</a></div></li><li class="" style="width: 246px; float: left; display: block;"><div class="tweet"><a href="http://twitter.com/barry_niamh">@barry_niamh</a> Hi, do you have your activation code? If you should be able to transfer it to the new product. Just remove the current 1/2</div><div class="time">2 hours ago</div><div class="retweet"><a target="_blank" href="http://twitter.com/home/?status=RT+%40kaspersky+%40barry_niamh+Hi%2C+do+you+have+your+activation+code%3F+If+you+should+be+able+to+transfer+it+to+the+new+product.+Just+remove+the+current+1%2F2">Retweet</a></div></li><li class="" style="width: 246px; float: left; display: block;"><div class="tweet">Mobile adoption amongst SMB's is high, but mobile security isn't - <a href="http://t.co/AyzcVIg4yO">http://t.co/AyzcVIg4yO</a></div><div class="time">4 hours ago</div><div class="retweet"><a target="_blank" href="http://twitter.com/home/?status=RT+%40kaspersky+Mobile+adoption+amongst+SMB%27s+is+high%2C+but+mobile+security+isn%27t+-+http%3A%2F%2Ft.co%2FAyzcVIg4yO">Retweet</a></div></li><li style="width: 246px; float: left; display: block;" class="clone"><div class="tweet">The cybersecurity threat that all small businesses face - <a href="http://t.co/KL99x5rvlQ">http://t.co/KL99x5rvlQ</a></div><div class="time">1 hour ago</div><div class="retweet"><a target="_blank" href="http://twitter.com/home/?status=RT+%40kaspersky+The+cybersecurity+threat+that+all+small+businesses+face+-+http%3A%2F%2Ft.co%2FKL99x5rvlQ">Retweet</a></div></li></ul></div></div><div class="recent-tweets-nav"><ol class="flex-control-nav flex-control-paging"><li><a class="">1</a></li><li><a class="flex-active">2</a></li><li><a class="">3</a></li><li><a class="">4</a></li><li><a class="">5</a></li></ol></div>
+    </aside><aside id="text-9" class="widget widget_text">			<div class="textwidget"><a href="https://twitter.com/intent/tweet?screen_name=kaspersky"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/twitter_button2.png"></a></div>
+		</aside><aside id="text-21" class="widget widget_text">			<div class="textwidget"><a href="https://kas.pr/mg4h"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/cyberbullying1.jpg" height="411" width="270"></a></div>
+		</aside><aside id="text-19" class="widget widget_text">			<div class="textwidget"><a href="https://blog.kaspersky.com/tag/securityIS/"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/cyberworld-guide.png" height="400" width="270"></a></div>
+		</aside><aside id="text-11" class="widget widget_text">			<div class="textwidget"><a href="http://blog.kaspersky.com/password-check/"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/password_blog2_270.png" height="400" width="270"></a></div>
+		</aside><aside id="wellthemes_facebook_widget-2" class="widget widget_facebook"><h3>Let’s save the world together!</h3>
+		<iframe src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/likebox.htm" scrolling="no" style="border:none; overflow:hidden; width:270px; height: 600px; " allowtransparency="true" frameborder="0"></iframe>
+
+		</aside><aside id="text-13" class="widget widget_text">			<div class="textwidget"><div id="___page_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat scroll 0% 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 270px; height: 358px;"><iframe title="+Badge" data-gapiattached="true" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/page.htm" name="I0_1432135152904" id="I0_1432135152904" vspace="0" tabindex="0" style="position: static; top: 0px; width: 270px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 358px;" scrolling="no" marginwidth="0" marginheight="0" hspace="0" frameborder="0" width="100%"></iframe></div> 
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script></div>
+		</aside><aside id="archives-3" class="widget widget_archive"><h3>Time Machine</h3>		<ul>
+	<li><a href="https://blog.kaspersky.com/2015/05/">May 2015</a></li>
+	<li><a href="https://blog.kaspersky.com/2015/04/">April 2015</a></li>
+	<li><a href="https://blog.kaspersky.com/2015/03/">March 2015</a></li>
+	<li><a href="https://blog.kaspersky.com/2015/02/">February 2015</a></li>
+	<li><a href="https://blog.kaspersky.com/2015/01/">January 2015</a></li>
+	<li><a href="https://blog.kaspersky.com/2014/12/">December 2014</a></li>
+	<li><a href="https://blog.kaspersky.com/2014/11/">November 2014</a></li>
+	<li><a href="https://blog.kaspersky.com/2014/10/">October 2014</a></li>
+	<li><a href="https://blog.kaspersky.com/2014/09/">September 2014</a></li>
+	<li><a href="https://blog.kaspersky.com/2014/08/">August 2014</a></li>
+	<li><a href="https://blog.kaspersky.com/2014/07/">July 2014</a></li>
+	<li><a href="https://blog.kaspersky.com/2014/06/">June 2014</a></li>
+	<li><a href="https://blog.kaspersky.com/2014/05/">May 2014</a></li>
+	<li><a href="https://blog.kaspersky.com/2014/04/">April 2014</a></li>
+	<li><a href="https://blog.kaspersky.com/2014/03/">March 2014</a></li>
+	<li><a href="https://blog.kaspersky.com/2014/02/">February 2014</a></li>
+	<li><a href="https://blog.kaspersky.com/2014/01/">January 2014</a></li>
+	<li><a href="https://blog.kaspersky.com/2013/12/">December 2013</a></li>
+	<li><a href="https://blog.kaspersky.com/2013/11/">November 2013</a></li>
+	<li><a href="https://blog.kaspersky.com/2013/10/">October 2013</a></li>
+	<li><a href="https://blog.kaspersky.com/2013/09/">September 2013</a></li>
+	<li><a href="https://blog.kaspersky.com/2013/08/">August 2013</a></li>
+	<li><a href="https://blog.kaspersky.com/2013/07/">July 2013</a></li>
+	<li><a href="https://blog.kaspersky.com/2013/06/">June 2013</a></li>
+	<li><a href="https://blog.kaspersky.com/2013/05/">May 2013</a></li>
+	<li><a href="https://blog.kaspersky.com/2013/04/">April 2013</a></li>
+	<li><a href="https://blog.kaspersky.com/2013/03/">March 2013</a></li>
+	<li><a href="https://blog.kaspersky.com/2013/02/">February 2013</a></li>
+	<li><a href="https://blog.kaspersky.com/2013/01/">January 2013</a></li>
+	<li><a href="https://blog.kaspersky.com/2012/12/">December 2012</a></li>
+	<li><a href="https://blog.kaspersky.com/2012/11/">November 2012</a></li>
+	<li><a href="https://blog.kaspersky.com/2012/10/">October 2012</a></li>
+	<li><a href="https://blog.kaspersky.com/2012/09/">September 2012</a></li>
+		</ul>
+</aside>
+</div><!-- /sidebar -->
+	</div><!-- /main -->
+
+	<footer id="footer" role="contentinfo">
+
+		<div class="footer-widgets">
+
+			<aside id="featured_images-2" class="widget image-posts"><h3>Trending Authors</h3><ul class="trending-authors clearfix"><li class="image-post"><a href="https://blog.kaspersky.com/author/brian"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/user-avatar-pic_002.jpg" alt="" class=" avatar  avatar-75  photo user-42-avatar" height="75" width="75"><p class="author-name">Brian Donohue</p></a><p class="author-views">40,218 post views</p></li><li class="image-post"><a href="https://blog.kaspersky.com/author/sym451"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/user-avatar-pic_004.jpg" alt="" class=" avatar  avatar-75  photo user-32-avatar" height="75" width="75"><p class="author-name">Serge Malenkovich</p></a><p class="author-views">5,315 post views</p></li><li class="image-post"><a href="https://blog.kaspersky.com/author/bmess"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/user-avatar-pic.jpg" alt="" class=" avatar  avatar-75  photo user-40-avatar" height="75" width="75"><p class="author-name">Marvin the Robot</p></a><p class="author-views">3,087 post views</p></li><li class="image-post"><a href="https://blog.kaspersky.com/author/rodion"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/user-avatar-pic_003.jpg" alt="" class=" avatar  avatar-75  photo user-208-avatar" height="75" width="75"><p class="author-name">Rodion Nagornov</p></a><p class="author-views">2,881 post views</p></li><li class="image-post"><a href="https://blog.kaspersky.com/author/alexdrozhzhin"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/user-avatar-pic.png" alt="" class=" avatar  avatar-75  photo user-421-avatar" height="75" width="75"><p class="author-name">Alex Drozhzhin</p></a><p class="author-views">2,293 post views</p></li></ul></aside><aside id="tag_cloud-2" class="widget widget_tag_cloud"><h3>Topics</h3><div class="tagcloud"><a href="https://blog.kaspersky.com/tag/7-volcanoes/" class="tag-link-300" title="19 topics" style="font-size: 9.27272727273pt;">7 volcanoes</a>
+<a href="https://blog.kaspersky.com/tag/advice-2/" class="tag-link-643" title="29 topics" style="font-size: 11.5636363636pt;">advice</a>
+<a href="https://blog.kaspersky.com/tag/android/" class="tag-link-105" title="64 topics" style="font-size: 15.7636363636pt;">android</a>
+<a href="https://blog.kaspersky.com/tag/antivirus/" class="tag-link-397" title="23 topics" style="font-size: 10.2909090909pt;">Antivirus</a>
+<a href="https://blog.kaspersky.com/tag/apple/" class="tag-link-14" title="33 topics" style="font-size: 12.2pt;">apple</a>
+<a href="https://blog.kaspersky.com/tag/apt/" class="tag-link-499" title="16 topics" style="font-size: 8.38181818182pt;">APT</a>
+<a href="https://blog.kaspersky.com/tag/cybercrime/" class="tag-link-77" title="16 topics" style="font-size: 8.38181818182pt;">cybercrime</a>
+<a href="https://blog.kaspersky.com/tag/cybercriminals/" class="tag-link-93" title="34 topics" style="font-size: 12.3272727273pt;">cybercriminals</a>
+<a href="https://blog.kaspersky.com/tag/cybersecurity/" class="tag-link-282" title="27 topics" style="font-size: 11.1818181818pt;">Cybersecurity</a>
+<a href="https://blog.kaspersky.com/tag/data-breach/" class="tag-link-314" title="21 topics" style="font-size: 9.78181818182pt;">data breach</a>
+<a href="https://blog.kaspersky.com/tag/data-security/" class="tag-link-189" title="24 topics" style="font-size: 10.5454545455pt;">data security</a>
+<a href="https://blog.kaspersky.com/tag/device-security/" class="tag-link-264" title="16 topics" style="font-size: 8.38181818182pt;">device security</a>
+<a href="https://blog.kaspersky.com/tag/encryption/" class="tag-link-261" title="32 topics" style="font-size: 12.0727272727pt;">encryption</a>
+<a href="https://blog.kaspersky.com/tag/facebook/" class="tag-link-20" title="33 topics" style="font-size: 12.2pt;">Facebook</a>
+<a href="https://blog.kaspersky.com/tag/google/" class="tag-link-22" title="25 topics" style="font-size: 10.6727272727pt;">google</a>
+<a href="https://blog.kaspersky.com/tag/great/" class="tag-link-605" title="17 topics" style="font-size: 8.76363636364pt;">GReAT</a>
+<a href="https://blog.kaspersky.com/tag/hackers/" class="tag-link-78" title="42 topics" style="font-size: 13.4727272727pt;">hackers</a>
+<a href="https://blog.kaspersky.com/tag/hacking/" class="tag-link-82" title="24 topics" style="font-size: 10.5454545455pt;">hacking</a>
+<a href="https://blog.kaspersky.com/tag/internet-security/" class="tag-link-215" title="18 topics" style="font-size: 9.01818181818pt;">Internet Security</a>
+<a href="https://blog.kaspersky.com/tag/ios/" class="tag-link-99" title="32 topics" style="font-size: 12.0727272727pt;">iOS</a>
+<a href="https://blog.kaspersky.com/tag/iphone/" class="tag-link-26" title="18 topics" style="font-size: 9.01818181818pt;">iphone</a>
+<a href="https://blog.kaspersky.com/tag/kaspersky-internet-security/" class="tag-link-180" title="70 topics" style="font-size: 16.2727272727pt;">kaspersky internet security</a>
+<a href="https://blog.kaspersky.com/tag/kaspersky-internet-security-for-android/" class="tag-link-521" title="17 topics" style="font-size: 8.76363636364pt;">Kaspersky Internet Security for Android</a>
+<a href="https://blog.kaspersky.com/tag/kaspersky-lab/" class="tag-link-352" title="26 topics" style="font-size: 10.9272727273pt;">Kaspersky Lab</a>
+<a href="https://blog.kaspersky.com/tag/malware-2/" class="tag-link-36" title="84 topics" style="font-size: 17.2909090909pt;">malware</a>
+<a href="https://blog.kaspersky.com/tag/mobile-device/" class="tag-link-193" title="36 topics" style="font-size: 12.7090909091pt;">mobile device</a>
+<a href="https://blog.kaspersky.com/tag/mobile-devices/" class="tag-link-423" title="15 topics" style="font-size: 8pt;">mobile devices</a>
+<a href="https://blog.kaspersky.com/tag/mobile-security/" class="tag-link-218" title="23 topics" style="font-size: 10.2909090909pt;">Mobile Security</a>
+<a href="https://blog.kaspersky.com/tag/news-2/" class="tag-link-574" title="29 topics" style="font-size: 11.5636363636pt;">news</a>
+<a href="https://blog.kaspersky.com/tag/online-protection/" class="tag-link-344" title="22 topics" style="font-size: 10.0363636364pt;">online protection</a>
+<a href="https://blog.kaspersky.com/tag/parental-control/" class="tag-link-364" title="23 topics" style="font-size: 10.2909090909pt;">Parental Control</a>
+<a href="https://blog.kaspersky.com/tag/passwords/" class="tag-link-187" title="28 topics" style="font-size: 11.3090909091pt;">passwords</a>
+<a href="https://blog.kaspersky.com/tag/personal-data/" class="tag-link-363" title="22 topics" style="font-size: 10.0363636364pt;">personal data</a>
+<a href="https://blog.kaspersky.com/tag/phishing/" class="tag-link-76" title="36 topics" style="font-size: 12.7090909091pt;">phishing</a>
+<a href="https://blog.kaspersky.com/tag/privacy/" class="tag-link-43" title="102 topics" style="font-size: 18.3090909091pt;">privacy</a>
+<a href="https://blog.kaspersky.com/tag/protection/" class="tag-link-192" title="37 topics" style="font-size: 12.8363636364pt;">protection</a>
+<a href="https://blog.kaspersky.com/tag/security-2/" class="tag-link-97" title="199 topics" style="font-size: 22pt;">security</a>
+<a href="https://blog.kaspersky.com/tag/securityis/" class="tag-link-721" title="52 topics" style="font-size: 14.6181818182pt;">SecurityIS</a>
+<a href="https://blog.kaspersky.com/tag/security-news/" class="tag-link-492" title="27 topics" style="font-size: 11.1818181818pt;">security news</a>
+<a href="https://blog.kaspersky.com/tag/smartphones/" class="tag-link-45" title="17 topics" style="font-size: 8.76363636364pt;">smartphones</a>
+<a href="https://blog.kaspersky.com/tag/social-media/" class="tag-link-211" title="19 topics" style="font-size: 9.27272727273pt;">social media</a>
+<a href="https://blog.kaspersky.com/tag/support/" class="tag-link-526" title="16 topics" style="font-size: 8.38181818182pt;">support</a>
+<a href="https://blog.kaspersky.com/tag/threats/" class="tag-link-422" title="15 topics" style="font-size: 8pt;">threats</a>
+<a href="https://blog.kaspersky.com/tag/tip-of-the-week/" class="tag-link-431" title="34 topics" style="font-size: 12.3272727273pt;">tip of the week</a>
+<a href="https://blog.kaspersky.com/tag/tips-2/" class="tag-link-131" title="79 topics" style="font-size: 16.9090909091pt;">tips</a></div>
+</aside><aside id="instagram_recent_media-3" class="widget widget_instagram_recent_media"><h3>Instagram</h3><div class="clear"></div><a href="https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e15/11252524_1580890368802470_2057199155_n.jpg" rel="sInstRecentMediaWid[instagram]" title="Our latest Research centre opens in Paddington, London. Here, we hope go stay on top of dangerous malware by researching how they work and interact. Exciting times lie ahead! #KLResearch #Malware #research">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 128</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 2</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11252524_1580890368802470_2057199155_n.jpg" title="Our latest Research centre opens in Paddington, London. Here, we hope go stay on top of dangerous malware by researching how they work and interact. Exciting times lie ahead! #KLResearch #Malware #research" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/e15/11266061_1561711074105036_995004951_n.jpg" rel="sInstRecentMediaWid[instagram]" title="Were just opening our latest research centre in London Paddington... So we think it needs food! #KLResearch #food #tasty">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 66</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 0</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11266061_1561711074105036_995004951_n.jpg" title="Were just opening our latest research centre in London Paddington... So we think it needs food! #KLResearch #food #tasty" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/e15/11248019_106025469730809_1284862008_n.jpg" rel="sInstRecentMediaWid[instagram]" title="The Kaspersky lab dogs are here to protect you! #art #KLResearch #dogs">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 58</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 3</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11248019_106025469730809_1284862008_n.jpg" title="The Kaspersky lab dogs are here to protect you! #art #KLResearch #dogs" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xpf1/t51.2885-15/e15/11189507_1437562833224768_2051714369_n.jpg" rel="sInstRecentMediaWid[instagram]" title="Final picture from BigRace show in #Budapest. Try to find Igor the bear on this pic @kasperskymotorsport #KLSF #NagyFutam #Ferrari">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 137</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 3</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11189507_1437562833224768_2051714369_n.jpg" title="Final picture from BigRace show in #Budapest. Try to find Igor the bear on this pic @kasperskymotorsport #KLSF #NagyFutam #Ferrari" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/e15/1740873_1437835693178897_609890145_n.jpg" rel="sInstRecentMediaWid[instagram]" title="If you want to take picture of a Ferrari car you should try hard, because there are always a lot of others who also want to take a picture #KLSF #Ferrari #NagyFutam #Budapest #kaspersky">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 62</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 0</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/1740873_1437835693178897_609890145_n.jpg" title="If you want to take picture of a Ferrari car you should try hard, because there are always a lot of others who also want to take a picture #KLSF #Ferrari #NagyFutam #Budapest #kaspersky" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/e15/11191011_1614728525465580_235325002_n.jpg" rel="sInstRecentMediaWid[instagram]" title="Followers of our Instagram sometimes have better access to #Ferrari and Big Budapest Race than these guys #KLSF #NagyFutam">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 88</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 2</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11191011_1614728525465580_235325002_n.jpg" title="Followers of our Instagram sometimes have better access to #Ferrari and Big Budapest Race than these guys #KLSF #NagyFutam" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xta1/t51.2885-15/e15/11191090_684992218313683_1941045382_n.jpg" rel="sInstRecentMediaWid[instagram]" title="Kimi Raikkonen signing some caps for you guys :) we will raffle them soon, so stay tuned and follow us #Kimi7 #KLSF #NagyFutam #kaspersky #ferrari">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 77</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 2</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11191090_684992218313683_1941045382_n.jpg" title="Kimi Raikkonen signing some caps for you guys :) we will raffle them soon, so stay tuned and follow us #Kimi7 #KLSF #NagyFutam #kaspersky #ferrari" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xpa1/t51.2885-15/e15/11184481_777865458988162_298150472_n.jpg" rel="sInstRecentMediaWid[instagram]" title="Kimi Raikkonen #Kimi7 is very popular here in #Budapest #KLSF guess why? #NagyFutam">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 87</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 1</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11184481_777865458988162_298150472_n.jpg" title="Kimi Raikkonen #Kimi7 is very popular here in #Budapest #KLSF guess why? #NagyFutam" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e15/11195640_1608093719434238_1249472978_n.jpg" rel="sInstRecentMediaWid[instagram]" title="Igor the bear is waiting for Kimi Raikkonen #Kimi7 at Budapest Big Race #klsf #NagyFutam #Budapest #ferrari">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 84</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 0</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11195640_1608093719434238_1249472978_n.jpg" title="Igor the bear is waiting for Kimi Raikkonen #Kimi7 at Budapest Big Race #klsf #NagyFutam #Budapest #ferrari" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xpf1/t51.2885-15/e15/11123885_811200738916089_900043650_n.jpg" rel="sInstRecentMediaWid[instagram]" title="There's still time to ask our expert a question on cybersecurity! So, if you're keen to know more about malware or what a DDoS attack does, let us know in the comments below! #cybersecurity #askexpert #knowledge">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 38</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 3</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11123885_811200738916089_900043650_n.jpg" title="There's still time to ask our expert a question on cybersecurity! So, if you're keen to know more about malware or what a DDoS attack does, let us know in the comments below! #cybersecurity #askexpert #knowledge" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xpa1/t51.2885-15/e15/11142974_1588250808082102_141515033_n.jpg" rel="sInstRecentMediaWid[instagram]" title="Wednesday night, Kaspersky Lab received the Building Impacts Gold Award for its volunteer efforts in 2014. We are proud to be among the short list of companies honored, as giving back to the community is not only rewarding and enjoyable for everyone - but also helps make our communities and the world a better place.">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 44</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 2</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11142974_1588250808082102_141515033_n.jpg" title="Wednesday night, Kaspersky Lab received the Building Impacts Gold Award for its volunteer efforts in 2014. We are proud to be among the short list of companies honored, as giving back to the community is not only rewarding and enjoyable for everyone - but also helps make our communities and the world a better place." height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xfp1/t51.2885-15/e15/11085091_1031230653572065_1964442311_n.jpg" rel="sInstRecentMediaWid[instagram]" title="#Kaspersky #CyberSecurity Summit cybersecurity.kaspersky.com #EnterpriseSec #interpol #INTERPOlworld">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 51</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 1</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11085091_1031230653572065_1964442311_n.jpg" title="#Kaspersky #CyberSecurity Summit cybersecurity.kaspersky.com #EnterpriseSec #interpol #INTERPOlworld" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xpf1/t51.2885-15/e15/11085152_891064184291774_2133612068_n.jpg" rel="sInstRecentMediaWid[instagram]" title="Kaspersky Lab kicked off its annual April Give Back Week by putting together craft and activity kits for the waiting rooms at @StJude Children's Research Hospital. #KLKindnessNA">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 53</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 0</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11085152_891064184291774_2133612068_n.jpg" title="Kaspersky Lab kicked off its annual April Give Back Week by putting together craft and activity kits for the waiting rooms at @StJude Children's Research Hospital. #KLKindnessNA" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xft1/t51.2885-15/e15/11085034_1576559422628519_1862852813_n.jpg" rel="sInstRecentMediaWid[instagram]" title="#INTERPOlworld #cybersecurity #EnterpriseSec #kaspersky #interpol">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 74</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 0</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11085034_1576559422628519_1862852813_n.jpg" title="#INTERPOlworld #cybersecurity #EnterpriseSec #kaspersky #interpol" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/e15/11142381_838498066240969_805516409_n.jpg" rel="sInstRecentMediaWid[instagram]" title="kaspersky along with Microsoft, Interpol and other security agencies around the world, successfully took down the #simda botnet Read the full breakdown on our blog! #SecurityWithoutBorders #botnets #security">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 46</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 0</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11142381_838498066240969_805516409_n.jpg" title="kaspersky along with Microsoft, Interpol and other security agencies around the world, successfully took down the #simda botnet Read the full breakdown on our blog! #SecurityWithoutBorders #botnets #security" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/e15/10570173_829428657147255_1915220050_n.jpg" rel="sInstRecentMediaWid[instagram]" title="Big data gets a bad rap, but here's 10 projects that are truly great - http://blog.kaspersky.com/cool-big-data-projects/ #BigData #Data">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 38</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 0</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/10570173_829428657147255_1915220050_n.jpg" title="Big data gets a bad rap, but here's 10 projects that are truly great - http://blog.kaspersky.com/cool-big-data-projects/ #BigData #Data" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xfp1/t51.2885-15/e15/11055652_361434150721653_1090198504_n.jpg" rel="sInstRecentMediaWid[instagram]" title="#KasperskyQuotes from @davidjacoby #Kaspersky #Security">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 43</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 1</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11055652_361434150721653_1090198504_n.jpg" title="#KasperskyQuotes from @davidjacoby #Kaspersky #Security" height="75" width="75">
+</a>
+
+<a href="https://scontent.cdninstagram.com/hphotos-xpf1/t51.2885-15/e15/11055608_799367883477836_1279568275_n.jpg" rel="sInstRecentMediaWid[instagram]" title="#Kaspersky Lab Social Media team in Lisbon. Theme: #starwars #smwargames">
+<div class="si-content" style=" display: none; margin: 10px; ">
+<div class="clear"></div>
+<div class="content-info"><img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/profile_177699047_75sq_1371482072.jpg" height="15" width="15">kasperskylab</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-like.png" style="vertical-align: middle;" height="19" width="19"> 71</div>
+<div class="content-info"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/instagram-comment.png" style="vertical-align: middle;" height="19" width="19"> 0</div>
+<div class="clear"></div>
+</div>
+<img class="front-photo" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/11055608_799367883477836_1279568275_n.jpg" title="#Kaspersky Lab Social Media team in Lisbon. Theme: #starwars #smwargames" height="75" width="75">
+</a>
+
+	<script type="text/javascript" charset="utf-8">	  
+	  jQuery(document).ready(function(){
+	    jQuery("a[rel^='sInstRecentMediaWid']").prettyPhoto({
+	    	autoplay_slideshow: false,
+	    	social_tools:false,
+	    	theme: 'light_square',
+	    	});
+	  });
+	</script>
+	</aside><aside id="wellthemes_subscribe_widget-2" class="widget widget_subscribe"><h3>Subscribe to RSS Feeds</h3>			<p>Get all latest content delivered to your email a few times a month.</p>
+            <form class="widget_rss_subscription" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=KasperskyGlobal', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                <input placeholder="Your email" name="email" type="text">
+                <input value="KasperskyGlobal" name="uri" type="hidden">
+                <input name="loc" value="en_US" type="hidden">
+                <button type="submit" class="button" value="Subscribe"><span>Sign Up</span></button>
+            </form>
+
+        </aside>
+		</div><!-- /footer widgets -->
+
+	</footer><!-- /footer -->
+
+</div><!-- /container -->
+	<div class="subfooter-wrap">
+		<div class="subfooter">
+
+			<ul class="widget-1">
+				<li id="nav_menu-2" class="widget widget_nav_menu"><h3 class="widgettitle">Products for Home</h3><div class="menu-products-for-home-container"><ul id="menu-products-for-home" class="menu"><li id="menu-item-2962" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2962"><a href="http://www.kaspersky.com/total-security-multi-device">Kaspersky Total Security Multi-Device</a></li>
+<li id="menu-item-2963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2963"><a href="http://www.kaspersky.com/multi-device-security">Kaspersky Internet Security – Multi-Device</a></li>
+<li id="menu-item-2964" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2964"><a href="http://www.kaspersky.com/internet-security">Kaspersky Internet Security 2015</a></li>
+<li id="menu-item-2966" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2966"><a href="http://www.kaspersky.com/anti-virus">Kaspersky Anti-Virus 2015</a></li>
+<li id="menu-item-2967" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2967"><a href="http://www.kaspersky.com/products/home/security-mac">Kaspersky Internet Security for Mac</a></li>
+<li id="menu-item-2968" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2968"><a href="http://www.kaspersky.com/android-security">Kaspersky Internet Security for Android</a></li>
+<li id="menu-item-2970" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2970"><a href="http://www.kaspersky.com/password-manager">Kaspersky Password Manager</a></li>
+<li id="menu-item-4599" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4599"><a href="http://www.free.kaspersky.com/advert/?redef=1&amp;THRU&amp;reseller=kss_blog_en">Kaspersky Security Scan FREE</a></li>
+</ul></div></li>			</ul>
+			<ul class="widget-2">
+				<li id="nav_menu-4" class="widget widget_nav_menu"><h3 class="widgettitle">Products for Enterprise Business</h3><div class="menu-products-for-business-container"><ul id="menu-products-for-business" class="menu"><li id="menu-item-2972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2972"><a href="http://www.kaspersky.com/products/business/endpoint-advanced">Kaspersky Endpoint Security for Business | Advanced</a></li>
+<li id="menu-item-2973" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2973"><a href="http://www.kaspersky.com/products/business/endpoint-select">Kaspersky Endpoint Security for Business | Select</a></li>
+<li id="menu-item-2974" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2974"><a href="http://www.kaspersky.com/products/business/endpoint-core">Kaspersky Endpoint Security for Business | Core</a></li>
+<li id="menu-item-2975" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2975"><a href="http://www.kaspersky.com/products/business/total">Kaspersky Total Security for Business</a></li>
+<li id="menu-item-4600" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4600"><a href="http://www.kaspersky.com/products/business/targeted-solutions">Targeted Security Solutions</a></li>
+</ul></div></li><li id="nav_menu-3" class="widget widget_nav_menu"><h3 class="widgettitle">Products for Small Office</h3><div class="menu-products-for-small-office-container"><ul id="menu-products-for-small-office" class="menu"><li id="menu-item-2976" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2976"><a href="http://www.kaspersky.com/products/small_office_security/small-office-security">Kaspersky Small Office Security</a></li>
+</ul></div></li>			</ul>
+			<ul class="widget-3">
+				<li id="nav_menu-6" class="widget widget_nav_menu"><h3 class="widgettitle">For Software Users</h3><div class="menu-for-software-users-container"><ul id="menu-for-software-users" class="menu"><li id="menu-item-2977" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2977"><a href="http://www.kaspersky.com/estore/">Buy online</a></li>
+<li id="menu-item-2978" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2978"><a href="http://www.kaspersky.com/license_renewal">Renew license</a></li>
+<li id="menu-item-2979" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2979"><a href="http://www.kaspersky.com/downloads/productupdates/">Get updates</a></li>
+<li id="menu-item-2980" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2980"><a href="http://www.kaspersky.com/downloads/trials/">Try for free</a></li>
+</ul></div></li><li id="nav_menu-5" class="widget widget_nav_menu"><h3 class="widgettitle">Technical Support</h3><div class="menu-technical-support-container"><ul id="menu-technical-support" class="menu"><li id="menu-item-2981" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2981"><a href="http://www.kaspersky.com/support/desktop">For home products</a></li>
+<li id="menu-item-2982" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2982"><a href="http://www.kaspersky.com/support/corporate">For business products</a></li>
+</ul></div></li>			</ul>
+			<ul class="widget-4">
+				<li id="nav_menu-7" class="widget widget_nav_menu"><h3 class="widgettitle">About Us</h3><div class="menu-about-us-container"><ul id="menu-about-us" class="menu"><li id="menu-item-2983" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2983"><a href="http://www.kaspersky.com/about/">About Kaspersky Lab</a></li>
+<li id="menu-item-2984" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2984"><a href="http://www.kaspersky.com/about/why/">Why Kaspersky?</a></li>
+<li id="menu-item-2985" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2985"><a href="http://www.kaspersky.com/about/press/">Press Center</a></li>
+<li id="menu-item-2986" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2986"><a href="http://www.kaspersky.com/sitemap">Site Map</a></li>
+<li id="menu-item-2987" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2987"><a href="http://www.kaspersky.com/privacy">Privacy policy</a></li>
+<li id="menu-item-2988" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2988"><a href="http://www.kaspersky.com/about/contactinfo/">Contact us</a></li>
+<li id="menu-item-8071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8071"><a href="http://www.kaspersky.com/legal">Legal</a></li>
+</ul></div></li>			</ul>
+			<ul class="widget-5">
+				<li id="nav_menu-8" class="widget widget_nav_menu"><h3 class="widgettitle">Blogroll</h3><div class="menu-blogroll-container"><ul id="menu-blogroll" class="menu"><li id="menu-item-2990" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2990"><a href="http://eugene.kaspersky.com/">Eugene Kaspersky’s Blog</a></li>
+<li id="menu-item-2991" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2991"><a href="http://www.securelist.com/en/">Securelist</a></li>
+<li id="menu-item-2992" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2992"><a href="http://www.threatpost.com/">Threatpost</a></li>
+<li id="menu-item-4808" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4808"><a href="http://business.kaspersky.com/">Kaspersky Business</a></li>
+<li id="menu-item-4809" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4809"><a href="http://academy.kaspersky.com/">Kaspersky Academy</a></li>
+</ul></div></li>			</ul>
+			<ul class="widget-6">
+				<li id="text-4" class="widget widget_text">			<div class="textwidget"><a href="https://twitter.com/Kaspersky"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/Kaspersky_Daily_Social_Icon-Twitter.png" alt="Kaspersky on Twitter"></a>
+<a href="https://www.facebook.com/Kaspersky"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/Kaspersky_Daily_Social_Icon-Facebook.png" alt="Kaspersky on Facebook"></a>
+<a href="http://www.youtube.com/Kaspersky"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/Kaspersky_Daily_Social_Icon-YouTube.png" alt="Kaspersky on YouTube"></a>
+<a href="https://www.linkedin.com/company/kaspersky-lab"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/Kaspersky_Daily_Social_Icon-LinkedIn.png" alt="Kaspersky on LinkedIn"></a>
+<a href="https://plus.google.com/+KasperskyLab/posts"><img src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/Kaspersky_Daily_Social_Icon-Google.png" alt="Kaspersky on Google"></a>
+
+<p>Copyright © 1997 - 2015 Kaspersky Lab ZAO.  All rights reserved.</p>
+ 
+<p>39A/3 Leningradskoe shosse<br>
+Moscow<br>
+125212 <br>
+Russia</p>
+
+<p>
+The authors' opinions do not necessarily reflect the official positions of Kaspersky Lab.</p></div>
+		</li>			</ul>
+		</div>
+	</div>
+
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName('script')[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0013/2140.js";
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+<script type="text/javascript" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/devicepx-jetpack.js"></script>
+<script type="text/javascript" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/webfont.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var FB_WP=FB_WP||{};FB_WP.queue={_methods:[],flushed:false,add:function(fn){FB_WP.queue.flushed?fn():FB_WP.queue._methods.push(fn)},flush:function(){for(var fn;fn=FB_WP.queue._methods.shift();){fn()}FB_WP.queue.flushed=true}};window.fbAsyncInit=function(){FB.init({"xfbml":true,"appId":"307769532755023"});if(FB_WP && FB_WP.queue && FB_WP.queue.flush){FB_WP.queue.flush()}}
+/* ]]> */
+</script>
+<script type="text/javascript">(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https:\/\/connect.facebook.net\/en_US\/all.js";fjs.parentNode.insertBefore(js,fjs)}(document,"script","facebook-jssdk"));</script>
+<script type="text/javascript" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a_002.js"></script>
+<script type="text/javascript" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/a.js"></script>
+<script type="text/javascript" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/e-201521.js" async="" defer="defer"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.5.3',blog:'52983246',post:'8363',tz:'-4',srv:'blog.kaspersky.com'} ]);
+	_stq.push([ 'clickTrackerInit', '52983246', '8363' ]);
+</script>
+
+
+<!-- Powered by Whitelist IP For Limit Login Attempts | URL: http://club.orbisius.com/products/wordpress-plugins/whitelist-ip-for-limit-login-attempts/ -->
+
+<div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/NM7BtzAR8RM.htm" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+
+<div style="display: none;" id="lightboxOverlay"></div><img id="wpstats" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/g.gif"><iframe tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;" src="How%20to%20remove%20CoinVault%20ransomware%20and%20restore%20your%20files%20_%20Kaspersky%20Lab%20Official%20Blog_files/postmessageRelay.htm" id="oauth2relay801072127" name="oauth2relay801072127"></iframe></body></html>

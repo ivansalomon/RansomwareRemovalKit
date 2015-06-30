@@ -1,0 +1,729 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0082)http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ</title>
+<meta name="Description" content="This guide provides information and answers to frequently asked questions regarding the CryptoDefense ransomware.  It provides a break down of what this infection does, how it encrypts your data, and how you can recover your files.">
+<meta name="Abstract" content="This guide provides information and answers to frequently asked questions regarding the CryptoDefense ransomware.  It provides a break down of what this infection does, how it encrypts your data, and how you can recover your files.">
+<meta name="Keywords" content="CryptoDefense, remove CryptoDefense, CryptoDefense removal, uninstall CryptoDefense, CryptoDefense remover,virus removal, malware removal, computer help, technical support">
+<link rel="canonical" href="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ.html">
+
+<meta property="og:title" content="CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ">
+<meta property="og:type" content="article">
+<meta property="og:image" content="http://www.bleepstatic.com/swr-guides/c/CryptoDefense/how_decrypt-html-thmb-350.jpg">
+<meta property="og:description" content="CryptoDefense is a ransomware program that was released around the end of February 2014 that targets all versions of Windows including Windows XP, Windows Vista, Windows 7, and Windows 8. When a computer is infected, the ransomware will scan your computer and encrypt data files such as text files, image files, video files, and office documents. The infection will also create a screenshot of your active Windows screen and upload it their Command &amp; Control server. This screen shot will be inserted in your payment page on their Decrypt Service site, which is explained further in this FAQ. When it encrypts a file, it will also create a How_Decrypt.txt and How_Decrypt.html file in every folder that a file was encrypted. The HTML and TXT files will contain instructions on how to access a payment site that can be used to send in the ransom. A list of all the files that have been encrypted by CryptoDefense are stored under the HKCU\Software\\PROTECTED.
+
+">
+<meta property="og:url" content="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information">
+<link rel="stylesheet" type="text/css" href="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/new-bc.css">
+
+<style type="text/css" media="all">@import 'http://www.bleepstatic.com/css/mwg.css';</style>
+<link rel="stylesheet" href="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/slimbox2.css" type="text/css" media="screen">
+
+<meta name="Owner" content="Lawrence Abrams/BleepingComputer.com">
+<link rel="shortcut icon" href="http://www.bleepstatic.com/favicon/bleeping.ico">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="alternate" title="Bleeping Computer Virus &amp; Spyware Removal Guides" href="http://www.bleepingcomputer.com/virus-removal/feed/" type="application/rss+xml">
+<meta name="ROBOTS" content="NOODP">
+
+<script src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/cb=gapi.loaded_1" async=""></script><script src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/cb=gapi.loaded_0" async=""></script><script type="text/javascript" async="" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/tracking.js"></script><script type="text/javascript" async="" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/plusone.js" gapi_processed="true"></script><script async="" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91740-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+
+<link href="https://plus.google.com/112790257026281352252" rel="publisher">
+<script type="text/javascript" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/jquery.min.js"></script>
+<script type="text/javascript" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/slimbox2.js"></script>
+<script src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/accordion.js" type="text/javascript"></script>
+
+<script src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/secureAnonymousFramework"></script><link rel="stylesheet" type="text/css" href="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/native-iframe-controls.css"><style type="text/css">* html #li_ui_li_gen_1432660664810_0 a#li_ui_li_gen_1432660664810_0-link{height:1% !important;}#li_ui_li_gen_1432660664810_0{position:relative !important;overflow:visible !important;display:block !important;}#li_ui_li_gen_1432660664810_0 span{-webkit-box-sizing:content-box !important;-moz-box-sizing:content-box !important;box-sizing:content-box !important;}#li_ui_li_gen_1432660664810_0 a#li_ui_li_gen_1432660664810_0-link{border:0 !important;height:20px !important;text-decoration:none !important;padding:0 !important;margin:0 !important;display:inline-block !important;}#li_ui_li_gen_1432660664810_0 a#li_ui_li_gen_1432660664810_0-link:link, #li_ui_li_gen_1432660664810_0 a#li_ui_li_gen_1432660664810_0-link:visited, #li_ui_li_gen_1432660664810_0 a#li_ui_li_gen_1432660664810_0-link:hover, #li_ui_li_gen_1432660664810_0 a#li_ui_li_gen_1432660664810_0-link:active{border:0 !important;text-decoration:none !important;}#li_ui_li_gen_1432660664810_0 a#li_ui_li_gen_1432660664810_0-link:after{content:"." !important;display:block !important;clear:both !important;visibility:hidden !important;line-height:0 !important;height:0 !important;}#li_ui_li_gen_1432660664810_0 #li_ui_li_gen_1432660664810_0-logo{background-image:url(https://static.licdn.com/scds/common/u/images/apps/connect/sprites/sprite_connect_v14.png) !important;background-position:0px -593px !important;background-repeat:no-repeat !important;background-color:#0077b5 !important;background-size:initial !important;cursor:pointer !important;border:0 !important;border-right:1px solid #066094 !important;text-indent:-9999em !important;overflow:hidden !important;padding:0 !important;margin:0 !important;position:absolute !important;left:0px !important;top:0px !important;display:block !important;width:20px !important;height:20px !important;float:right !important;border-radius:2px !important;-webkit-border-radius:2px !important;border-top-right-radius:2px !important;border-bottom-right-radius:2px !important;-webkit-border-top-right-radius:2px !important;-webkit-border-bottom-right-radius:2px !important;}#li_ui_li_gen_1432660664810_0 #li_ui_li_gen_1432660664810_0-title{color:#fff !important;cursor:pointer !important;display:block !important;white-space:nowrap !important;float:left !important;margin-left:1px !important;vertical-align:top !important;overflow:hidden !important;text-align:center !important;height:18px !important;padding:0 4px 0 23px !important;border:1px solid #000 !important;border-top-color:#0077b5 !important;border-right-color:#0077b5 !important;border-bottom-color:#0077b5 !important;border-left-color:#0077b5 !important;text-shadow:0 -1px #005887 !important;line-height:20px !important;border-radius:2px !important;-webkit-border-radius:2px !important;border-top-right-radius:2px !important;border-bottom-right-radius:2px !important;-webkit-border-top-right-radius:2px !important;-webkit-border-bottom-right-radius:2px !important;background-color:#0077b5 !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#0077b5), color-stop(100%,#0077b5)) !important; background-image: -webkit-linear-gradient(top, #0077b5 0%, #0077b5 100%) !important;}#li_ui_li_gen_1432660664810_0.hovered #li_ui_li_gen_1432660664810_0-title{border:1px solid #000 !important;border-top-color:#0369a0 !important;border-right-color:#0369a0 !important;border-bottom-color:#0369a0 !important;border-left-color:#0369a0 !important;background-color:#0369a0 !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#0369a0), color-stop(100%,#0369a0)) !important; background-image: -webkit-linear-gradient(top, #0369a0 0%, #0369a0 100%) !important;}#li_ui_li_gen_1432660664810_0.clicked #li_ui_li_gen_1432660664810_0-title, #li_ui_li_gen_1432660664810_0.down #li_ui_li_gen_1432660664810_0-title{color:#fff !important;border:1px solid #000 !important;border-top-color:#066094 !important;border-right-color:#066094 !important;border-bottom-color:#066094 !important;border-left-color:#066094 !important;background-color:#066094 !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#066094), color-stop(100%,#066094)) !important; background-image: -webkit-linear-gradient(top, #066094 0%, #066094 100%) !important;}.IN-shadowed #li_ui_li_gen_1432660664810_0 #li_ui_li_gen_1432660664810_0-title{}.IN-shadowed #li_ui_li_gen_1432660664810_0.hovered #li_ui_li_gen_1432660664810_0-title{}.IN-shadowed #li_ui_li_gen_1432660664810_0.clicked #li_ui_li_gen_1432660664810_0-title, .IN-shadowed #li_ui_li_gen_1432660664810_0.down #li_ui_li_gen_1432660664810_0-title{}#li_ui_li_gen_1432660664810_0 #li_ui_li_gen_1432660664810_0-title-text, #li_ui_li_gen_1432660664810_0 #li_ui_li_gen_1432660664810_0-title-text *{color:#fff !important;font-size:11px !important;font-family:Arial, sans-serif !important;font-weight:bold !important;font-style:normal !important;-webkit-font-smoothing:antialiased !important;display:inline-block !important;background:transparent none !important;vertical-align:top !important;height:18px !important;line-height:20px !important;float:none !important;}#li_ui_li_gen_1432660664810_0 #li_ui_li_gen_1432660664810_0-title-text strong{font-weight:bold !important;}#li_ui_li_gen_1432660664810_0 #li_ui_li_gen_1432660664810_0-title-text em{font-style:italic !important;}#li_ui_li_gen_1432660664810_0.hovered #li_ui_li_gen_1432660664810_0-title-text, #li_ui_li_gen_1432660664810_0.hovered #li_ui_li_gen_1432660664810_0-title-text *{color:#fff !important;}#li_ui_li_gen_1432660664810_0.clicked #li_ui_li_gen_1432660664810_0-title-text, #li_ui_li_gen_1432660664810_0.down #li_ui_li_gen_1432660664810_0-title-text, #li_ui_li_gen_1432660664810_0.clicked #li_ui_li_gen_1432660664810_0-title-text *, #li_ui_li_gen_1432660664810_0.down #li_ui_li_gen_1432660664810_0-title-text *{color:#fff !important;}#li_ui_li_gen_1432660664810_0 #li_ui_li_gen_1432660664810_0-title #li_ui_li_gen_1432660664810_0-mark{display:inline-block !important;width:0px !important;overflow:hidden !important;}.success #li_ui_li_gen_1432660664810_0 #li_ui_li_gen_1432660664810_0-title{color:#fff !important;border-top-color:#0077b5 !important;border-right-color:#0077b5 !important;border-bottom-color:#0077b5 !important;border-left-color:#0077b5 !important;background-color:#0077b5 !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#0077b5), color-stop(100%,#0077b5)) !important; background-image: -webkit-linear-gradient(top, #0077b5 0%, #0077b5 100%) !important;}.success #li_ui_li_gen_1432660664810_0 #li_ui_li_gen_1432660664810_0-title-text, .success #li_ui_li_gen_1432660664810_0 #li_ui_li_gen_1432660664810_0-title-text *{color:#fff !important;}.IN-shadowed .success #li_ui_li_gen_1432660664810_0 #li_ui_li_gen_1432660664810_0-title{}.success #li_ui_li_gen_1432660664810_0.hovered #li_ui_li_gen_1432660664810_0-title{color:#fff !important;border-top-color:#0369a0 !important;border-right-color:#0369a0 !important;border-bottom-color:#0369a0 !important;border-left-color:#0369a0 !important;background-color:#0369a0 !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#0369a0), color-stop(100%,#0369a0)) !important; background-image: -webkit-linear-gradient(top, #0369a0 0%, #0369a0 100%) !important;}.success #li_ui_li_gen_1432660664810_0.hovered #li_ui_li_gen_1432660664810_0-title-text, .success #li_ui_li_gen_1432660664810_0.hovered #li_ui_li_gen_1432660664810_0-title-text *{color:#fff !important;}.success #li_ui_li_gen_1432660664810_0.clicked #li_ui_li_gen_1432660664810_0-title, .success #li_ui_li_gen_1432660664810_0.down #li_ui_li_gen_1432660664810_0-title{color:#fff !important;border-top-color:#066094 !important;border-right-color:#066094 !important;border-bottom-color:#066094 !important;border-left-color:#066094 !important;background-color:#066094 !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#066094), color-stop(100%,#066094)) !important; background-image: -webkit-linear-gradient(top, #066094 0%, #066094 100%) !important;}.success #li_ui_li_gen_1432660664810_0.clicked #li_ui_li_gen_1432660664810_0-title-text, .success #li_ui_li_gen_1432660664810_0.down #li_ui_li_gen_1432660664810_0-title-text, .success #li_ui_li_gen_1432660664810_0.clicked #li_ui_li_gen_1432660664810_0-title-text *, .success #li_ui_li_gen_1432660664810_0.down #li_ui_li_gen_1432660664810_0-title-text *{color:#fff !important;}.IN-shadowed .success #li_ui_li_gen_1432660664810_0.clicked #li_ui_li_gen_1432660664810_0-title, .IN-shadowed .success #li_ui_li_gen_1432660664810_0.down #li_ui_li_gen_1432660664810_0-title{}#li_ui_li_gen_1432660664817_1-container.IN-right {display:inline-block !important;float:left !important;overflow:visible !important;position:relative !important;height:20px !important;padding-left:2px !important;line-height:1px !important;cursor:pointer !important;}#li_ui_li_gen_1432660664817_1.IN-right {display:block !important;float:left !important;height:20px !important;margin-right:4px !important;padding-right:4px !important;background-image:url(https://static.licdn.com/scds/common/u/images/apps/connect/sprites/sprite_connect_v14.png) !important;background-color:transparent !important;background-repeat:no-repeat !important;background-position:right -447px !important;}#li_ui_li_gen_1432660664817_1-inner.IN-right {display:block !important;float:left !important;padding-left:8px !important;text-align:center !important;background-image:url(https://static.licdn.com/scds/common/u/images/apps/connect/sprites/sprite_connect_v14.png) !important;background-color:transparent !important;background-repeat:no-repeat !important;background-position:0px -426px !important;}#li_ui_li_gen_1432660664817_1-content.IN-right {display:inline !important;font-size:11px !important;color:#4e4e4e !important;font-weight:bold !important;font-family:Arial, sans-serif !important;line-height:20px !important;padding:0 5px 0 5px !important;}#li_ui_li_gen_1432660664817_1-container.IN-empty {display:none !important;}#li_ui_li_gen_1432660664817_1-container.IN-hidden #li_ui_li_gen_1432660664817_1 {display:none !important;}</style></head>                 
+<body data-twttr-rendered="true">
+
+ 
+<div id="bcwrapper">
+
+      <div id="nav-wrap">
+      <div id="logo-text">bleepingcomputer.com</div>
+        <ul id="nav">
+             <li><a href="http://www.bleepingcomputer.com/" title="Tech Support and Virus Removal"><span>Home</span></a></li>
+             <li><a href="http://www.bleepingcomputer.com/forums/" title="Tech Support and Virus Removal Forums"><span>Forums</span></a></li>
+             <li><a href="http://www.bleepingcomputer.com/download/" title="Computer Downloads"><span>Downloads</span></a></li>
+             <li><a href="http://www.bleepingcomputer.com/tutorials/" title="Computer Tutorials"><span>Tutorials</span></a></li>
+             <li><a href="http://www.bleepingcomputer.com/startups/" title="Windows Startup Programs Database"><span>Startup List</span></a></li>
+             <li><a href="http://www.bleepingcomputer.com/virus-removal/" title="Virus, Spyware, and Malware Removal Guides" class="active"><span>Virus Removal</span></a></li>
+             <li><a href="http://www.bleepingcomputer.com/uninstall/" title="Uninstall Database"><span>Uninstall List</span></a></li>
+             <li><a href="http://www.bleepingcomputer.com/filedb/" title="File Database"><span>File Database</span></a></li>
+             <li><a href="http://www.bleepingcomputer.com/glossary/" title="Computer Glossary"><span>Glossary</span></a></li>
+        </ul>
+      </div>
+      
+      <div id="head-meta">
+        <div id="meta-top">
+          		<div>Welcome back jadacyrus!&nbsp;&nbsp;(If you are not jadacyrus, please click <a href="http://www.bleepingcomputer.com/forums/index.php?app=core&module=global&section=login&do=logout&return=http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information&k=de963433c321e384e67d002bee54c42c">Here</a>.)</div>
+	</div>
+        <div id="submenu">
+          <ul>
+            <li><a href="http://www.bleepingcomputer.com/welcome-guide/">Welcome Guide</a></li>
+            <li><a href="http://www.bleepingcomputer.com/chat/">Chat</a></li>
+            <li><a href="http://www.bleepingcomputer.com/forums/index.php?app=core&module=help">Help</a></li>
+            <li><a href="http://www.bleepingcomputer.com/forums/index.php?app=core&module=search&search_in=forums">Search</a></li>
+            <li><a href="http://www.bleepingcomputer.com/rss-feeds/">RSS</a></li>
+          </ul>
+          &nbsp;
+        </div>
+      </div>
+
+ <div id="breadcrumb" align="left">
+ <a href="http://www.bleepingcomputer.com/">Home</a> &gt; <a href="http://www.bleepingcomputer.com/virus-removal/">Virus, Spyware, &amp; Malware Removal Guides</a> &gt; CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ
+</div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+	<tbody><tr>
+	<!-- Begin Middle Column -->
+
+	<td valign="top" width="" style="min-width: 600px">
+	 <div class="vrg_wrap">
+ <script type="text/javascript">
+function printDiv() {
+ var divToPrint = document.getElementById('vrg_cont');
+ newWin= window.open();
+ newWin.document.write(divToPrint.innerHTML);
+ newWin.document.close();
+ newWin.focus();
+ newWin.print();
+ newWin.close();
+}
+
+</script>
+
+ <div id="vrg">
+  <div id="vrg_head">
+   <div id="vrg_info">
+    <h1>CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ</h1>
+    By <a rel="author" href="http://www.bleepingcomputer.com/author/lawrence-abrams/">Lawrence Abrams</a> on March 19, 2014 @ 08:28 PM | Last Updated: October 31, 2014 | Read 176,844 times.
+   </div>
+   <div id="vrg_share">
+    
+<ul id="share">
+ <li>
+  <div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1432660662846" name="I0_1432660662846" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/fastbutton.html" data-gapiattached="true" title="+1"></iframe></div>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+ </li>
+ <li>
+<iframe src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/like.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowtransparency="true"></iframe>
+ </li>
+ <li>
+  <script type="text/javascript" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/in.js"></script><span class="IN-widget" style="line-height: 1; vertical-align: baseline; display: inline-block; text-align: center;"><span style="padding: 0px !important; margin: 0px !important; text-indent: 0px !important; display: inline-block !important; vertical-align: baseline !important; font-size: 1px !important;"><span id="li_ui_li_gen_1432660664810_0"><a id="li_ui_li_gen_1432660664810_0-link" href="javascript:void(0);"><span id="li_ui_li_gen_1432660664810_0-logo">in</span><span id="li_ui_li_gen_1432660664810_0-title"><span id="li_ui_li_gen_1432660664810_0-mark"></span><span id="li_ui_li_gen_1432660664810_0-title-text">Share</span></span></a></span></span><span style="padding: 0px !important; margin: 0px !important; text-indent: 0px !important; display: inline-block !important; vertical-align: baseline !important; font-size: 1px !important;"><span id="li_ui_li_gen_1432660664817_1-container" class="IN-right"><span id="li_ui_li_gen_1432660664817_1" class="IN-right"><span id="li_ui_li_gen_1432660664817_1-inner" class="IN-right"><span id="li_ui_li_gen_1432660664817_1-content" class="IN-right">9</span></span></span></span></span></span><script type="in/share+init" data-counter="right"></script>
+ </li>
+ <li style="width:90px;">
+  <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/tweet_button.b169aa788731255dd55f1bb243b660e1.en.html" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="position: static; visibility: visible; width: 81px; height: 20px;"></iframe><script type="text/javascript" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/widgets.js"></script>
+ </li>
+ <li style="width: 20px;"><a href="JavaScript:printDiv();"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/print.png" alt="Print this page" title="Print this page"></a></li>
+</ul>
+
+   </div>
+  </div>
+  <div id="vrg_cont">
+   
+     <p><strong><u>Table of Contents</u></strong></p>
+<ol>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#gethelp"><u>How to get help with CryptoDefense</u></a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#cryptodefense">What is CryptoDefense or the HOW_DECRYPT.txt Ransomware</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#howto">How to decrypt files encrypted by CryptoDefense</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#emsisoft">How to restore files encrypted by CryptoDefense using the Emsisoft Decryptor</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#shadow">How to restore files encrypted by CryptoDefense using Shadow Volume Copies</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#paymentsite">Information about the Malware Developer's CryptoDefense Decrypt Service Site</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#bitcoin">Known Bitcoin Payment addresses for CryptoDefense</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#prevent">How to prevent your computer from becoming infected by CryptoDefense</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#enableapp">How to allow specific applications to run when using Software Restriction Policies</a><br>
+  </li>
+</ol>
+<p>&nbsp;</p>
+<div class="message_box warn_box">
+  <p><strong>If your computer has been infected with CryptoDefense there may be a chance to restore your files. Fabian Wosar of <a href="https://www.emsisoft.com/" rel="nofollow">Emsisoft</a> discovered a method that allows you to decrypt your files if you were infected before April 1st 2014. Unfortunately, this only works for 50% of the infection cases but still provides a good chance of getting your files back.<br>
+    <br>
+    For instructions on how to do this, please read this section:</strong></p>
+  <blockquote>
+    <p><strong><a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#howto">How to decrypt files encrypted by CryptoDefense</a></strong></p>
+  </blockquote>
+  <p><strong>If you need assistance with the above instructions, please ask in the <a href="http://www.bleepingcomputer.com/forums/t/527937/cryptodefense-newest-cryptolocker-variant-details-inside/" target="_blank">CryptoDefense Support Topic</a>.</strong></p>
+</div>
+<p>&nbsp;</p>
+<p><strong><u><a name="gethelp"></a>How to get help with CryptoDefense</u></strong></p>
+<p>If you are infected the with CryptoDefense, or HOW_DECRYPT.txt, ransomware you can use this guide to learn more about the infection and what you can do once you are infected. At this time, there is method to decrypt your files that works 50% of the time. For instructions on how to decrypt your files, please <a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#howto">see this section</a>. I would like to thank Fabian Wosar, <a href="http://www.bleepingcomputer.com/forums/u/834086/decrypterfixer/" target="_blank">DecrypterFixer</a> and Steven Wooton for there assistance with gathering information on this infection.</p>
+<p>There is an active CryptoDefense support topic, which contains discussion and the experiences of a variety of IT consultants, end users, and companies who have been affected by CryptoDefense. This topic also contains information on how to attempt restoring files that were encrypted by CryptoDefense. If you are interested in this infection or wish to ask questions about it, please visit this <a href="http://www.bleepingcomputer.com/forums/t/527937/cryptodefense-newest-cryptolocker-variant-details-inside/" target="_blank">CryptoDefense support topic</a>. Once at the topic, and if you are a member, you can subscribe to it in order to get notifications when someone adds more information to the topic.</p>
+
+<p>&nbsp;</p>
+<p><strong><u><a name="cryptodefense" id="cryptodefense"></a>What is CryptoDefense or the How_Decrypt Ransomware</u></strong></p>
+<p><strong>CryptoDefense</strong> is a ransomware program that was released around the end of February 2014 that targets all versions of Windows including Windows XP, Windows Vista, Windows 7, and Windows 8.  When a computer is infected, the infection will perform the following actions:</p>
+<ul>
+  <li>Connects to the Command and Control server and uploads your private key.<br>
+    <br>
+  </li>
+  <li>Deletes all Shadow Volume Copies so that you cannot restore your files form the Shadow Volumes. This means you will only be able to restore your files by restoring from backup or paying the ransom. In some cases the infection does not properly clear the shadow copies, so you may want to use the instructions below to see if you can restore from them.<br>
+    <br>
+  </li>
+  <li>Scan your computer and encrypt data files such as text files, image files, video files, and office documents. <br>
+    <br>
+  </li>
+  <li>Create a screenshot of your active Windows screen and upload it their Command &amp; Control server. This screen shot will be inserted in your payment page on their <a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#paymentsite">Decrypt Service</a> site, which is explained further in this FAQ. <br>
+    <br>
+  </li>
+  <li>Creates a How_Decrypt.txt and How_Decrypt.html file in every folder that a file was encrypted. The HTML and TXT files will contain instructions on how to access a payment site that can be used to send in the ransom. <br>
+    <br>
+  </li>
+  <li>Creates a <strong>HKCU\Software\&lt;unique ID&gt;\</strong> registry key and stores various configuration information in it. It will also list all the encrypted files under the <strong>HKCU\Software\&lt;unique ID&gt;\PROTECTED</strong> key.</li>
+</ul>
+<p>
+  
+  </p><p>&nbsp;</p>
+  <p align="center">
+                <a href="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/how_decrypt-html.jpg" rel="lightbox[cryptodefense-ransomware-information]" title="CryptoDefense screen shot"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/how_decrypt-html-thmb.jpg" alt="CryptoDefense screen shot"></a>
+
+<br>
+<b>CryptoDefense screen shot<br>For more screen shots of this infection click on the image above.<br>There are a total of 1 images you can view.</b>
+  </p>
+  <p>&nbsp;</p>
+<p></p>
+<p> This payment site is located on the <a href="https://www.torproject.org/" target="_blank" rel="nofollow">Tor</a> network and you can only make the payment in Bitcoins. Though this infection has numerous similarities to <a href="http://www.bleepingcomputer.com/virus-removal/cryptolocker-ransomware-information" target="_blank">CryptoLocker</a> or <a href="http://www.bleepingcomputer.com/virus-removal/cryptorbit-ransomware-information" target="_blank">CryptorBit</a>, there is no evidence that they are related. In order to purchase the decryptor for your files you need to pay a $500 USD ransom in Bitcoins. If you do not pay the ransom within 4 days it will double to $1,000 USD. They also state that if you do not purchase a decryptor within one month, they will delete your private key and you will no longer be able to decrypt your files. </p>
+<p>The files are encrypted using RSA-2048 encryption, which makes them impossible to decrypt via brute force methods. At the beginning of each encrypted file will be two strings of text. The first string is <strong>!crypted!</strong> and the second string is a unique identifier for the infected computer. An example identifier is <strong>18177F25DA00CD4CBC3D1b8B9F55F018</strong>. All encrypted files on the same computer will contain the same unique identifier. This identifier is probably used by the Decrypt Service web site to identify the private key that can be used to decrypt the file when performing a test decryption. You can see these strings of text in a hex editor as shown below:</p>
+<p align="center"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/hex-editor.jpg" alt="Hex Editor showing Encrypted File">
+</p><p>Based on research performed by <a href="http://www.bleepingcomputer.com/forums/u/834086/decrypterfixer/">DecrypterFixer</a>, it appears that this infection is installed through programs that pretend to be flash updates or video players required to view an online video. When these downloads are run, numerous adware will be installed along with CryptoDefense. From screenshots of other infected computers, it is also not uncommon for infected computer's to also have <a href="http://www.bleepingcomputer.com/virus-removal/cryptolocker-ransomware-information" target="_blank">CryptoLocker</a> or <a href="http://www.bleepingcomputer.com/virus-removal/cryptorbit-ransomware-information" target="_blank">CryptorBit</a> installed on them as well.</p>
+<p>&nbsp;</p>
+<p><strong><u><a name="howto"></a>How to decrypt files encrypted by CryptoDefense</u></strong></p>
+<p>If you were infected by CryptoDefense on April 1st 2014 or before, then there is a chance you can recover the decryption key that can be used to decrypt your files. This is because the malware developer had a flaw in the CryptoDefense program that left behind the public decryption key. Fabian Wosar of Emsisoft discovered this flaw and had created a decrypter that could potentially retrieve the key and decrypt your files. Fabian, and others, were then helping victims privately on how to use this tool so that the malware developer would not know how to fix the flaw in their program. Unfortunately, Symantec decided to <a href="http://www.symantec.com/connect/blogs/cryptodefense-cryptolocker-imitator-makes-over-34000-one-month" rel="nofollow">blog</a> about this flaw, instead of keeping it quiet, which led the malware developer to update CryptoDefense so it no longer leaves behind the key. In my opinion, this was irresponsible as Symantec chose publicity over helping the victims.</p>
+<p>With this said, if you were infected with CryptoDefense before April 1st 2014, you should read the following section in order to attempt to retrieve your key and decrypt your files:</p>
+<blockquote>
+  <p><a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#emsisoft">How to restore files encrypted by CryptoDefense using the Emsisoft Decryptor</a></p>
+</blockquote>
+<p>If the Emsisoft's tool is unable to retrieve your decryption key, then your only other method is to try and restore your from a shadow copy. As CryptoDefense attempts to clear your shadow copies when it is installed this may not work either. Please note that Shadow Volume Copies are only available with Windows XP Service Pack 2, Windows Vista, Windows 7, &amp; Windows 8.</p>
+<blockquote>
+  <p><a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#shadow">How to restore files encrypted by CryptoDefense using Shadow Volume Copies</a></p>
+</blockquote>
+<p>Unfortunately, if none of the above methods work, your only alternative will be to restore from an available backup.</p>
+<p>&nbsp;</p>
+<p><strong><u><a name="emsisoft" id="shadow2"></a>How to restore files encrypted by CryptoDefense using the Emsisoft Decryptor</u></strong></p>
+<p>If you were infected before April 1st, 2014 then you may have been infected with a variant that mistakenly left the private decryption key behind on the computer. To begin please download decrypt_cryptodefense.zip from the following URL and save it to your desktop.</p>
+<blockquote>
+  <p><a href="http://tmp.emsisoft.com/fw/decrypt_cryptodefense.zip" rel="nofollow">http://tmp.emsisoft.com/fw/decrypt_cryptodefense.zip</a></p>
+</blockquote>
+<p>Once the file has been downloaded, right-click on the file and select <strong>Extract All ... </strong>. An extraction wizard will open that will guide you through the encryption process. If you left all of the check marks checked during the extraction wizard, the extracted folder will automatically open. </p>
+<p>Inside the folder you will see two files. One file is a tool called CryptoOffence (CryptoOffense.exe) that can be used to extract the decryption key to a file called secret.key. You only need to use this file if you wish to decrypt encrypted files using a different computer. For more information on how to use this tool, please see the <a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#export_key">How to export your key and decrypt from another computer</a> section below.</p>
+<p>The directory also contains a tool called decrypt_cryptodefense.exe.  This program is a CryptoDefense decrypter that we will be using to automatically extract the encryption key from your computer and decrypt your files.  If you are logged into the infected machine as the infected user, please double-click on the decrypt_cryptodefense.exe file to launch the Emsisoft CryptoDefense Decrypter tool. When you run this file, if it is detected by your anti-virus software, please be rest-assured that the file is harmless. You can either white list the file in your anti-virus software or disable your anti-virus system for the time of decryption. For further instructions on how to do that, please refer to the manual of your anti-virus software.</p>
+<p>The Emsisoft CryptoDefense Decrypter will now be launched and you will be shown a screen similar to the one below.</p>
+<p>&nbsp;</p>
+<p align="center"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/emsisoft-decrypter.jpg" alt="Emsisoft Decrypter" width="603" height="448"></p>
+<p>&nbsp;</p>
+<p>This program will recursively scan all folders that are added for encrypted files.  When you are ready to start the decryption process simply click on the <strong>Decrypt</strong> button.</p>
+<p> Emsisoft will now attempt to extract the decryption key from the logged in account.  If a key is detected, you will see the following message in the log:</p>
+<div class="message_box quote_box">
+Loaded private key from current user's key storage!
+</div>
+<p>If a key is detected it will automatically begin to decrypt the encrypted files on your computer. This process can take quite a while, so please be patient while it processes your files.  While the program decrypts your files it may appear to hang on a particular file and the program will appear to not respond. This is normal and when it has finished decrypting the file it will start responding again.</p>
+<p>When you run decrypt_cryptodefense.exe, it if is unable to extract the key it will display the alert shown below and unfortunately not be able to decrypt your files.<br>
+</p>
+<p align="center"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/key_not_found.jpg" alt="No Key Found Alert" width="785" height="133"></p>
+<p><br>
+<a name="rsa"></a>If the program was able to recover and load the key, but you are receiving errors that state <strong>File could not be decrypter properly. Skipping ... </strong>then your key may have been overwritten. Examples of this happening can be seen in the image below.</p>
+<p>&nbsp;</p>
+<p align="center"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/decrypt-wrong-key.png" alt="Emsisoft Decrypter"></p>
+<p>&nbsp;</p>
+<p>In this situation we have one last chance of possibly recovering your decryption key. The decryption key is stored in the<strong> %appdata%\Microsoft\Crypto\RSA</strong> folder. If your Shadow Volume Copies are intact you can restore that folder to a previous version in the hopes that you will be restoring the key that encrypted your files. You can then run the decrypt_cryptodefense.exe program again and see if it can load the correct key and decrypt your files. </p>
+<p>Before you restore your RSA folder it is strongly suggested that you backup your <strong>%appdata%\Microsoft\Crypto\RSA</strong> folder. Also if you are using EFS, then be careful with restoring your RSA folder. At a bare minimum you must backup your certificates using the instructions in this <a href="http://support.microsoft.com/kb/223316/en-us" target="_blank" rel="nofollow">Microsoft document</a>.<br>
+  <br>
+  To learn how to restore the RSA folder from the Shadow Volume Copies you can read this section:</p>
+<blockquote>
+  <p><a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#shadow">How to restore files encrypted by CryptoDefense using Shadow Volume Copies</a></p>
+</blockquote>
+<p>If you run into any problems or do not feel completely comfortable following these instructions on your own, please feel free to ask for more guidance in the  <a href="http://www.bleepingcomputer.com/forums/t/527937/cryptodefense-newest-cryptolocker-variant-details-inside/" target="_blank">CryptoDefense Support Topic</a><strong>.</strong><br>
+</p>
+<p><strong><a name="export_key"></a>How to export your key and decrypt from another computer</strong></p>
+<p>If you wish to decrypt encrypted files from another computer you will need to perform some additional steps. As decrypt_cryptodefense.exe will try to automatically retrieve the key from the infected computer, this will obviously not work if you run the program from a different computer. Instead you will first need to export the decryption key on the infected computer as a file called secret.key and then copy it to the computer where wish to perform the decryption.</p>
+<p>To do this, copy the CryptoOffense.exe file from the <a href="http://tmp.emsisoft.com/fw/decrypt_cryptodefense.zip" target="_blank" rel="nofollow">decrypt_cryptodefense.zip</a> file to the infected computer.  When logged in as the infected user, run the CryptoOffense.exe program.  If everything works, you will see output like this:<br>
+  <br>
+</p><div class="message_box quote_box">
+CryptoOffense v1.0 - A CryptoDefense private key dumper - Use at your own risk!<br>
+  Written by Fabian Wosar - Emsisoft GmbH - [url=http://www.emsisoft.com]http://www.emsisoft.com[/url]<p></p>
+<p>Found a key matching CryptoDefense characteristics! (2048, Not exportable)<br>
+  Force exporting key 0x00169C18 to file secret.key ...<br>
+  Patching CryptoAPI ... Success!<br>
+Writing 1176 bytes to file secret.key ... Success!</p>
+<p>Press any key to close the application ...</p></div>
+<p>You will now find a new file named "secret.key" in the same directory as the CryptoOffense.exe program you just ran. You can then copy that secret.key file to your decryption computer and place it in the same folder as the decrypt_cryptodefense.exe tool.  Now when you run decrypt_cryptodefense.exe on the decryption computer it will automatically load the secret.key and allow you to decrypt the files.</p>
+<p>&nbsp;</p>
+<p><strong><u><a name="shadow" id="shadow"></a>How to restore files encrypted by CryptoDefense using Shadow Volume Copies</u></strong></p>
+<p>If you had System Restore enabled on the computer, Windows creates <a href="http://en.wikipedia.org/wiki/Shadow_Copy" target="_blank" rel="nofollow">shadow copy snapshots</a> that contain copies of your files from that point of time when the system restore snapshot was created. These snapshots may allow us to restore a previous version of our files from before they had been encrypted. This method is not fool proof, though, as even though these files may not be encrypted they also may not be the latest version of the file. Also, CryptoDefense tries to clear these shadow copies, so they may not contains your documents after you become infected. Please note that Shadow Volume Copies are only available with Windows XP Service Pack 2, Windows Vista, Windows 7, &amp; Windows 8.</p>
+<div class="message_box info_box">
+  <p><strong>Note: </strong>Newer variants of CryptoDefense will attempt to delete all shadow copies when you first start any executable on your computer after becoming infected. Thankfully, the infection is not always able to remove the shadow copies, so you should continue to try restoring your files using this method.</p>
+</div>
+<p> In this section we provide two methods that you can use to restore files and folders from the Shadow Volume Copy. The first method is to use native Windows features and the second method is to use a program called Shadow Explorer. It does not hurt to try both and see which methods work better for you.</p>
+<p><strong>Using native Windows Previous Versions</strong>:</p>
+<p>To restore individual files you can right-click on the file, go into <strong>Properties</strong>, and select the <strong>Previous Versions</strong> tab. This tab will list all copies of the file that have been stored in a Shadow Volume Copy and the date they were backed up as shown in the image below.</p>
+<p>&nbsp;</p>
+<p align="center"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/previous-versions.jpg" alt="Previous Versions Tab for a file" width="377" height="515"></p>
+<p>&nbsp;</p>
+<p>To restore a particular version of the file, simply click on the<strong> Copy</strong> button and then select the directory you wish to restore the file to. If you wish to restore the selected file and replace the existing one, click on the <strong>Restore</strong> button. If you wish to view the contents of the actual file, you can click on the <strong>Open</strong> button to see the contents of the file before you restore it.</p>
+<p>This same method can be used to restore an entire folder. Simply right-click on the folder and select <strong>Properties</strong> and then the <strong>Previous Versions</strong> tabs. You will then be presented with a similar screen as above where you can either <strong>Copy</strong> the selected backup of the folder to a new location or <strong>Restore</strong> it over the existing folder.</p>
+<p><br>
+  <strong>Using Shadow Explorer</strong>:</p>
+<p>You can also use a program called <a href="http://www.shadowexplorer.com/downloads.html" target="_blank" rel="nofollow">Shadow Explorer</a> to restore entire folders at once. When downloading the program, you can either use the full install download or the portable version as both perform the same functionality.</p>
+<p>When you start the program you will be shown a screen listing all the drives and the dates that a shadow copy was created. Select the drive (blue arrow) and date (red arrow) that you wish to restore from. This is shown in the image below.</p>
+<p align="center"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/shadow-explorer.jpg" alt="Restoring files with Shadow Explorer" width="640" height="480"></p>
+<p>To restore a whole folder, right-click on a folder name and select <strong>Export</strong>. You will then be prompted as to where you would like to restore the contents of the folder to.</p>
+<p>&nbsp;</p>
+<p><strong><u><a name="paymentsite" id="paymentsite"></a>Information about the Malware Developer's CryptoDefense Decryptor Site</u></strong></p>
+<p>When you are infected with CryptoDefense, the infection will create How_Decrypt.txt and How_Decrypt.html files that contain information on how to pay the ransom. Below is the contents of the How_Decrypt.txt and How_Decrypt.html messages:</p>
+<p><strong>How_Decrypt.txt:</strong></p>
+<div class="message_box quote_box">
+  <p>All files including videos, photos and documents on your computer are encrypted by CryptoDefense Software.</p>
+  <p>Encryption was produced using a unique public key RSA-2048 generated for this computer. To decrypt files you need to obtain the private key. </p>
+  <p>The single copy of the private key, which will allow you to decrypt the files, located on a secret server on the Internet; <br>
+    the server will destroy the key after a month. After that, nobody and never will be able to restore files.</p>
+  <p>In order to decrypt the files, open your personal page on the site https://rj2bocejarqnpuhm.onion.to/XXX and follow the instructions.</p>
+  <p>If https://rj2bocejarqnpuhm.onion.to/XXX is not opening, please follow the steps below: </p>
+  <p>1. You must download and install this browser http://www.torproject.org/projects/torbrowser.html.en<br>
+    2. After installation, run the browser and enter the address: rj2bocejarqnpuhm.onion/XXX<br>
+    3. Follow the instructions on the web-site. We remind you that the sooner you do, the more chances are left to recover the files.</p>
+  <p>IMPORTANT INFORMATION:</p>
+  <p>Your Personal PAGE: https://rj2bocejarqnpuhm.onion.to/XXX<br>
+    Your Personal PAGE(using TorBrowser): rj2bocejarqnpuhm.onion/XXX<br>
+    Your Personal CODE(if you open site directly): XXX<br>
+  </p>
+</div>
+<p><strong>How_Decrypt.html</strong></p>
+<p align="center"><a href="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/how_decrypt-html.jpg" rel="lightbox[how_decrypt_html]" title="How_Decrypt.Html file"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/how_decrypt-html.jpg" width="650px" alt="How_Decrypt.Html file"></a>
+  <br>
+<b>Click on the image above to see full size and other associated images.</b>
+<br>
+</p>
+<p>The instructions tell the victim that in order to pay the ransom they need to go to a special Decrypt Service site where they can enter their personal code and access they payment page. This site can be accessed via the <a href="https://www.torproject.org/" rel="nofollow">Tor</a> address <strong>rj2bocejarqnpuhm.onion</strong> or through <strong>https://rj2bocejarqnpuhm.onion.to</strong> using a normal browser. When a user visits the Decrypt Service site they will be presented with a page that contains information about how much they need to pay to purchase the decryption program. The site will also contains a Frequently Asked Questions page, a page that shows the screen shot of your active Windows screen from when you became infected, and a page where you can perform a test decryption on one file.  <br>
+</p>
+<p align="center"><a href="http://www.bleepstatic.com/swr-guides/c/CryptoDefense/decrypt-service-site.jpg" rel="lightbox[decrypt_service]" title="CryptoDefense Decrypt Service Site"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/decrypt-service-site-thmb.jpg" alt="CryptoDefense Decrypt Service Site"></a>
+<a href="http://www.bleepstatic.com/swr-guides/c/CryptoDefense/decrypt-service-payment.jpg" rel="lightbox[decrypt_service]" title="CryptoDefense Payment Page"></a>
+<a href="http://www.bleepstatic.com/swr-guides/c/CryptoDefense/decrypt-service-faq.jpg" rel="lightbox[decrypt_service]" title="CryptoDefense FAQ Page"></a>
+<a href="http://www.bleepstatic.com/swr-guides/c/CryptoDefense/decrypt-service-my-screen.jpg" rel="lightbox[decrypt_service]" title="CryptoDefense My Screenshot page"></a>
+<a href="http://www.bleepstatic.com/swr-guides/c/CryptoDefense/decrypt-service-test-decrypt.jpg" rel="lightbox[decrypt_service]" title="CryptoDefense Test Decryption Page"></a>
+  <br>
+<b>Click on the image above to see full size and other associated images.</b>
+<br>
+</p>
+<p>In order to pay the ransom, you will need to send the requested bitcoins to the listed bitcoin address. Once you send the bitcoins you then need to submit the transaction ID on their site and click on the Pay button. Once the transaction has been verified you will be given a link where you can download the decryptor, which is shown below.</p>
+<p>&nbsp;</p>
+<p align="center"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/decryptor.jpg" width="650" height="488" alt="CryptoDefense Decryptor"></p>
+<p>&nbsp;</p>
+<p>When you run the decryptor it will read the registry to find files that need to be decrypted. If the registry entries do not exist it will prompt you to specify a folder to scan for encrypted files.</p>
+<p>&nbsp;</p>
+<p><strong><u><a name="bitcoin" id="bitcoin"></a>Known Bitcoin Payment addresses for CryptoDefense</u></strong></p>
+<p>CryptoDefense allows you to pay the ransom by sending  bitcoins to an address shown in the CryptoDefense Decrypt Service page. Bitcoins are currently worth over $600 USD on some bitcoins exchanges. The Bitcoin addresses used by CryptoDefense to receive payments are:</p>
+<blockquote class="rw_text">
+  <p><a href="https://blockchain.info/address/19DyWHtgLgDKgEeoKjfpCJJ9WU8SQ3gr27" rel="nofollow">https://blockchain.info/address/19DyWHtgLgDKgEeoKjfpCJJ9WU8SQ3gr27</a></p>
+</blockquote>
+<p>You can use the links above to see transactions into the wallet and out of the wallet. You can typically tell which payments to this address are from ransom victims as there will be many payments with similar amounts.</p>
+<p>&nbsp;</p>
+<p><strong><u><a name="prevent" id="prevent"></a>How to prevent your computer from becoming infected by CryptoDefense</u></strong></p>
+<p>You can use the Windows Group or Local Policy Editor to create Software Restriction Policies that block executables from running when they are located in specific paths. For more information on how to configure Software Restriction Policies, please see these articles from MS:</p>
+<blockquote>
+  <p><a href="http://support.microsoft.com/kb/310791" target="_blank" rel="nofollow">http://support.microsoft.com/kb/310791</a><br>
+    <a href="http://technet.microsoft.com/en-us/library/cc786941(v=ws.10).aspx" target="_blank" rel="nofollow">http://technet.microsoft.com/en-us/library/cc786941(v=ws.10).aspx</a></p>
+</blockquote>
+<p>The file paths that have been used by this infection and its droppers are:</p>
+<blockquote>
+  <p>C:\&lt;random&gt;\&lt;random&gt;.exe<br>
+    C:\Users\&lt;User&gt;\AppData\Local\&lt;random&gt;.exe (Vista/7/8)<br>
+    C:\Users\&lt;User&gt;\AppData\Local\&lt;random&gt;.exe (Vista/7/8)<br>
+    C:\Documents and Settings\&lt;User&gt;\Application Data\&lt;random&gt;.exe (XP)<br>
+    C:\Documents and Settings\&lt;User&gt;\Local Application Data\&lt;random&gt;.exe  (XP)<br>
+    %Temp% </p>
+</blockquote>
+<p>In order to block the CryptoDefense you want to create Path Rules so that they are not allowed to execute. To create these Software Restriction Policies, you can either use the <a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#cryptoprevent">CryptoPrevent</a> tool or add the policies <a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#manual">manually</a> using the Local Security Policy Editor or the Group Policy Editor. Both methods are described below.</p>
+<div class="message_box info_box">
+  <p><strong>Note: </strong>If you are using Windows Home or Windows Home Premium, the Local Security Policy Editor will not be available to you. Instead we suggest you use the <a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#cryptoprevent">CryptoPrevent</a> tool, which will automatically set these policies for you.</p>
+</div>
+<br>
+<p><strong><a name="cryptoprevent"></a>How to use the CryptoPrevent Tool:</strong></p>
+<p><a href="http://www.foolishit.com/" target="_blank" rel="nofollow">FoolishIT LLC</a> was kind enough to create a free utility called CryptoPrevent that automatically adds the suggested Software Restriction Policy Path Rules listed above to your computer. This makes it very easy for anyone using Windows XP SP 2 and above to quickly add the Software Restriction Policies to your computer in order to prevent CryptoDefense and Zbot from being executed in the first place. This tool is also able to set these policies in all versions of Windows, including the Home versions.<br>
+</p>
+<p align="center"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/cryptoprevent-free-sm.jpg" alt="CryptoPrevent"><br>
+</p>
+<p>A new feature of CryptoPrevent is the option to whitelist any existing programs in %AppData% or %LocalAppData%. This is a useful feature as it will make sure the restrictions that are put in place do not affect legitimate applications that are already installed on your computer. To use this feature make sure you check the option labeled <strong>Whitelist EXEs already located in %appdata% / %localappdata%</strong> before you press the <strong>Block</strong> button.</p>
+<p>You can download CryptoPrevent from the following page:</p>
+<blockquote>
+  <p><a href="http://www.foolishit.com/download/cryptoprevent/?ap_id=Bleeping" target="_blank" rel="nofollow">http://www.foolishit.com/download/cryptoprevent/</a></p>
+</blockquote>
+<p>For more information on how to use the tool, please see this page:</p>
+<blockquote>
+  <p><a href="http://www.foolishit.com/vb6-projects/cryptoprevent/?ap_id=Bleeping" target="_blank" rel="nofollow">http://www.foolishit.com/vb6-projects/cryptoprevent/</a></p>
+</blockquote>
+<div class="message_box tip_box">
+  <p><strong>Tip: </strong>You can use CryptoPrevent for free, but if you wish to <a href="https://www.foolishit.com/vb6-projects/cryptoprevent/?ap_id=Bleeping" rel="nofollow">purchase</a> the premium version you can use the coupon code <strong>bleeping30off</strong> to get 30% off. The premium version includes automatic and silent updating of application and definitions on a regular schedule, email alerts when an application blocked, and custom   allow and block policies to fine-tune your protection.</p>
+</div>
+<p>Once you run the program, simply click on the <strong>Apply Protection </strong> button to add the default Software Restriction Policies to your computer. If you wish to customize the settings, then please review the checkboxes and change them as necessary. If CryptoPrevent causes issues running legitimate applications, then please see <a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#enableapp">this section</a> on how to enable specific applications. You can also remove the Software Restriction Policies that were added by clicking on the <strong>Undo</strong> button.<br>
+</p>
+<p><strong><a name="manual"></a>How to manually create Software Restriction Policies to block CryptoDefense:</strong></p>
+<p> In order to manually create the Software Restriction Policies you need to be using Windows Professional or Windows Server. If you want to set these policies for a particular computer you can use the Local Security Policy Editor. If you wish to set these policies for the entire domain, then you need to use the Group Policy Editor. Unfortunately, if you are a Windows Home user, the Local Policy Editor ir not available and you should use the <a href="http://www.bleepingcomputer.com/virus-removal/cryptoprevent">CryptoPrevent</a> tool instead to set these policies. To open the Local Security Policy editor, click on the <strong>Start</strong> button and type <strong>Local Security Policy</strong> and select the search result that appears. You can open the Group Policy Editor by typing <strong>Group Policy</strong> instead. In this guide we will use the Local Security Policy Editor in our examples. </p>
+<p>Once you open the Local Security Policy Editor, you will see a screen similar to the one below.</p>
+<p align="center"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/local-security-policy.jpg" width="650" height="450" alt="Local Security Policy Editor"></p>
+<p>Once the above screen is open, expand <strong>Security Settings</strong> and then click on the <strong>Software Restriction Policies</strong> section. If you do not see the items in the right pane as shown above, you will need to add a new policy. To do this click on the <strong>Action</strong> button and select <strong>New Software Restriction Policies</strong>. This will then enable the policy and the right pane will appear as in the image above. You should then click on the <strong>Additional Rules</strong> category and then right-click in the right pane and select <strong>New Path Rule...</strong>. You should then add a Path Rule for each of the items listed below.</p>
+<p>If the Software Restriction Policies cause issues when trying to run legitimate applications, you should see <a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#enableapp">this section</a> on how to enable specific applications.</p>
+<p>Below are a few Path Rules that are suggested you use to not only block the infections from running, but also to block attachments from being executed when opened in an e-mail client. </p>
+<blockquote>
+  <p><strong>Block CryptoDefense executable in %AppData%</strong></p>
+  <blockquote>
+    <p><strong>Path: <font color="#2d517c">%AppData%\*.exe</font></strong> <br>
+      <strong>Security Level: <font color="#2d517c">Disallowed</font></strong><br>
+      <strong>Description: <font color="#2d517c">Don't allow executables to run from %AppData%</font></strong>.</p>
+  </blockquote>
+  <p><strong>Block CryptoDefense executable in %LocalAppData%</strong></p>
+  <blockquote>
+    <p><strong>Path if using Windows XP: <font color="#2d517c">%UserProfile%\Local Settings\*.exe</font></strong><br>
+      <strong>Path if using Windows Vista/7/8: <font color="#2d517c">%LocalAppData%\*.exe</font><br>
+      </strong><strong>Security Level: <font color="#2d517c">Disallowed</font></strong><br>
+      <strong>Description: <font color="#2d517c">Don't allow executables to run from %AppData%</font></strong>.</p>
+  </blockquote>
+  <p><strong>Block Zbot executable in %AppData%</strong></p>
+  <blockquote>
+    <p><strong>Path: <font color="#2d517c">%AppData%\*\*.exe</font></strong> <br>
+      <strong>Security Level: <font color="#2d517c">Disallowed</font></strong><br>
+      <strong>Description: <font color="#2d517c">Don't allow executables to run from immediate subfolders of %AppData%.</font></strong></p>
+  </blockquote>
+  <p><strong>Block Zbot executable in %LocalAppData%</strong></p>
+  <blockquote>
+    <p><strong>Path if using Windows XP: <font color="#2d517c">%UserProfile%\Local Settings\*\*.exe</font></strong><br>
+      <strong>Path if using Windows Vista/7/8: <font color="#2d517c">%LocalAppData%\*\*.exe</font><br>
+      </strong><strong>Security Level: <font color="#2d517c">Disallowed</font></strong><br>
+      <strong>Description: <font color="#2d517c">Don't allow executables to run from immediate subfolders of %AppData%.</font></strong></p>
+  </blockquote>
+  <p><strong>Block executables run from archive attachments opened with WinRAR:</strong></p>
+  <blockquote>
+    <p><strong>Path if using Windows XP: <font color="#2d517c">%UserProfile%\Local Settings\Temp\Rar*\*.exe</font></strong><br>
+      <strong>Path if using Windows Vista/7/8: <font color="#2d517c">%LocalAppData%\Temp\Rar*\*.exe</font><br>
+        Security Level: <font color="#2d517c">Disallowed</font></strong><br>
+      <strong>Description: <font color="#2d517c">Block executables run from archive attachments opened with WinRAR.</font></strong></p>
+  </blockquote>
+  <p><strong>Block executables run from archive attachments opened with 7zip:</strong></p>
+  <blockquote>
+    <p><strong>Path if using Windows XP: <font color="#2d517c">%UserProfile%\Local Settings\Temp\7z*\*.exe</font></strong><br>
+      <strong>Path if using Windows Vista/7/8: <font color="#2d517c">%LocalAppData%\Temp\7z*\*.exe</font><br>
+        Security Level: <font color="#2d517c">Disallowed</font></strong><br>
+      <strong>Description: <font color="#2d517c">Block executables run from archive attachments opened with 7zip.</font></strong></p>
+  </blockquote>
+  <p><strong>Block executables run from archive attachments opened with WinZip:</strong></p>
+  <blockquote>
+    <p><strong>Path if using Windows XP: <font color="#2d517c">%UserProfile%\Local Settings\Temp\wz*\*.exe</font></strong><br>
+      <strong>Path if using Windows Vista/7/8: <font color="#2d517c">%LocalAppData%\Temp\wz*\*.exe</font><br>
+        Security Level: <font color="#2d517c">Disallowed</font></strong><br>
+      <strong>Description: <font color="#2d517c">Block executables run from archive attachments opened with WinZip.</font></strong></p>
+  </blockquote>
+  <p><strong>Block executables run from archive attachments opened using Windows built-in Zip support:</strong></p>
+  <blockquote>
+    <p><strong>Path if using Windows XP: <font color="#2d517c">%UserProfile%\Local Settings\Temp\*.zip\*.exe</font></strong><br>
+      <strong>Path if using Windows Vista/7/8: <font color="#2d517c">%LocalAppData%\Temp\*.zip\*.exe</font><br>
+        Security Level: <font color="#2d517c">Disallowed</font></strong><br>
+      <strong>Description: <font color="#2d517c">Block executables run from archive attachments opened using Windows built-in Zip support.</font></strong></p>
+  </blockquote>
+</blockquote>
+<p>&nbsp;</p>
+<p>You can see an event log entry and alert showing an executable being blocked:</p>
+<p align="center"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/133-software-restriction-log.jpg" alt="Event Log Entry" width="640" height="444"></p>
+<p>&nbsp;</p>
+<p align="center"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/software-restriction-alert.jpg" alt="Executable being blocked alert" width="572" height="139"></p>
+<p>If you need help configuring this, feel free to ask in the <a href="http://www.bleepingcomputer.com/forums/t/527937/cryptodefense-newest-cryptolocker-variant-details-inside/" target="_blank">CryptoDefense help topic</a>.</p>
+<p>&nbsp;</p>
+<p><strong><u><a name="enableapp"></a>How to allow specific applications to run when using Software Restriction Policies</u></strong></p>
+<p>If you use Software Restriction Policies, or CryptoPrevent, to block CryptoDefense you may find that some legitimate applications no longer run. This is because some companies mistakenly install their applications under a user's profile rather than in the Program Files folder where they belong. Due to this, the Software Restriction Policies will prevent those applications from running. </p>
+<p>Thankfully, when Microsoft designed Software Restriction Policies they made it so a Path Rule that specifies a program is allowed to run overrides any path rules that may block it. Therefore, if a Software Restriction Policy  is blocking a legitimate program, you will need to use the <a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#manual">manual steps</a> given above to add a Path Rule that allows the program to run. To do this you will need to create a Path Rule for a particular program's executable and set the Security Level to <strong>Unrestricted</strong> instead of Disallowed as shown in the image below.</p>
+<p>&nbsp;</p>
+<p align="center"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/unrestricted-policy.jpg" alt="Unrestricted Policy" width="416" height="461"></p>
+<p align="center">&nbsp;</p>
+<p>Once you add these Unrestricted Path Rules, the specified applications will be allowed to run again.</p>
+
+  
+  <p>&nbsp;</p>
+  <p><span class="swr-heading">Threat Classification:</span> </p>
+     <ul>   <li><a href="http://www.bleepingcomputer.com/virus-removal/ransomware">Information on Ransomware Programs</a></li>
+</ul>
+  
+    <p>&nbsp;</p>
+  <p><span class="swr-heading">Advanced information:</span>
+	</p><blockquote>
+			<a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#files">View CryptoDefense files.</a><br>
+	<a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#keys">View CryptoDefense Registry Information.</a><br>
+
+	</blockquote>
+
+  
+  <p>&nbsp;</p>
+  
+  
+    <p><span class="swr-heading">Article Updates:</span></p>
+        <blockquote>
+          <em>03/19/14 - Initial guide creation<br>
+03/19/14 - Added additional info.<br>
+03/19/14 - Updated info about Shadow Volume Copies being deleted.<br>
+04/01/14 - Added info about decryption method.<br>
+04/04/14 - Added details about possibles methods to decrypt files.<br>
+10/31/14 - Updated to include info about Software Restriction Policies.</em>
+        </blockquote>
+  <p>&nbsp;</p>
+<script class="lockerdome-js-lite" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/widget_interest_1_0.js" data-owner="6622634788138753" data-style="text" data-width="full-width" data-size="custom-large" data-size_specifics="40" data-box="box-on" data-follow_up="share" data-fingerprint="1000"></script><div class="ld-interest-widget-cntnr" style="height: 104px;"><iframe class="ld-interest" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/interest.html"></iframe><iframe class="ld-follow-up closed custom-large text box-on full-width" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/share.html" data-known_content="true" style="top: 89px; height: 72px;"></iframe></div>
+  <hr>
+        <a name="files"></a>
+      <div class="mw-assoc-wr">
+        <div class="accordion">
+	           <div class="accordion-section"> <a class="accordion-section-title" href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#accordion-1">View Associated CryptoDefense Files</a>
+            <div id="accordion-1" class="accordion-section-content">
+              <p>
+	       %UserProfile%\Desktop\HOW_DECRYPT.HTML<br>
+%UserProfile%\Desktop\HOW_DECRYPT.TXT<br>
+%UserProfile%\Desktop\HOW_DECRYPT.URL
+               
+</p><p><b>File Location Notes:</b></p><p><b>%UserProfile%</b> refers to the current user's profile folder. By default, this is C:\Documents and Settings\&lt;Current User&gt; for Windows 2000/XP, C:\Users\&lt;Current User&gt; for Windows Vista/7/8, and c:\winnt\profiles\&lt;Current User&gt; for Windows NT.</p>
+              <p></p>
+            </div>
+            <!--end .accordion-section-content--> 
+          </div>
+          <!--end .accordion-section-->          <div class="accordion-section"> <a class="accordion-section-title" href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#accordion-2">View Associated CryptoDefense Windows Registry Information</a>
+            <div id="accordion-2" class="accordion-section-content">
+              <p>
+	       HKEY_CURRENT_USER\Software\&lt;unique id&gt;<br>
+HKEY_CURRENT_USER\Software\&lt;unique id&gt;\PROTECTED<br>
+HKEY_CURRENT_USER\Software\&lt;unique id&gt; "finish" = "1"
+               
+              </p>
+            </div>
+            <!--end .accordion-section-content--> 
+          </div>
+          <!--end .accordion-section-->
+        </div>
+      </div>
+
+<hr>
+<p>&nbsp;</p>
+<div align="center">
+  <p><font color="#0000FF"><strong>This is a self-help guide. Use at your own risk.</strong></font></p>
+
+</div>
+  <p><strong>BleepingComputer.com can not be held responsible for problems that may occur by using this information. If you would like help with any of these fixes, you can ask for malware removal assistance in our <a href="http://www.bleepingcomputer.com/forums/f/22/virus-trojan-spyware-and-malware-removal-logs/" target="_new">Virus, Trojan, Spyware, and Malware Removal Logs forum</a>.</strong></p>
+  <p><strong>If you have any questions about this self-help guide then please post those questions in our <a href="http://www.bleepingcomputer.com/forums/f/103/am-i-infected-what-do-i-do/" target="_new">Am I infected? What do I do?</a> and someone will help you.</strong></p>
+</div>
+  </div>
+  
+  
+  
+  <div id="vrg_footer">
+   
+  </div>
+ </div>
+
+
+
+	</td>
+
+	<!-- End of Middle Column -->
+		<!-- Begin Right Column -->
+
+		<td valign="top" width="320px">
+		 <div id="r_sidebar">
+
+ 
+
+ <div class="side_box">
+  <span class="side_box_title">Search Security Guides</span>
+  <div class="side_box_cont">
+   <form action="http://www.bleepingcomputer.com/virus-removal/search/" id="cse-search-box" style="padding: 5px">
+     <div>
+       <input type="hidden" name="cx" value="partner-pub-0920899300397823:r9cva2-gqka">
+       <input type="hidden" name="cof" value="FORID:10">
+       <input type="hidden" name="ie" value="ISO-8859-1">
+       <input type="text" class="forminput" name="q" id="q" size="35" style="border: 1px solid rgb(126, 157, 185); padding: 2px; background: url(http://cse.google.com/cse/intl/en/images/google_custom_search_watermark.gif) 0% 50% no-repeat rgb(255, 255, 255);"><br>
+       <input type="submit" name="sa" value="Search ">
+     </div>
+   <input name="siteurl" type="hidden" value="www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information"><input name="ref" type="hidden" value="www.google.com/"><input name="ss" type="hidden" value=""></form>
+  </div>
+  <script type="text/javascript" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/brand"></script>
+ </div>
+
+ 
+
+ <div class="side_box">
+ <span class="side_box_title">Latest Guides</span>
+ <div class="side_box_cont">
+  <ul class="sb_ul bul_list">
+     <li><a href="http://www.bleepingcomputer.com/virus-removal/remove-superclick-ads">SuperClick</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/remove-wordfly-ads">WordFly</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/remove-cpu-miner">CPU Miner</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/remove-system-checker">System-Checker</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/remove-coupon-alert">Coupon Alert</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/remove-termblazer-ads">TermBlazer</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/remove-shop-smart-ads">Shop Smart Advertisements</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/teslacrypt-alphacrypt-ransomware-information">TelsaCrypt and Alpha Crypt</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/remove-oursurfing.com-browser-hijacker">Oursurfing.com</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/remove-rightcoupon-ads">RightCoupon Advertisements</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/remove-shopper-z-ads">Shopper-Z</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/remove-hades-ads">Hades Advertisements</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/remove-gooddeals-ads">GoodDeals</a></li>
+  <li><a href="http://www.bleepingcomputer.com/virus-removal/remove-phrasefinder-ads">PhraseFinder</a></li>
+
+  </ul>
+ </div>
+</div>
+
+
+  <div class="side_box">
+  <span class="side_box_title">Removal Tool Guides</span>
+  <div class="side_box_cont">
+   <ul class="sb_ul bul_list">
+    <li><a href="http://www.bleepingcomputer.com/combofix/">ComboFix</a></li>
+    <li><a href="http://www.bleepingcomputer.com/virus-removal/how-to-use-emsisoft-anti-malware-tutorial">Emsisoft Anti-Malware</a></li>
+    <li><a href="http://www.bleepingcomputer.com/virus-removal/how-to-use-malwarebytes-anti-malware-tutorial/">Malwarebytes' Anti-Malware</a></li>
+    <li><a href="http://www.bleepingcomputer.com/virus-removal/how-to-use-malwarebytes-anti-rootkit/">Malwarebytes' Anti-Rootkit</a></li>
+    <li><a href="http://www.bleepingcomputer.com/virus-removal/how-to-use-superantispyware-tutorial/">SUPERAntiSpyware</a></li>
+   </ul>
+  </div>
+ </div> 
+ 
+ 
+
+ <div class="side_box">
+  <span class="side_box_title">Threat Descriptions</span>
+  <div class="side_box_cont">
+   <ul class="sb_ul bul_list">
+            <li><a href="http://www.bleepingcomputer.com/virus-removal/adware">Adware</a></li>        <li><a href="http://www.bleepingcomputer.com/virus-removal/browser-hijacker">Browser Hijacker</a></li>        <li><a href="http://www.bleepingcomputer.com/virus-removal/potentially-unwanted-programs-pup">Potentially Unwanted Programs (PUP)</a></li>        <li><a href="http://www.bleepingcomputer.com/virus-removal/ransomware">Ransomware</a></li>        <li><a href="http://www.bleepingcomputer.com/virus-removal/rogue-programs-scareware">Rogue Programs &amp; Scareware</a></li>        <li><a href="http://www.bleepingcomputer.com/virus-removal/rootkits">Rootkits</a></li>        <li><a href="http://www.bleepingcomputer.com/virus-removal/spyware">Spyware</a></li>        <li><a href="http://www.bleepingcomputer.com/virus-removal/trojan-horses">Trojan Horses</a></li>        <li><a href="http://www.bleepingcomputer.com/virus-removal/worms">Worms</a></li>
+   </ul>
+  </div>
+ </div>
+
+ 
+ 
+  <div class="side_box">
+   <span class="side_box_title">Follow BleepingComputer.com</span>
+   <div class="side_box_cont social">
+    <a href="http://www.facebook.com/BleepingComputer" target="_blank"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/facebook.png" width="48" height="48" alt="Follow us on Facebook" title="Follow us on Facebook"></a>
+    <a href="http://plus.google.com/112790257026281352252" target="_blank"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/google+.png" width="48" height="48" alt="Follow us on Twitter" title="Follow us on Twitter"></a>
+    <a href="http://twitter.com/BleepinComputer" target="_blank"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/twitter.png" width="48" height="48" alt="Follow us on Google+" title="Follow us on Google+"></a>
+    <a href="http://www.bleepingcomputer.com/rss-feeds/" target="_blank"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/rss.png" width="48" height="48" alt="Subscribe to our RSS Feed" title="Subscribe to our RSS Feed"></a>
+   </div>
+  </div>
+
+
+ 
+      
+ 
+ 
+ 
+
+</div>
+
+		</td>
+
+		<!-- End Right Column -->
+	</tr>
+</tbody></table>
+
+
+<!-- End of Content Section -->
+<br>
+  <table width="100%" border="0" cellspacing="4" cellpadding="0">
+    <tbody><tr>
+      <td align="center">
+                  <a href="http://www.bleepingcomputer.com/advertise/" rel="nofollow">Advertise</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="http://www.bleepingcomputer.com/about/" rel="nofollow">About Us</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="http://www.bleepingcomputer.com/user-agreement/" rel="nofollow">User Agreement</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="http://www.bleepingcomputer.com/privacy/" rel="nofollow">Privacy Policy</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="http://www.bleepingcomputer.com/sitemap/">Sitemap</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="http://www.bleepingcomputer.com/chat/" rel="nofollow">Chat</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="http://www.bleepingcomputer.com/rss-feeds/">RSS Feeds</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="http://www.bleepingcomputer.com/contact/" rel="nofollow">Contact Us</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+                  <a href="http://www.bleepingcomputer.com/forums/">Tech Support Forums</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="http://www.bleepingcomputer.com/virus-removal/">Virus Removal Guides</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="http://www.bleepingcomputer.com/download/">Downloads</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="http://www.bleepingcomputer.com/tutorials/">Tutorials</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="http://www.bleepingcomputer.com/glossary/">The Computer Glossary</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="http://www.bleepingcomputer.com/uninstall/">Uninstall List</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="http://www.bleepingcomputer.com/startups/">Startups</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="http://www.bleepingcomputer.com/filedb/">The File Database</a>
+      </td>
+    </tr>
+  </tbody></table>
+<br><br>
+<div align="center">
+ <font size="1">
+  
+  ©&nbsp;2003-2015 All Rights Reserved <a href="http://www.bleepingcomputer.com/"><b>Bleeping Computer LLC</b></a>.<br>
+  <a href="http://www.bleepingcomputer.com/changelog/">Site Changelog</a>
+ </font>
+</div>
+<br><br>
+<!--End of Footer-->
+
+
+
+<!-- End Wrapper -->
+</div>
+<script type="text/javascript">
+var __lc = {};
+__lc.license = 1650521;
+__lc.group = 6;
+
+
+(function() {
+var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+
+
+var LC_API = LC_API || {};
+var livechat_chat_started = false;
+
+
+LC_API.on_before_load = function()
+{
+// don't hide the chat window only if visitor
+// is currently chatting with an agent
+if (LC_API.visitor_engaged() === false && livechat_chat_started === false)
+{
+LC_API.hide_chat_window();
+}
+};
+
+
+LC_API.on_chat_started = function()
+{
+livechat_chat_started = true;
+};
+</script>
+
+
+
+
+<div id="lbOverlay" style="opacity: 0.8; display: none;"></div><div id="lbCenter" class="" style="top: 1467.5px; width: 834px; height: 584px; margin-left: -417px; left: 631.5px; display: none;"><div id="lbImage" style="display: none; background-image: url(http://www.bleepstatic.com/swr-guides/c/CryptoDefense/how_decrypt-html.jpg);"><div style="position: relative; width: 814px; height: 564px;"><a id="lbPrevLink" href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#" style="display: none; height: 564px;"></a><a id="lbNextLink" href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#" style="display: none; height: 564px;"></a></div></div></div><div id="lbBottomContainer" style="left: 631.5px; width: 834px; top: 2051.5px; margin-left: -417px; display: none;"><div id="lbBottom" style="margin-top: 0px;"><a id="lbCloseLink" href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#"></a><div id="lbCaption">CryptoDefense screen shot</div><div id="lbNumber"></div><div style="clear: both;"></div></div></div><iframe name="oauth2relay649740500" id="oauth2relay649740500" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/postmessageRelay.html" tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe><script src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/script_data.js"></script><script src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/localization.en.6.60bea3c823820426e323af3e5c14c109_7747e627367808f8dcc84c65b2b49ecd.js"></script><div id="lc_invite_layer" style="text-align: left; display: none; z-index: 16777261;"></div><div id="lc_overlay_layer" style="position: fixed; left: 0px; top: 0px; z-index: 16777260; display: none; width: 100%; height: 100%; background-color: rgb(0, 0, 0);"></div><script id="livechat-ping" src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/ping"></script><div id="livechat-full" style="position: fixed; bottom: 0px; right: 15px; width: 400px; height: 450px; overflow: hidden; visibility: hidden; z-index: -1; border: 0px; -webkit-backface-visibility: hidden; opacity: 0; background: transparent;"><iframe src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/open_chat.html" id="livechat-full-view" name="livechat-full-view" scrolling="no" frameborder="0" allowtransparency="true" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%; border: 0px; padding: 0px; margin: 0px; float: none; background: none;"></iframe></div><div id="livechat-compact-container" style="position: fixed; bottom: 0px; right: 15px; width: 250px; height: 53px; overflow: hidden; visibility: hidden; z-index: 2147483639; border: 0px; -webkit-backface-visibility: hidden; opacity: 0; background: transparent;"><iframe src="javascript:false" id="livechat-compact-view" style="position: relative;top: 20px;left: 0;width: 100%;border: 0;padding: 0;margin: 0;float: none;background: none" scrolling="no" frameborder="0" allowtransparency="true"></iframe><a id="livechat-badge" href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#" onclick="LC_API.show_full_view();return false" style="position: absolute; display: block; visibility: hidden; top: 12px; left: 20px; height: 16px; padding: 0px 4px; line-height: 16px; color: rgb(255, 255, 255); font-size: 10px; text-decoration: none; font-family: &#39;Lucida Grande&#39;, &#39;Lucida Sans Unicode&#39;, Arial, Verdana, sans-serif; border-radius: 3px; box-shadow: rgb(255, 0, 0) 0px -1px 0px, rgb(255, 0, 0) -1px 0px 0px, rgb(255, 0, 0) 1px 0px 0px, rgb(255, 0, 0) 0px 1px 0px, rgb(0, 0, 0) 0px 0px 2px; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(255, 153, 153); opacity: 0; background: rgb(255, 0, 0);"></a></div><div id="livechat-eye-catcher" onmouseover="var els = this.getElementsByTagName(&quot;a&quot;); if (els.length) els[0].style.display = &quot;block&quot;;" onmouseout="var els = this.getElementsByTagName(&quot;a&quot;); if (els.length) els[0].style.display = &quot;none&quot;;" style="position: fixed; right: 12px; bottom: 26px; visibility: hidden; z-index: 2147483639; border: 0px; padding: 10px 10px 0px 0px; float: left; margin-right: -10px; -webkit-backface-visibility: hidden; display: none; opacity: 0; background: transparent;">			<a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#" onclick="LC_API.hide_eye_catcher();return false" style="position:absolute;display:none;top:-5px;right:-5px;padding:2px 7px;text-decoration:none;color:#000;font-size:20px;font-family:Arial,sans-serif" onmouseover="this.style.color=&#39;#666&#39;" onmouseout="this.style.color=&#39;#000&#39;">×</a>			<a href="http://www.bleepingcomputer.com/virus-removal/cryptodefense-ransomware-information#" onclick="LC_API.show_full_view();return false" style="display:block"><img src="./CryptoDefense and How_Decrypt Ransomware Information Guide and FAQ_files/24067cef5a0b0c1b50b90e1b2a6ebfac.png" style="border:0;display:block;" alt=""></a>			</div></body></html>

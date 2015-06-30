@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  
+    <link href="share_data/native-followup-buttons.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="shareButtons follow-up-flyout-cntnr custom-large">
+      <div class="follow-up-flyout">
+              <div class="share-bttn-cntnr">
+                <div class="fb-share">
+                  <span class="icon-facebook2"></span>
+                  <span class="share-text">Share</span>
+                </div>
+                <div class="tw-share">
+                  <span class="icon-twitter"></span>
+                  <span class="share-text">Tweet</span>
+                </div>
+            </div>
+      <div class="close-flyout-bttn std-bttn clr-bttn icon-close"></div>
+      </div>
+    </div>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MZL2QJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script src="interest_data/gtm.js" async=""></script><script>
+      dataLayer = [{
+        'feedPageView': window.location.pathname
+      }];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MZL2QJ');</script>
+    <!-- End Google Tag Manager -->
+    <script type="text/javascript">
+      
+      var kA = {};
+
+      var qsObject = {};
+      var qsString = window.location.href.split('?').slice(1).join('?').split('&');
+      for (var i=0; i<qsString.length; i++) {
+        var prop = qsString[i].split('=');
+        qsObject[prop[0]] = prop[1];
+      }
+
+      var host = window.location.href.split('/').slice(0,3).join('/');
+      var domain = decodeURIComponent(qsObject.url).split('/').slice(0,3).join('/');
+      
+      if (qsObject.css) {
+        var cdn = host.indexOf('//lockerdome.com') !== -1 ? host.replace('//','//cdn2.') : host;
+        var style = document.createElement("link");
+        style.setAttribute("rel", "stylesheet");
+        style.setAttribute("type", "text/css");
+        style.setAttribute("href", cdn + "/css/css/embeds/" + qsObject.css + ".css");
+        document.getElementsByTagName('head')[0].appendChild(style);
+      }
+
+      function postMSG (action, specifics, domain) {
+        data = {
+          widget: true,
+          action: action, 
+          specifics: specifics,
+          button: 'followup',
+          fingerprint: qsObject.fingerprint
+        };
+        parent.postMessage(JSON.stringify(data), domain);
+      }
+      
+      function setFrameHeight(){
+        var height = document.querySelector('.follow-up-flyout-cntnr').offsetHeight + 2;
+        postMSG('set', {property: 'height', value: height}, domain );
+      };
+      setFrameHeight();
+      
+      var LDjQ = {
+        hasClass : function(css, className) {
+          var el = document.querySelector(css);
+          if (el && el.classList) result = el.classList.contains(className);
+          else if (el) result = new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
+          else result = null;
+          return result;
+        },
+        addClass : function(css, className) {
+          if (!LDjQ.hasClass(css, className)) {
+            var el = document.querySelector(css);
+            if (el && el.classList) el.classList.add(className);
+            else if (el) el.className += ' ' + className;
+          }
+        },
+        removeClass : function (css, className) {
+          var el = document.querySelector(css);
+          if (el && el.classList) el.classList.remove(className);
+          else if (el) el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+        }
+      };
+        
+      function handleMessage(event){
+        if (domain === event.origin) {
+          var data = false;
+          try { data = JSON.parse(event.data); } catch(ignore) {}
+          if (!data) return;
+          if (data.action === 'tell_style') {
+            var params = data.specifics;
+            LDjQ.addClass('.follow-up-flyout-cntnr', params.size); //Size
+            if (data.style) LDjQ.addClass('.follow-up-flyout-cntnr', params.style); //Style
+            if (data.box) LDjQ.addClass('.follow-up-flyout-cntnr', params.box); //Box
+            if (data.width) LDjQ.addClass('.follow-up-flyout-cntnr', params.width); //width
+          } else if (data.action === 'tell_content') kA = data.specifics;
+        } 
+      }
+      
+      function share_link(base, args) {
+        postMSG('close_follow_up', null, domain );
+        for (var i=0; i<args.length; i++) base += args[i];
+        window.open(base, '_blank', 'width=600, height=450');
+        return false;
+      }
+
+      var eventListener = window.addEventListener ? 'addEventListener' : 'attachEvent';
+      var eventText = function(action) { return (window.addEventListener ? action : 'on' + action); };
+      
+      document.querySelector('.fb-share')[eventListener](eventText('click'),function(){
+        return share_link('https://www.facebook.com/sharer/sharer.php?', ['u=' + encodeURIComponent(kA.external_url)]);
+      }, false);
+      document.querySelector('.tw-share')[eventListener](eventText('click'),function(){
+        return share_link('https://twitter.com/intent/tweet?', ['url=' + encodeURIComponent(kA.external_url),'&text=' + encodeURIComponent(kA.title)]);
+      }, false);
+      document.querySelector('.close-flyout-bttn')[eventListener](eventText('click'), function(){
+        postMSG('close_follow_up', null, domain );
+      }, false);
+      
+      window[eventListener](eventText("message"), handleMessage, false);
+        postMSG('ask_for_style', null, domain );
+    </script>
+  
+
+</body></html>

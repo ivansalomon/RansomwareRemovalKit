@@ -1,0 +1,286 @@
+/* Default CSS */
+.newSlider						{ height: 505px; background: #000; overflow: hidden; }
+.newSlider .slideProgressBar		{ width: 100%; height: 5px; background: #fff; }
+.newSlider .slideProgressBar .bar{ width: 0; background: #db0000; height: 5px; }
+.newSlider .newSlideWrapper		{ width: 100%; height: 500px; position: relative; }
+.newSlider .slideItem			{ width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 10; opacity: 0; transition: opacity 0.8s ease-out; -webkit-transition: opacity
+ 0.8s ease-out; left: 0%; overflow: hidden; }
+.newSlider .slideItem.active		{ z-index: 20; opacity: 1;}
+/* .newSlider .slideItem.past		{ z-index: 15; left: -100%;} */
+.newSlider .sliderMenu				{ position: relative; z-index: 50; }
+.newSlider .sliderMenu ul			{ padding: 0; list-style: none; margin-bottom: 0; }
+.newSlider .sliderMenu ul li 		{ display: block; height: 4.063em; margin: 0 0 3px; width: 100%; }
+.newSlider .sliderMenu ul li:first-child { margin-top: 0; }
+.newSlider .sliderMenu ul li a		{ background-color: rgba(0, 0, 0, 0.2); color: rgba(255, 255, 255, 0.8); display: block; font: 400 1em/1em "Roboto",sans-serif; height: 100%; letter-spacing: -0.02em; padding: 1em; text-align: left; width: 100%; outline: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.newSlider ul li a.active			{ background-color: rgba(0, 0, 0, 0.5); color: rgba(255, 255, 255, 0.8); }
+
+/* Custom Slide CSS */
+/* Slide Background */
+#quickRenew			{ background:url(../images/DE_slide3.jpg) no-repeat center; }
+#quickRenew h3		{ color: #000; }
+#quickRenew h4		{ font-size: 1.6em; margin: 0.5em 0; color: #000; }
+
+/* TSMD */
+#bitdefenderBrain				{ background: url(../images/slide10.jpg) no-repeat center; background-size: cover; }
+#bitdefenderBrain h2				{ color: #00eaff; font-size: 4.2em; margin:0;}
+#bitdefenderBrain h2.secondRow	{ font-size: 3.2em; line-height: 1; }
+#bitdefenderBrain h3				{ font: 400 2.5em/1em "Roboto",sans-serif; color: #fff; }
+#bitdefenderBrain .weCallLeft		{ margin-top: 0.7em; height: 0.3em; background-image: -moz-linear-gradient(right, rgba(184,249,255,.6) 0%, rgba(184,249,255,.6) 0.78%, rgba(41,255,255,.53) 11.69%, rgba(0,180,255,.39) 34.28%, rgba(255,255,255,0) 100%); background-image: -o-linear-gradient(right, rgba(184,249,255,.6) 0%, rgba(184,249,255,.6) 0.78%, rgba(41,255,255,.53) 11.69%, rgba(0,180,255,.39) 34.28%, rgba(255,255,255,0) 100%); background-image: -webkit-linear-gradient(right, rgba(184,249,255,.6) 0%, rgba(184,249,255,.6) 0.78%, rgba(41,255,255,.53) 11.69%, rgba(0,180,255,.39) 34.28%, rgba(255,255,255,0) 100%); background-image: linear-gradient(right, rgba(184,249,255,.6) 0%, rgba(184,249,255,.6) 0.78%, rgba(41,255,255,.53) 11.69%, rgba(0,180,255,.39) 34.28%, rgba(255,255,255,0) 100%); }
+#bitdefenderBrain .weCallRight		{ margin-top: 0.7em; height: 0.3em; background-image: -moz-linear-gradient(right, rgba(255,255,255,0) 0%, rgba(0,180,255,.39) 65.72%, rgba(41,255,255,.53) 88.31%, rgba(184,249,255,.6) 99.22%, rgba(184,249,255,.6) 100%); background-image: -o-linear-gradient(right, rgba(255,255,255,0) 0%, rgba(0,180,255,.39) 65.72%, rgba(41,255,255,.53) 88.31%, rgba(184,249,255,.6) 99.22%, rgba(184,249,255,.6) 100%); background-image: -webkit-linear-gradient(right, rgba(255,255,255,0) 0%, rgba(0,180,255,.39) 65.72%, rgba(41,255,255,.53) 88.31%, rgba(184,249,255,.6) 99.22%, rgba(184,249,255,.6) 100%); background-image: linear-gradient(right, rgba(255,255,255,0) 0%, rgba(0,180,255,.39) 65.72%, rgba(41,255,255,.53) 88.31%, rgba(184,249,255,.6) 99.22%, rgba(184,249,255,.6) 100%); }
+#bitdefenderBrain .weCallIt			{ color: #c5e8ff; font-size: 1.1em; text-transform: uppercase; }
+#bitdefenderBrain #B-R-A-I-N 		{ color: #fff; font-size: 6em; line-height: 1; font-weight: bold; }
+#bitdefenderBrain #B-R-A-I-N .dot 	{ background-color: #fff; border-radius: 10%; display: inline-block; height: 0.1em; opacity: 0.6; vertical-align: 0.3em; width: 0.1em; }
+#bitdefenderBrain .weCallWrapper	{ margin-top: 1em; }
+#bitdefenderBrain .btn 				{ background: #fff; border-radius: 0; border: 0; box-shadow: none; color: #000; font-weight: 400; text-shadow: none; text-transform: inherit; margin-top: 2em; }
+
+/* New Product Page Family Pack */
+#FP_win					{ background: url(../images/FP_slide02.png) no-repeat center right #fff; }
+#FP_and					{ background: url(../images/FP_slide01.png) no-repeat center right #fff; }
+#FP_app					{ background: url(../images/FP_slide03.png) no-repeat center right #fff; }
+.FP_slider h1			{ font-size: 2.6em; color: #171717; line-height: 1.2; margin-top: 0; }
+.FP_slider p				{ font-size: 1.1em; color: #171717; }
+.FP_slider .customNav	{ z-index: 50; margin-top: 400px; }
+.FP_slider .customNav ul	{ list-style: none; padding: 0; overflow: hidden; margin: 0; }
+.FP_slider .customNav .fa{ color: #252624; font-size: 1.5em; line-height: 1.8em; }
+.FP_slider .customNav li	{ float: left; margin-right: 1em; }
+.FP_slider .customNav a	{ display: inline-block; border: 2px solid #e5e5e7; width: 0.8em; height: 0.8em; padding: 0; text-align: center; border-radius: 50%; outline: none; transition: border 0.1s; }
+.FP_slider .customNav a.active{ background: transparent !important; border-color: #f9491e; }
+.FP_slider .devices		{ font-size: 2em; margin-bottom: 0;}
+.FP_slider .devices .mid { margin: 0 0.5em; }
+.FP_slider .container	{ position: relative; }
+
+/* Product of the Year */
+#awardSlide .labelImg	{ bottom: 3em;max-width: 130px;position: absolute;right: 7em; z-index: 1; }
+#awardSlide .topLight	{ background: url(../images/bg_top_slide_award_light.png) no-repeat top center;}
+#awardSlide h3			{ font-family:'Bitter', sans-serif; color: #292929; font-weight:700; margin: 2em 0 0;} 
+#awardSlide h2			{ font-family:'Bitter', sans-serif; color: #292929; font-size: 3.8em;} 
+#awardSlide p			{ color: #616060; font-size: inherit;margin: 1.5em 0; letter-spacing:normal;}
+#awardSlide .productBox	{ margin-left: -2em;margin-top: 3em;max-width: 67%;}
+#awardSlide .productBox .btn		{ margin:2em 0 0 5em;}
+#awardSlide .awardLogo	{ max-width:35.6%; margin: 2.5em 0 1em 1em;}
+#awardSlide q 			{ color: #a37200;display: inherit;font: italic 300 1.8em/1.1em "Roboto",sans-serif;letter-spacing: -0.03em;margin: 0 0 0 3.3em;max-width: 67%;}
+#awardSlide				{ background: url(http://download.bitdefender.com/resources/themes/draco/images/hpb/bg_spring_2015.jpg) no-repeat top center;}
+
+/* Family Pack Einstein */
+#FPEinstein_HPB			{ background: url("../images/FP_einstein_HPB.jpg") scroll 50% top #fff; }
+#FPEinstein_HPB h2		{  font-size: 2.3em; line-height:1; color: #ffffff; margin: 0 0 0.2em;}
+#FPEinstein_HPB p		{  font-size: 1.3em; color: #ffffff; font-weight: 300; }
+#FPEinstein_HPB a.btn-fpeinstein { background: none repeat scroll 0 0 #ff4c00; border-radius: 3px; color: white; font-size: 1.3em; padding: 0.7em 1.5em; position: relative; margin-top: 2.3em; outline: 0; float: left; }
+#FPEinstein_HPB img.devicesEIN { padding-top: 1em; position: relative; margin-top: 2em; vertical-align: middle; }
+#FPEinstein_HPB .productImg { margin-top: 14em; overflow: hidden;}
+#FPEinstein_HPB .productImg img { float: right; }
+
+/* Bitdefender BOX */
+#Box_HPB				{ background: url(http://download.bitdefender.com/resources/themes/draco/images/hpb_box.jpg) no-repeat center; background-size: cover;}
+#Box_HPB h3				{ color: #5b5043; font: 400 1em/1.1em "Roboto",sans-serif; letter-spacing: -0.04em; margin: 2.5em 0; text-align: center; text-transform: uppercase; }
+#Box_HPB p				{ color: #1f1f1f; font: 300 3em/1.2em "Roboto",sans-serif; margin: 1em 0 0.5em; }
+#Box_HPB .btn-box		{ background-color: #00b2d1; border-radius: 22px; color: #fff; display: inline-block; font: 700 1em/3em "Roboto",sans-serif; height: 3em; text-transform: uppercase;width: 13em; }
+
+/* Small Office Security */
+#SOSsimpleHPB			{ background: url(http://download.bitdefender.com/resources/themes/draco/images/slideSOS_bg.jpg) 50% top; }
+#SOSsimpleHPB.off2		{ background: url(http://download.bitdefender.com/resources/themes/draco/images/slideSOS_bg2.jpg) 50% top; }
+#SOSsimpleHPB p			{ color: #fff; font-size: 1.7em; margin: .9em 0; font-weight: 300; line-height: 1; }
+#SOSsimpleHPB h2		{ color: #fff; line-height: 1; padding-top: 1em; }
+#SOSsimpleHPB.sos2		{ background: url(http://download.bitdefender.com/resources/themes/draco/images/DE_slide2.jpg) 50% top; }
+#SOSsimpleHPB.sos2 h2	{ color: #1a1a1a !important; font-size: 3.5em; }
+#SOSsimpleHPB.sos2 p	{ color: #1a1a1a !important; font-size: 1.3em; margin: 1em 0 10em; }
+#SOSsimpleHPB.sos2 .btn-success { text-transform: inherit; }
+#SOSsimpleHPB.sos3		{ background: url(../images/slide14.jpg) 50% top; }
+#SOSsimpleHPB.sos3 p	{ margin: .1em 0; }
+#SOSsimpleHPB.sos3 h2	{ margin-bottom: .5em; font-size: 3.1em; padding-top: 0; }
+#SOSsimpleHPB.sos3 .btn{ margin-top: 2.3em; }
+
+/* Antivirus for MAC */
+#avMacHPB				{ background: url('../images/bg_mac_new2015.jpg') no-repeat 50% top; }
+#avMacHPB h3			{ color: #fff; font-size: 2em; }
+#avMacHPB h2			{ color: #fff; font-size: 3em; margin: .1em 0 .2em; }
+#avMacHPB p				{ color: #fff; font-size: 1.3em; margin: 0 0 3em 0; }
+#avMacHPB.mac2			{ background: url('../images/slide02a.jpg') no-repeat 50% top; }
+#avMacHPB.mac2 h2		{ font-size: 3.7em; font-family: Roboto; }
+#avMacHPB.mac2 h3		{ font-family: Roboto; font-weight: 300; font-size: 2.2em; }
+#avMacHPB.mac2 p		{ font-size: 1.6em; line-height: 1; font-weight: 300; }
+
+/* Family Pack DE */
+#deFP_HPB				{ background: url('http://download.bitdefender.com/resources/themes/draco/images/DE_slide1.jpg'); color: #fff; }
+#deFP_HPB h4			{ color: #fff; }
+#deFP_HPB h2			{ color: #fff; margin-bottom: .6em; }
+#deFP_HPB h6			{ color: #fff; margin: 1em 0 0 0; }
+#deFP_HPB p				{ margin-bottom: 2em; }
+#deFP_HPB .btn-success { text-transform: inherit; }
+
+/* Happy Weekends */
+#hwHPB					{ background: url('http://download.bitdefender.com/resources/themes/draco/images/DE_slide_happyweekend.jpg'); color: #fff; }
+#hwHPB .btn-success 	{ text-transform: inherit; }
+#hwHPB h2				{ color: #fff; margin: 0 0 .5em 0; }
+
+/* OneClick Security */
+#oneClick				{ background: url(../images/avatar.jpg) no-repeat 70% top; }
+#oneClick .container	{ position: relative; height: 100%; }
+#oneClick .txt			{ text-align: center; position: absolute; bottom: 30px; left: 0; }
+#oneClick .txt p		{ color: #898989; font: 300 1.35em/2em "Roboto",sans-serif; letter-spacing: 0.2em; }
+#oneClick .txt span		{ color: #fff; font-weight: 400; }
+#oneClick .txt a.bntImgCustom { background: #fff; bottom: 30px; font-size: 20px; font-weight: bold; padding: 3px 6px; position: absolute; right: 120px; }
+#oneClick h2			{ color: #fff; text-shadow: 0 1px 4px #000; text-transform: uppercase; font-size: 2.7em; }
+#oneClick h3			{ color: #fff; text-shadow: 0 1px 4px #000; text-transform: uppercase; font-size: 4.8em; }
+
+/* PC Optimizer */
+#pcOptHPB				{ background: url('../images/slide01.jpg') 50% top no-repeat #080808; }
+#pcOptHPB h3			{ color: #fff; font-size: 2em; }
+#pcOptHPB h2			{ color: #fff; line-height: 1; font-size: 5em; }
+#pcOptHPB p				{ color: #fff; font-size: 1.5em; margin: .3em 0 2em; }
+
+/* Abonnement */
+#abnHPB					{ background: url(http://download.bitdefender.com/resources/themes/draco/images/slide_abonnement.jpg) 45% top; }
+#abnHPB h2				{ color: #fff; font-size: 2.8em; letter-spacing: -0.05em; margin: 0 0 1em;} 
+#abnHPB p				{ color: #fff; font-size: 1.5em; letter-spacing: -0.03em; margin-bottom: 2em; }
+
+/* Ne stiu */
+#neStiu h2 { color: #ffffff; font: 600 5.4em/1em "Bitter",sans-serif; letter-spacing: -0.03em; margin: 0 0 0.2em; }
+#neStiu					{ background: url(../images/slide11.jpg) no-repeat 50% top; }
+#neStiu p				{
+	background-image: -moz-linear-gradient(left, #d91921 0%, #890f15 100%);
+	background-image: -o-linear-gradient(left, #d91921 0%, #890f15 100%);
+	background-image: -webkit-linear-gradient(left, #d91921 0%, #890f15 100%);
+	background-image: linear-gradient(left, #d91921 0%, #890f15 100%);
+	font-size: .9em; 
+	padding: 0.5em 0;
+	color: #fff;
+}
+/* SMB HP banner */
+#SMB_hp_banner { background: url(../images/slide15.jpg) center no-repeat; }
+#SMB_hp_banner h2 { font-weight: 500 !important; font-size: 3.5em; }
+#SMB_hp_banner h6 { line-height: 1.3; font-size: 20px; }
+#neStiu .txt { margin-top: 3em; }
+
+/* gravity zone banner */
+#gravityzone_banner { background: url(../images/slide13.jpg) center no-repeat; }
+#gravityzone_banner h2{font-size: 3em; color: #fff; margin-top: 0.3em;}
+#gravityzone_banner p{font-size: 1.7em; font-weight: 300;line-height: 1.3;}
+/*OEM pages*/
+.OEMslider				{ height:304px;}
+.OEMslider .newSlideWrapper	{ width: 100%; height: 299px; position: relative; }
+
+#OEMlinkedin			{ background:url(../images/OEM_slide1.jpg) no-repeat center; }
+#OEMlinkedin .cont 		{background-color: rgba(0, 0, 0, 0.8);border-radius: 8px;}
+#OEMlinkedin h1			{ color:#fff;font-family: roboto;font-weight: 200;}
+#OEMlinkedin h1	span	{ font-weight: 600;}
+#OEMlinkedin p			{ color:#9cdefc; font-size:1.2em;font-weight: 300; padding:0.5em 0;}
+#OEMlinkedin img		{ display:block; margin:3em 0 0 2em;}
+
+#OEMav					{ background:url(../images/OEM_slide2.jpg) no-repeat center; }
+#OEMav h2				{ color: #fff;font-family: roboto;font-weight: 200;font-size: 2.5em;}
+#OEMav p				{ color:#fff; font-size:1.3em; padding:1em 0;}
+#OEMav .btn				{ padding: 0.5em 1em;}
+#OEMav q				{ color:#90a7e2; font-size:1em; font-style:italic; display:block;padding:1em 0;}
+#OEMav small			{ color:#5a6c9f; font-size:0.8em; display:block;}
+
+
+
+/* MD */
+@media (max-width: 1199px) {
+	#awardSlide .labelImg { max-width: 110px; }
+	#FPEinstein_HPB img.devicesEIN { max-width: 120px; }
+	#FPEinstein_HPB a.btn-fpeinstein { margin-top: 2.1em; padding: 0.5em 1.3em }
+	#SOSsimpleHPB.sos2		{ background-position: 54% top; }
+	#SOSsimpleHPB.sos2 p	{ margin-bottom: 7em; }
+	#SOSsimpleHPB.sos2 h2	{ padding-top: 0; }
+	#oneClick .txt a.bntImgCustom { right: 20px; }
+	#avMacHPB.mac2 h2		{ font-size: 3em; }
+}
+
+/* SM */
+@media (max-width: 1023px) {
+	.sliderMenu 		{ display: none; }
+	.customNav 			{ display: none; }
+	#bitdefenderBrain	{ background-position: right -670px top 0; }
+	#OEMlinkedin h1		{ font-size:3.9em;}
+	#OEMlinkedin img	{ margin: 3em 0 0 0;}
+	#OEMav h2			{ font-size: 2.3em; line-height: 1em;}
+	#awardSlide .productBox { max-width: 100%; }
+	#awardSlide .productBox .btn { display: block; float: none; margin: 3em auto 0; max-width: 10em; }
+	#awardSlide .labelImg { bottom: 4em; right: 0; }
+	#FPEinstein_HPB		{ background-position: 39% top; }
+	#avMacHPB			{ background-position: 42% top; }
+	#SOSsimpleHPB.sos2	{ background-position: 27% top; }
+	#oneClick .txt		{ bottom: 2en; }
+	#oneClick .txt a.bntImgCustom { position: relative; right: auto; bottom: auto; top: .5em; }
+	#oneClick h3		{ margin-bottom: 0em; }
+	#oneClick .txt p	{ line-height: 1.2; }
+	#pcOptHPB			{ background-position: 40% top; }
+	#abnHPB				{ background-position: 33% top; }
+
+}
+
+
+/* XS */
+@media (max-width: 767px) {
+	.newSlider, .newSlider .slideItem { overflow: visible; }
+	#FP_and 						{ background-position: 30% center; background-size:cover;}
+	#FP_win 						{ background-position: 30% center; background-size:cover;}
+	#FP_app  						{ background-position: 50% center; background-size:cover;}
+	#bitdefenderBrain:after			{ content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: -1; opacity: .5}
+	.slideItem .alignMidTxt, .slideItem .alignMidImg { margin-top: 0 !important; }
+	#quickRenew .container					{ margin-top: 3em; text-align: center; }
+	#OEMlinkedin h1		{font-size:3em;}
+	#OEMlinkedin img	{ margin:2.5em 0 0 0.6em;}
+	#OEMav h2			{ font-size: 1.9em; font-weight: 300;line-height: 1em;margin: 0 0 1em;}
+	#OEMav .alignMidTxt	{ margin:2.3em 0 0 !important;}
+	#OEMav q			{ padding: 0 0;}
+	#awardSlide h3		{ margin: 1.5em 0 .3em; font-size: 1.7em; }
+	#awardSlide h2		{ font-size: 2.8em; }
+	#awardSlide .awardLogo { margin: 1.1em 0 1em 0; max-width: 100px; }
+	#awardSlide q		{ margin: 0 auto; font-size: 1.5em; }
+	#awardSlide p		{ margin: 0.9em 0 0; }
+	#awardSlide .productBox { margin-left: 0; margin-top: 2em; max-width: 100%; }
+	#awardSlide .labelImg { bottom: -1em;left: 11em;max-width: 70px;right: 0; }
+	#awardSlide .productBox .btn { position: absolute;top: 5em; left: 16em; }
+	#awardSlide .productImg  { max-width: 170px;  float: left; }
+	#FPEinstein_HPB .alignMidTxt { margin-top: 1em !important; text-align: center; }
+	#FPEinstein_HPB a.btn-fpeinstein { margin-top: .2em; }
+	#FPEinstein_HPB img.devicesEIN { margin-top: -.7em; }
+	#FPEinstein_HPB h2, #FPEinstein_HPB p { text-align: center; margin-top: .3em; }
+	#FPEinstein_HPB .productImg { margin-top: 0; }
+	#FPEinstein_HPB .productImg img { float: none; margin: 0 auto; }
+	#FPEinstein_HPB a.btn-fpeinstein { float: none; display: inline-block; }
+	#FPEinstein_HPB img.devicesEIN { float: none; display: inline-block; }
+	#Box_HPB .alignMidTxt, #Box_HPB .alignMidImg {  padding: 0; }
+	#Box_HPB .logoBox	{ max-width: 100px; }
+	#Box_HPB .boxProd	{ max-width: 250px; margin-top: 2em; }
+	#Box_HPB h3			{ margin-bottom: 2em; }
+	#Box_HPB p			{ font-size: 2.8em; }
+	#SOSsimpleHPB		{ background-position: 40% top !important; }
+	#SOSsimpleHPB .alignMidTxt { margin-top: 0 !important; text-align: center; }
+	#SOSsimpleHPB .alignMidImg { margin-top: 1.2em !important; }
+	#SOSsimpleHPB h2	{ padding-top: .5em; }
+	#SOSsimpleHPB img	{ max-width: 170px; margin: 0 auto; width: 100%; }
+	#avMacHPB			{ text-align: center; background-position: 50% top; }
+	#avMacHPB .alignMidTxt { padding: 0; }
+	#avMacHPB h3		{ margin-top: 1em; }
+	#avMacHPB h2		{ margin-top: 0.1em; }
+	#avMacHPB p			{ margin-bottom: 1em; }
+	#avMacHPB .alignMidImg { max-width: 200px; width: 100%; margin: 2em auto 0 !important; }
+	#deFP_HPB			{ text-align: center; }
+	#deFP_HPB .alignMidImg { max-width: 200px; width: 100%; margin: 0 auto 0 !important; clear: both; padding-top: 1em !important; float: none; }
+	#deFP_HPB .alignMidTxt img { margin: 0 auto; max-width: 120px; }
+	#deFP_HPB h4		{ margin-top: 1em; }
+	#SOSsimpleHPB.sos2 h2 { font-size: 3em; margin-top: 1em; }
+	#SOSsimpleHPB.sos2 p { margin-bottom: 2em; }
+	#SOSsimpleHPB.sos2	{ background-position: 48% top; }
+	#hwHPB				{ text-align: center; }
+	#hwHPB h2			{ margin-top: 1em; }
+	#hwHPB .alignMidImg img { max-width: 190px; width: 100%; margin: 1em auto 0;}
+	#pcOptHPB			{ text-align: center; }
+	#pcOptHPB .alignMidTxt { padding: 0; }
+	#pcOptHPB h2		{ font-size: 3.6em; }
+	#pcOptHPB h3		{ font-size: 1.7em; margin-top: 2em; }
+	#pcOptHPB			{ background-position: 57% 11.5em; }
+	#abnHPB				{ text-align: center; }
+	#abnHPB	h2			{ margin-top: 1.2em; line-height: 1; }
+	#SOSsimpleHPB.sos3 h2 { margin: .8em 0 .3em; font-size: 2.5em; }
+	#SOSsimpleHPB.sos3 .alignMidImg { margin-top: 2em !important; }
+	#neStiu h2			{ text-align: center; }
+	#SMB_hp_banner h2 { font-size: 2.6em; }
+	#SMB_hp_banner .alignMidImg { margin: 2em auto !important; max-width: 200px; float: none; }
+	#SMB_hp_banner .alignMidTxt { text-align: center; }
+	#SMB_hp_banner h6{font-size: 16px;}
+}

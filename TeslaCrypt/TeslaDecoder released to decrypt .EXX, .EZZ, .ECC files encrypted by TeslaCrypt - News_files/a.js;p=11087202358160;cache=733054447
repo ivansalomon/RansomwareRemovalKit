@@ -1,0 +1,7 @@
+(function(){
+  document.write('<div id="adsatlas-2637924749" style="position:relative;width:728px;height:90px;overflow:hidden">');
+  document.write('<a href="http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DBKeyxI-9dVdiEJpeKMI-lgLgJlIW74QcAAAAQASAAOABYjMWw_7EBYMnGqYvApNgPggEXY2EtcHViLTU1MDU5MDU1Nzk1OTk5MDWyARh3d3cuYmxlZXBpbmdjb21wdXRlci5jb226AQlnZnBfaW1hZ2XIAQnaAXtodHRwOi8vd3d3LmJsZWVwaW5nY29tcHV0ZXIuY29tL2ZvcnVtcy90LzU3NjYwMC90ZXNsYWRlY29kZXItcmVsZWFzZWQtdG8tZGVjcnlwdC1leHgtZXp6LWVjYy1maWxlcy1lbmNyeXB0ZWQtYnktdGVzbGFjcnlwdC-YApBOwAIC4AIA6gImNDU4NS9ucy5ibGVlcGluZ2NvbXB1dGVyL3RvcGljc19ib3R0b234AoHSHpAD4AOYA-ADqAMB4AQBkAYBoAYW2AcA%26num%3D0%26cid%3D5Gh3mBMZ1tNtq3D4Xha35fR8%26sig%3DAOD64_3_Sg4q5qH3HrpAtB3qBKTS1m9dWQ%26client%3Dca-pub-5505905579599905%26adurl%3Dhttps://ad.atdmt.com/c/go;p=11087202358160;as=11087202522722;a=11087202522495;crs=11087202522386;cr=11087202522395;i.ts=1432219427" target="_blank"><img border="0" src="https://cdn.atlassbx.com/FB/11087202522395/728x90_0002_AppServices_30DayFreeTria.jpg"/></a>');
+  document.write('</div>');
+  document.write('<script src=\"https://c.betrad.com/surly.js\?;ad_w=728;ad_h=90;coid=343;nid=11908;\"></script><script src=\"https://cdn.doubleverify.com/dvtp_src.js\?ctx=2111880&cmp=11087201288304&sid=11182200776912&plc=11087202358160&num=&adid=&advid=11087200870875&adsrv=2&region=30&btreg=11087202358160&btadsrv=atdmt&crt=11087202522495&crtname=&chnl=&unit=&pid=&uid=&dvtagver=6.1.src\" async></script>');
+  document.close();
+})();

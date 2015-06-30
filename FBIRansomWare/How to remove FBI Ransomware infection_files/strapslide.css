@@ -1,0 +1,99 @@
+/*==== Strapslide Container Height ====*/
+#strapslide > .strapslide-container { height:500px;}
+/*========================*/
+/*==== Strapslide CSS ====*/
+/*========================*/
+.strapslide                         {width:100%;display:block;position:relative;/*float:left;*/}
+/*==== Strapslide Container ====*/
+.strapslide > .strapslide-container {width:100%;position:relative;display:block;overflow:hidden;}
+/*==== Strapslide Slides ====*/
+.strapslide > .strapslide-container > .slide{display:block;top:0;left:0;width:100%;height:100%;position:absolute;overflow:hidden;}
+.strapslide > .strapslide-container > .slide.active{display:block;z-index:1;}
+/*==== Strapslide Background Image ====*/
+.strapslide > .strapslide-container > .slide > .background-image{position:static;top:0;left:0;max-width:none!important;}
+/*==== Strapslide Slide Content ====*/
+.strapslide > .strapslide-container > .slide > .slide-content{margin:0;position:absolute;top:0;left:0;/*width:100%;*/height:100%;display:block;/* -moz-box-shadow:    inset -1px 1px 0px 0px rgba(255,255,255,0.15);  -webkit-box-shadow: inset -1px 1px 0px 0px rgba(255,255,255,0.15);  box-shadow: inset -1px 1px 0px 0px rgba(255,255,255,0.15);*/}
+.strapslide .slide-content.container-fluid{position:absolute;width:100%;padding-left:0;padding-right:0;}
+.strapslide .slide-content.container-fluid .bgLink{width:100%;padding-left:0;padding-right:0; height:500px; cursor:pointer; outline:none;}
+/*==== Strapslide Pagination ====*/
+.strapslide > .strapslide-pagination { position:absolute;width:18em;  top:15%; right:21%;  z-index:99;}
+.strapslide > .strapslide-pagination > .span4{ width:100%; }
+.strapslide-pagination ul           { width:100%; margin:0; padding:0; display:block;}
+.strapslide-pagination ul li        { width:100%; height:4.063em; margin:0 0 3px 0; display:block; }
+.strapslide-pagination ul li a      { width:100%; height:100%; padding:0.9em; font:400 1em/1em 'Roboto',sans-serif; text-align: left; color: rgba(255,255,255,0.5);letter-spacing:-0.02em; background-color: rgba(0,0,0,0.2);  display:block;}
+.strapslide-pagination ul li.active a { color: rgba(0,0,0,0.8); background-color:rgba(255,255,255,0.5); }
+.strapslide-pagination ul.forWhiteBG li a      {  color: rgba(255,255,255,0.8);letter-spacing:-0.02em; background-color: rgba(0,0,0,0.4);  display:block;}
+.strapslide-pagination ul.forWhiteBG li.active a { color: rgba(0,0,0,0.8); background-color:rgba(0,0,0,0.8); }
+.strapslide-pagination ul.forWhiteBG li a      {  color: rgba(255,255,255,0.8);letter-spacing:-0.02em; background-color: rgba(0,0,0,0.3);  display:block;}
+.strapslide-pagination ul.forWhiteBG li.active a { color: rgba(255,255,255,0.8); background-color:rgba(0,0,0,0.7); }
+
+@media (min-width:1690px) and (max-width:1920px) {
+    .strapslide > .strapslide-pagination { width:18em; position:absolute; top:15%; right:20%;  z-index:99;}
+    .strapslide-pagination ul li        { width:100%; height:4.063em; margin:0 0 3px 0; display:block; }
+	.strapslide-pagination ul li a      { width:100%; height:100%; padding:1em 1em; font:400 1em/1em 'Roboto', sans-serif; text-align: left; color: rgba(255,255,255,0.8);letter-spacing:-0.02em; background-color: rgba(0,0,0,0.2);  display:block;}
+	.strapslide-pagination ul li.active a { color: rgba(256,256,256,0.8); background-color:rgba(0,0,0,0.5); }
+
+}
+@media (min-width:1601px) and (max-width:1689px) {
+    .strapslide > .strapslide-pagination { width:18em; position:absolute; top:15%; right:15%;  z-index:99;}
+    .strapslide-pagination ul li        { width:100%; height:4.063em; margin:0 0 3px 0; display:block; }
+	.strapslide-pagination ul li a      { width:100%; height:100%; padding:1em 1em; font:400 1em/1em 'Roboto',sans-serif; text-align: left; color: rgba(255,255,255,0.8);letter-spacing:-0.02em; background-color: rgba(0,0,0,0.2);  display:block;}
+	.strapslide-pagination ul li.active a { color: rgba(255,255,255,0.8); background-color:rgba(0,0,0,0.5); }
+}
+@media (min-width:1366px) and (max-width:1600px) {
+    .strapslide > .strapslide-pagination { width:18em; position:absolute; top:15%; right:13%;  z-index:99;}
+    .strapslide-pagination ul li        { width:100%; height:4.063em; margin:0 0 3px 0; display:block; }
+	.strapslide-pagination ul li a      { width:100%; height:100%; padding:1em 1em; font:400 1em/1em 'Roboto',sans-serif; text-align: left; color: rgba(255,255,255,0.8);letter-spacing:-0.02em; background-color: rgba(0,0,0,0.2);  display:block;}
+	.strapslide-pagination ul li.active a { color: rgba(255,255,255,0.8); background-color:rgba(0,0,0,0.5); }
+}
+@media (min-width:1281px) and (max-width:1365px) {
+    .strapslide > .strapslide-pagination { width:18em; position:absolute; top:6%; right:7%;  z-index:99;}
+    .strapslide-pagination ul li        { width:100%; height:4.063em; margin:0 0 3px 0; display:block; }
+	.strapslide-pagination ul li a      { width:100%; height:100%; padding:1em 1em; font:400 1em/1em 'Roboto',sans-serif; text-align: left; color: rgba(255,255,255,0.8);letter-spacing:-0.02em; background-color: rgba(0,0,0,0.2);  display:block;}
+	.strapslide-pagination ul li.active a { color: rgba(255,255,255,0.8); background-color:rgba(0,0,0,0.5); }
+}
+@media (min-width:890px) and (max-width:1280px) {
+    .strapslide > .strapslide-pagination { width:18em; position:absolute; top:2%; right:6%;  z-index:99;}
+    .strapslide-pagination ul li        { width:100%; height:4em; margin:0 0 3px 0; display:block; }
+	.strapslide-pagination ul li a      { width:100%; height:100%; padding:1em 1em; font:400 1em/1em 'Roboto',sans-serif; text-align: left; color: rgba(255,255,255,0.8);letter-spacing:-0.02em; background-color: rgba(0,0,0,0.2);  display:block;}
+	.strapslide-pagination ul li.active a { color: rgba(255,255,255,0.8); background-color:rgba(0,0,0,0.5); }
+}
+@media (min-width:768px) and (max-width:889px) {
+    .strapslide > .strapslide-pagination { width:18em; position:absolute; top:15%; right:21%;  z-index:99;}
+    .strapslide-pagination ul li        { width:100%; height:4.063em; margin:0 0 3px 0; display:block; }
+	.strapslide-pagination ul li a      { width:100%; height:100%; padding:1em 1em; font:400 1em/1em 'Roboto',sans-serif; text-align: left; color: rgba(255,255,255,0.8);letter-spacing:-0.02em; background-color: rgba(0,0,0,0.2);  display:block;}
+	.strapslide-pagination ul li.active a { color: rgba(255,255,255,0.8); background-color:rgba(0,0,0,0.5); }
+}
+
+/*==== Strapslide Navigation ====*/
+.strapslide > .strapslide-nav       {position:absolute; top:50%; margin-top:-40px; z-index:99;}
+.strapslide > .strapslide-nav .next {right:15px;float:right;position:absolute;}
+.strapslide > .strapslide-nav .prev {left:15px;float:left;position:absolute;}
+/*==== Strapslide Progress Bar ====*/
+.strapslide .progress               { height:5px;}
+/*==== Progress Bar ====*/
+.strapslide .span12                 { background-color: #969696;}
+.strapslide .progress               { width:100%;height:5px;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0; margin-bottom: 0;}
+.strapslide .progress .bar          { height:5px;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;}
+.progress .bar                      { background-color: #db0000;color: #FFFFFF;float: left;font-size: 12px;height: 100%;text-align: center;transition: width 0.4s ease 0s;width: 0;}
+/*==== Strapslide Preloader ====*/
+.strapslide > .preloader            { width:100%;height:100%;position:absolute;background:black;display:block;z-index:999;text-align:center;}
+.strapslide > .preloader > #loader  {position:absolute;top:50%;left:50%;margin-top:-24px;margin-left:-24px;display:block;}
+/*==== Strapslide FullWidth Class ====*/
+.background-fullwidth               { width:100%;}
+.reference-image{display:block;position:relative;visibility:hidden;}
+/*==== Strapslide Video ====*/
+.strapslide-video{background:black;}
+/*==== Strapslide VideoFullscreen ====*/
+.strapslide-videofullscreen{top:0;left:0;}
+.strapslide-videofullscreen iframe, .strapslide-videofullscreen object, .strapslide-videofullscreen embed { width:100%;height:100%;top:0;left:0;position:absolute;}
+/*==== Default Background Colors ====*/
+.strapslide .background-red         {color:white;background: #e74c3c;padding:5px 10px;}
+.strapslide .background-orange      {color:white;background: #e67e22;padding:5px 10px;}
+.strapslide .background-yellow      {background: #f1c40f;padding:5px 10px;}
+.strapslide .background-green       {background: #1abc9c;padding:5px 10px;}
+.strapslide .background-blue        {color:white;background: #3498db;padding:5px 10px;}
+.strapslide .background-darkblue    {color:white;background: #0074cd;padding:5px 10px;}
+.strapslide .background-lightgray   {background: #7f8c8d;padding:5px 10px;}
+.strapslide .background-darkgray    {color:white;background: #34495e;padding:5px 10px;}
+.strapslide .background-black       {color:white;background: black;padding:5px 10px;}

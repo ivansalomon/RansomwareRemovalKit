@@ -1,0 +1,135 @@
+Stop CryptoLocker (and copy-cat variants of this badware) before it ruins your day...
+This file was last updated 05/14/2015
+
+NOTE: Files referenced in this document are available one level up...
+      http://jpelectron.com/sample/Info and Documents/Stop crypto badware before it ruins your day/
+      For security reasons you should use your own/random filename for all these files,
+      this makes them less susceptible to manipulation by some/future badware.
+
+NOTE: This document was written with Windows Server 2008 R2 Standard in mind,
+      but still relevant on other server OS versions
+
+ ____ Install File Server Resource Manager ____ 
+
+2003R2: Control Panel > Add or Remove Programs > Add/Remove Windows Components
+> Windows Components Wizard > Management and Monitoring Tools > Details > File Server Resource Manager
+
+2008: Server Manager > Roles > Add Roles > Add Roles Wizard > Server Roles
+> File Services > Role Services > File Server Resource Manager
+
+2012: Server Manager > Manage > Add Roles and Features > Add Roles and Features Wizard > Server Roles
+> File and Storage Services > File and iSCSI Services > File Server Resource Manager
+
+ ____ Server-side protection from further encryption ____ 
+
+1) Open File Server Resource Manager (Start > Run > fsrm.msc)
+
+2) File Screening Management > File Groups > Create File Group...
+    File group name: 1-PreventCrypto
+      Files to include:
+*.cryptotorlocker*
+*.ecc
+*.encrypted
+*.exx
+*.ezz
+*.frtrss
+*.vault
+*want your files back.*
+confirmation.key
+cryptolocker.*
+decrypt_instruct*.*
+enc_files.txt
+help_decrypt*.*
+help_restore*.*
+how to decrypt*.*
+how_to_decrypt*.*
+how_to_recover*.*
+howtodecrypt*.*
+install_tor*.*
+last_chance.txt
+message.txt
+recovery_file.txt
+recovery_key.txt
+vault.hta
+vault.key
+vault.txt
+
+3) File Screening Management > File Screen Templates > Create File Screen Template...
+    Settings tab
+      Template name: 1-PreventCrypto
+      Screening type: Passive screening
+      File groups: Check "1-PreventCrypto"
+    E-mail Message tab
+      Subject: Unauthorized file from the [Violated File Group] file group detected
+      Body:
+User [Source Io Owner]
+Saved [Source File Path] to [File Screen Path]
+On server: [Server]
+This file is in the [Violated File Group] file group in FSRM, which generated this alert.
+A batch was run to remove all server shares until corrective action is taken.
+
+    Event Log tab
+      Check "Send warning to event log"
+    Command tab
+      Check "Run this command or script"
+      Browse... C:\Windows\1-PreventCrypto.bat
+        NOTE: use a unique filename for your .bat
+        NOTE: you must edit this .bat to include the names of all your shares
+      Select radio button: "Local System"
+
+4) File Screening Management > File Screens > Create File Screen...
+    File screen path: C:\ (or just the drive/folder containing shares)
+    Select radio button: "Derive properties from this file screen template (recommended)"
+      Select "1-PreventCrypto"
+
+5) File Server Resource Manager (Local) > right-click: Configure options...
+    Email Notifications tab
+      Set SMTP server name
+      Set Default administrator (see: http://technet.microsoft.com/en-ca/library/cc754526.aspx)
+    Notification Limits tab
+      Set all to 2 minutes
+
+ ____ Other protections worth doing ____ 
+
+1) Ensure Internet filter is updating to block known badware domains
+2) Ensure Internet filter is blocking ccTLDs and IDNs that are not relevant to your business
+3) Ensure Firewall is blocking any URLs with an IP address (only the bad guys do this)
+4) Ensure Firewall is blocking DNS outbound from everything except your internal/AD DNS server IP(s)
+5) Ensure Firewall is allowing only good/necessary ports outbound (NOT any/any)
+6) Run CryptoPrevent (by Foolish IT) on every end-user workstation, apply at least the standard rules, restart
+7) Consider implementing Software Restriction Policies (SRP) via Group Policy (or AppLocker, or application whitelist)
+8) Use an anti-virus product and/or malwarebytes.org on end-user workstations, ensure it is updating
+
+ ____ Cleanup procedure ____ 
+
+ - Either you received an email from FSRM with the details, or you suddenly realized all server shares are missing...
+     On the server which detected the bad files go to Event Viewer > Windows Logs > Application
+     Look for a Warning entry from SRMSVC as the source, the General box contains the details of
+     the username and filename which triggered the shares to be removed
+ - Unplug the offending user's machine from the network
+ - Cleanup user's temp folders and startup items (suggestion: ccleaner.com)
+ - Ensure user's machine is malware/toolbar/nonsense free (suggestion: malwarebytes.org)
+ - Run CryptoPrevent (by Foolish IT) apply at least the standard rules, restart
+ - Format and reload the OS on this user's machine if you prefer
+ - Restore any files that did get encrypted from your backups
+     NOTE: Many variants of this badware do NOT change the file modified time/date stamp to when encryption occurred
+ - Add all the shares back to the server (see created file: C:\Windows\1-PreventCrypto-PreviousShares.txt)
+ - Re-enable the Windows firewall rules for File and Printer Sharing
+
+ ____ Disclaimer ____ 
+
+NO WARRANTY
+
+THIS INFORMATION IS DISTRIBUTED IN THE HOPE THAT IT WILL BE USEFUL, BUT WITHOUT ANY WARRANTY.
+IT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING,
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THIS INFORMATION IS WITH YOU. SHOULD THIS
+PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+IN NO EVENT WILL THE AUTHOR BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL,
+INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THIS INFORMATION
+(INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY
+YOU OR THIRD PARTIES OR A FAILURE OF THE EFFECTIVENESS OF THIS INFORMATION), EVEN IF THE AUTHOR HAS
+BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+[END]

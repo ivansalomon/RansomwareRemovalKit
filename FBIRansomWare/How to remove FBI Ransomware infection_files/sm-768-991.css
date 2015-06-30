@@ -1,0 +1,350 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+	body		{ padding-top: 0 !important; }
+	.navbarMain	{ display: none !important; }
+	#xsMenu		{ display: block !important; }
+	.navbarSecond{ display: block !important; }
+ 	body 	{ font-size: 13px; }
+	h1 		{ font-size: 60px;}
+	h2 		{ font-size: 3.2em;}
+	h3 		{ font-size: 2.5em;}
+	h4 		{ font-size: 23px;}
+	h5 		{ font-size:1.45em;}
+	
+	a		{ font-size: 1.3em;}
+	a.renew { font-size:1em;}
+	.subTitle { font:300 1.7em/1em 'Roboto', serif;}
+	
+	
+	#firstnav 				{ height: 3.8em;}
+	#header a				{ font-size: 1em;}
+	#classicLine .price		{ font-size: 3em;}
+	#classicLine ul li		{ font-size: 1em;}
+	#SMB h5					{ padding: 0; font-size: 1.3em;}
+	#SMB p					{ padding: 2px 0;}
+	#SMB .products 			{ min-height: 18em;}
+	#socialMedia            { background: url(../images/bgSocialMedia.png) no-repeat scroll center top rgba(0, 0, 0, 0);background-size: 200% auto;}
+	#socialMedia .txtWhite	{ font-size: 1.2em;}
+	#prodSection .add_cart, #btmProd .add_cart 	{ display: inline-block;}
+	#sphFtrs h6 			{ font: 500 1.1em/1em 'Roboto';}
+	#scrModal1 .modal-dialog, #scrModal2 .modal-dialog, #scrModal3 .modal-dialog, #scrModal4 .modal-dialog,
+	#mediaModal .modal-dialog, #mediaModal2 .modal-dialog, #flagsModal .modal-dialog {width: 650px; margin: 10.5em auto;}
+	#scrModal1 .carousel-control, #scrModal2 .carousel-control, #scrModal3 .carousel-control, #scrModal4 .carousel-control {top: 2.5em;}
+	
+	/*product page*/
+	#prodSection ul li,
+	.priceTable .saving 	{ font-size: 0.9em;}
+	.priceTable select 		{ height: 40px; font-size:1em;}
+	.priceTable label, 
+	.priceTable p label 	{ font-size:1em !important; margin: 1.3em 0 0;}
+	.priceTable p label		{ margin: 4px 0 0 29px !important;}
+	.priceTable span 		{ margin-top: 0;font-size:0.9em !important;}
+	.priceTable p:not(#foo) > input + label:before { margin: -3px 0 0 -27px !important;}
+	#prodFtrs h2 			{ font-size:5em;margin: 2em 0 0;}
+	#prodFtrs h4 			{ font-size:4.1em;}
+	#sphFtrs p 				{ font-size:1em;}
+	#btmProd .center 		{ margin: 6.5em -1em 0 0.5em;}
+	#prodAwrds .awrd		{ margin:1em auto 0;}
+	.priceTable p:not(#foo) > input + label:before { left: 32px; top: 10px; }
+	
+	/*BMS product page*/
+	.bms #prodSection blockquote p, .bms #btmProd blockquote p 		{ font-size: 0.9em;}
+	.bms #prodSection blockquote footer, .bms #btmProd blockquote footer { font-size: 0.8em;}
+	.bms #prodSection .btn 				{ display:inline-block;}
+	.bms #weyg 							{ margin:0;}
+	#sphFtrs .txt 						{ padding:0;}
+	#sphFtrs .scrShoots 				{ margin: 1em 0;}
+	.bms .lowered-3 					{ margin-top: -2em;}
+	.bms .lowered-2						{ margin-top: -3em; }
+	
+	/*AV for Mac*/
+	#secondZone h3 			{ font-size:2.4em}
+	#secondZone a 			{ margin: 0.5em 0 2em !important;}
+	#MACaward .award q 		{ font-size:1.3em; margin:0 0 0 2em;}
+	#MACaward p 			{ text-align:center;}
+	#MACaward .award 		{ padding: 0;}
+	.avTable .xAxis li		{ width: 50%; }
+	.avTable .xAxis li:first-child	{ text-align: left; }
+	.avTable .xAxis li:last-child	{ text-align: right; }
+	
+	/*Product Comparison*/
+	#threeAwards q			{ font-size: 1em; margin:0;}
+	#prodComparison .row_odd .cell, #prodComparison .row_even .cell	{ line-height: 1.2em;padding: 1em;min-height: 4.9em;}
+	#prodComparison .row_even .cell i, #prodComparison .row_odd .cell i	{padding-top: 1.5em;}
+	#prodComparison .cell p		{font-size: 1em;}
+	
+	/*Renewal Center*/
+	#RnwTop #quickRnw .form-inline .form-group	{ display:table;}
+	#RnwTop #quickRnw .form-inline input		{ margin-left: 0.8em; width: 11em; margin-right: 0.5em; display:inline;}
+	
+	/*Renew License*/
+	#RnwProd .priceTable					{ margin-top:2em;}
+	#RnwProd .renew 						{ width: auto;}
+	
+	/*Cluefuf for Android page*/
+	.cland #prodSection .yspacer 			{ margin: 2.1em 0 0;}
+	.cland .lowered-3 						{ margin-top: 2em;}
+	
+	/*Trial downloads*/
+	#toolbox_prods .prodWrapper figure		{ padding: 0 0.5em 0 0;}
+	#toolbox_prods .prodWrapper p.trial		{ margin: 0 0 1em 0.5em;}
+	#toolbox_prods .prodWrapper				{ padding-bottom:1em;}
+	
+	/*Tech Assist*/
+	#people_1step 							{ bottom: 39px;position: absolute;right: 0;width: 52%;}
+	#solutionsTA .priceTable p.p_new		{ font-size:2.4em;}
+	#TAneeds .subTitle 						{ margin: 0.5em 0;}
+	#GZfirst .number						{ font-size:1.2em;}
+	#people_2step							{ left: -2em; }
+	
+	/*Small Business*/
+	#SMBchoise h2 							{ font: 600 2.7em/1.1em "Bitter";}
+	#SMBchoise h3 							{ min-height: 2.3em;}
+	#SMBchoise .header 						{ min-height: 15em;}
+	#SMBchoise .options						{ padding: 1em;} 
+	.topImg 								{ padding: 4em 0 0;}
+	#GZfirst .circle 						{ font: 400 1.7em/1.7em "Roboto";height: 2em;width: 2em;}
+	
+	/*Small Business product page*/
+	#GZprodDesc .btnDatasheet				{ margin: 0;}
+	#GZprodDesc .circle						{ padding:0; margin:0 1em 0 0;}
+	#GZprodDesc .envelope 					{ margin: 0.3em 0 0;}
+	#GZprodDesc a.envelope					{ line-height:3.5em;}
+   	#GZprodDesc img							{ margin:4em 0 0;}
+	#GZprodDesc .datasheet 					{ margin: 2em 3em 0 0;}
+	
+	/*SMB downloads*/
+	#smbDwnld_formW 						{ margin: -8em 0 4em;}
+	
+	/*Enterprise homepage*/
+	#GZprodFtrs h6							{ margin: 0 0 0; text-align:center;}
+	#GZprodFtrs h4							{ font-size: 4em; text-align:center;}
+	#GZprodFtrs 							{ background: url("../images/bg_sky.jpg") no-repeat scroll center top #000;padding: 6em 0 4em;}
+	#GZprodFtrs .clouds 					{ margin: -20em auto -2em;}
+	#GZprodFtrs #plusFeatBtn,
+	#GZprodFtrs .txtMedSize					{ text-align:center;}
+	#GZprodFtrs #plusFeatBtn a.plusbg		{ margin: 2em 0 0;}
+	#carouselEntrprs #part					{ margin: 2em 0 6em;}
+	#featBlog .featured .rightSide			{ padding: 0 0 0 1em;}
+	#carouselEntrprs .logo,
+	#carouselEntrprs .logo:hover			{ background-size:auto 38%}
+	#featBlog .rightSide					{ padding:0; margin:0;}
+	#featBlog img							{ margin: 0em 1em 2em 0;}
+	#featBlog p								{ margin: 2em 0 2em;}
+	#featBlog h2							{ margin: 0 0 1em;}
+	
+	/*Toolbox*/
+	.tboxComp h3		{font-size:1.2em;}
+	.tboxComp p			{font-size:0.82em;}
+	.tboxComp ul li a	{font-size:0.9em;}
+	
+	/*Virus Removal Tool*/
+	#fvrtWrapper h2 span	{font-size:1.3em}
+	#fvrtWrapper .form-control	{ font-size:1.1em; height:3em; width:18em;}
+	#fvrtWrapper .btn		{ font-size:1.2em; margin: 0 0 0 0.2em; width: 5.5em; height: 2.8em;}
+	#srch_vrem_tools p		{ width:100%;}
+	#feat_rem_tool a.dwld_now	{ margin: 1em 0 0 1.3em;}
+	#virus_header_search label	{  margin: -2em 0.5em 0 0;}
+	#virus_header_search input[type="search"]	{ width: 9em;}
+	#virus_header_search select	{ margin: -1em 0 0;}
+	#security_news .imgW			{ height: 17em;}
+	#security_news .txt 			{ height: 8em}
+	#security_news ul li .wrapper	{ margin: 2em 0 0;}
+	#vlist_area .vinfo				{ padding: 3em 1em;}
+	#vlist_area .links	 			{ text-align:center;}
+	#vlist_area .vinfo a.plusbg		{ margin: 0 1em 1em 0;}	
+	#vlist_area .vinfo a.dwldnow	{ margin: 0 0 0 -4em !important;}
+	#vlist_area .vinfo .or			{ display:block; margin: 0.8em 0;}
+	#vlist_area .virus .vname a { color:#b20000; background:url(../images/plus_virus_list.png) left 1.1em no-repeat;}
+	
+	/*LP Clutter Cleanup */
+	#LPcleanup .desktop		{ height: 50.6em; }
+	
+	/*Partner Homepage */
+	#PANheader 				{ background-position: right -33em top; }
+	#PANfeat a.plusbg		{ margin-left:1em; }
+	#PANresell img 			{ margin: 4em 0 2em 0; }
+	#PANresell .step1 		{ margin: 0 0 3em 0; }
+	#PANresell .step2 		{ margin: 0 0 0 0; }
+	#PANresell .step3 		{ margin: 0 -1em; }
+	
+	/* Partner Locator */
+	#locPANheader			{ background-position: right -40em bottom; }
+	#locPANheader .solution 	{ font-size: 1.5em; margin: 0.8em 0 0; }
+	#locPANheader div.PANlocator { margin-top: 3.2em; }
+	#PANfeat .subTitle		{ display: block; }
+	#PAN-video iframe 		{ width: 100% !important; }
+	
+	/* Service Providers */
+	#GZfirst h1				{ line-height: 1.1em; }
+	
+	/* Product Page BRAIN */
+	#Brain .getAccess		{ font-size: 2.3em; }
+	.brainDiagPattern		{ height: 1.7em; }
+	#Brain #B-R-A-I-N		{ font-size: 15em; }
+	#Brain .weCallIt			{ font-size: 1.9em; }
+	#Brain .weCallLeft, #Brain .weCallRight	{ margin-top: 0.9em; }
+	#Brain .BitIntel			{ font-size: 1.8em; }
+	#BrainWrapper .BnextArrow{ right: 4%; }
+	#BrainWrapper .BprevArrow{ left: 4%; }
+	#BrainExplained h1 { font-size: 6.2em; margin: 5.4em 0 0; }
+	#Brain #brainProduct		{ margin-top: 13em; }
+	#BrainExplained p		{ font-size: 1.7em; padding: 0 2.9em; }
+	.connectBrainStatic		{ display: none; }
+	#underProd h6			{ font-size: 1.6em;}
+	#BrainOneAccount p		{ margin:0 0 3em;}
+	
+	/* Product Page FP */
+	#prodSection.FP_prodSection .badgePos div { margin-top: 1.2em; }
+	#prodSection.FP_prodSection .badgePos	{ margin: 2em auto 0; overflow: hidden; }
+	
+	/* LP Family Pack */
+	#LP_FP_intro			{ background-position: right -510px bottom -40px; }
+	#LP_FP_footer			{ background-position: right -200px center; }
+	#LP_FP_intro.einstein h2	{ margin-top: 1.6em; }
+	#LP_FP_intro.einstein .box	{ margin-top: 5em; }
+	#LP_FP_intro.einstein .off	{ top: 1.8em; }
+	#LP_FP_intro.einstein	{ background-position: left -600px bottom; }
+	#LP_FP_intro.einstein	{ background-position: auto !important; }
+	
+	/* FunZone page */
+	#FunZone h2							{ padding:0 2em;}
+	#FunZone.funZoneHP .thumbnail		{ overflow: visible; }
+	#FunZone.funZoneHP .caption			{ transition: all 0; height: auto; padding:9px; line-height: 1.4;}
+	#FunZone.funZoneHP .thumbnail:hover .FunZone_img { height: 13em; transition: all 0;}
+	#FunZone.funZoneHP .thumbnail:hover .caption	 {  height: auto; padding:9px;}
+	
+	/* Custom Mobile Menu */
+	.navbar-toggle	{ display: block; }
+	.navbar-header	{ width: 100%; }
+
+	/* Service Providers page */
+	#GZfirst.bgGrey .btnEntrprs     { margin: 0; }
+
+	/* OEM news */
+	#OEMnewsMenu .news              { margin-bottom: 30px; }
+	#OEMrated img                   { display: inline-block; margin-top: 0;	}
+	.OEMindex a.tabname 			{ font-size: 0.9em;	}
+	.nav-tabs > li 					{ padding: 0; }
+	#oemSocial .social				{ margin-top: 30px; }
+	.OEMindex						{ margin: 3em 0 0; }
+	
+	/*Install & setup*/ 
+	#ta_prodHeader .ta_h1_bd_logo img 	{ width: 100%; }
+	#ta_prodHeader hr				{ margin: 1.7em 0; }
+	#howitworks .step2				{ margin:0 2.5em; padding:0 2em;}
+	#howitworks .step4				{ margin:0 1.9em; padding:0 2em;}
+	#howitworks .subTitle			{ margin:0 0 1em;}
+	#howItWorks img					{ margin-left: 2% !important; }
+	.adr #howItWorks.adrt_mac img	{ width: 98% !important; margin-left: 3% !important; }
+	#quickSupport 					{ background: url("../images/bg_quicksupport_section.jpg") no-repeat scroll left 45% top / cover rgba(0, 0, 0, 0);}
+	#schedcall						{ border-right: 1px solid #4F3E2F;border-left: 1px solid #4F3E2F;margin: 0;}
+	#chat 							{ border-right: 1px solid #4F3E2F;margin: 0;}
+	#quickSupport h4				{ margin: 0 0 1em;}
+	#btmProd_ta form				{ margin:-5em 0;}
+	#btmProd_ta .center .logo-small { max-width: 50%; padding: 1em 0;}
+	#userReviews q					{ font-size: 1.3em;}
+	#btmProd_ta .center 			{ margin: 3.5em 0 0 0;}
+	/* SDK Integration */
+	#OEMmenu a span.menu            { font-size: 1em; }
+	/*Free Antivirus (Gonzales)*/
+	#feats.gnz h4					{ font-size:1.2em;}
+	#feats.gnz h6					{ min-height: 6.2em;}
+	#feats.gnz .feat				{ padding:2em 0;}
+	/* awards */
+	/* consumer support*/
+	#leftSide .topSrc				{ padding: 0.8em 0.1em 0.9em 0.4em;}
+	#leftSide .topSrc input			{ font-size: 0.82em;padding-left: 3px;padding-right: 3px;}
+	#leftSide .topSrc .btn			{ margin: 0.1em 0 0 0 !important;}
+	#leftSide .extra h4				{ font-size:1.4em;}
+	#leftSide ul li					{ margin-left: -1.5em;}
+	#contSide #GZdemos .time		{ top: 81%;right: 27%; font-size:0.7em;}
+	#contSide #GZdemos p			{ text-align:center;}
+	#contSide iframe 				{ width: 100%!important; }
+	/* OAS Product */
+	#prodSection .badgePos div      { margin: 0.6em 0 0 0;}
+	
+	/*Free antivirus - Gonzales*/
+	#better.gnz p					{ font-size: 1em;}
+	/* Consumer Support*/
+	#GZfaq .resources .datasheet    { margin-top: 0.5em!important;}
+	/* #GZdemos .round                 { top:30%; right: 43%;} */
+	
+	/* Press Center */
+	.btmBan img						{ margin: -5em 0 0; }
+	.bgbtmBan .more					{ margin: 3em 1em 0 0 !important }
+	
+	/* New Business Homepage */
+	#businessTable table .sep			{ width: 0.5%; }
+	#GZfirst.business					{ padding-top: 0; }
+	#businessBanner h1 span				{ display: block; margin: 0.2em auto; }
+	#carouselEntrprs.business			{ padding-bottom: 0; }
+	
+	/* New Business Security */
+	.entSecurity			{ padding-top: 0 !important; }
+	#businessTable table.GZGlyph .sep	{ display: none; }
+	#businessTable table.GZGlyph td:first-child { padding-left: 0; }
+	#businessTable table.GZGlyph a		{ font-size: 1em; }
+	ul.checkList			{ padding-left: 20px; }
+	#GZfooterDL				{ padding-top: 0; }
+	#GZfooterDL .circle		{ margin-top: 0.5em; }
+	#GZfooterDL a.learnMore { font-size: 1em !important; }
+	#GZfooterDL h2			{ margin-bottom: 0.5em; }
+	
+	/* Comparison Page */
+	#tbComp table			{ table-layout: fixed; }
+	#tbComp th:first-child	{ width: 30%; }
+	#tbComp th				{ width: 24%; }
+	#SMBcomp #tbComp .tableComparation p.devices	{ line-height: 1.3; }
+	#SMBcomp #tbComp .tableComparation th > img.box	{ max-width: 110px; }
+	#SMBcomp #tbComp .tableComparation th > img		{ max-width: 130px; }
+	#SMBcomp #tbComp .tableComparation .btn			{ font-size: 0.9em; }
+	
+	/* LP March */
+	.priceTable.business p label{ margin-left: 10px!important; font-size: 1.3em;}
+	.priceTable.business p.amount label a{padding: 0px 2px 0 4px!important;}
+	.priceTable .years_checkbox p > input + label{margin-left: 35px!important;}
+	.priceTable.business .need_more{margin-left: 10px!important;}
+	.priceTable p:not(#foo) > input + label::before{margin-top: -5px!important	}
+	#enterpriseExperts{background: #F1F1F1;padding-bottom: 2em;min-height: auto;}
+	#march_award .award img{margin-top: 7em;}
+	#prodSection.march span.priceWrapper{width: 30%;left: 30px; text-align: center;}
+	#prodSection.march span.priceWrapper img{	display: inline-block;	}
+	#prodSection.reviewers.v2 fieldset i{	top: 50px!important;	}
+	#subMenu{ margin-top: .7em; }
+	#prodSection.scratchCards .yspacer{margin-top: 4em;}
+	#prodSection.scratchCards .btn	{ margin: 1.5em 0; }
+	#prodSection.scratchCards .docs { text-align: center; margin-top: 1em; }
+	
+	/* START LP NAVBAR */
+	.LPNav a{ font-size: 1.1em; }
+	.LPNav .navbar-header { display: none; }
+	#nordics hr.v2{bottom: 0;position: relative;}
+	#nordics hr{margin: 10px 0 20px 0!important;}
+	#nordics a{margin-bottom: 10px;}
+	#nordics a.chat{top: 48px;right: 60%;}
+	#nordics-footer .ad-text{margin-left: 0;}
+	
+	/* LP 1 product PC Optimizer */
+	.pcOptimizerBox::before, .pcOptimizerBox::after { left: 0; right: 0 }
+	
+	
+	
+}  /* media queries end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

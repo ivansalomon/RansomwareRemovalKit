@@ -1,0 +1,3346 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/bk-coretag.js"></script><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/v60.js"></script><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/beacon.js" async=""></script><script async="" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/cbgapi.loaded_1"></script><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/bleepingcomputer.js" async=""></script><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/moatBid_002.txt"></script><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/lidar.js" async="" type="text/javascript"></script><script async="" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/cbgapi.loaded_0"></script><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/all.js" id="facebook-jssdk"></script><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/ca-pub-3249370012249755.js" type="text/javascript" async=""></script><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/moatBid.txt"></script>
+		<meta charset="iso-8859-1">
+		<title>BitCryptor ransomware in the wild from the same creators as CoinVault - News</title>
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="shortcut icon" href="http://www.bleepstatic.com/favicon/bleeping.ico">
+		<link rel="image_src" href="http://www.bleepingcomputer.com/forums/public/style_images/master/meta_image.png">
+		<script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/lidar.js" async="" type="text/javascript"></script><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/lidar.js" async="" type="text/javascript"></script><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/analytics.js" async=""></script><script type="text/javascript">
+		//<![CDATA[
+			jsDebug			= 0; /* Must come before JS includes */
+			DISABLE_AJAX	= parseInt(0); /* Disables ajax requests where text is sent to the DB; helpful for charset issues */
+			inACP			= false;
+			var isRTL		= false;
+			var rtlIe		= '';
+			var rtlFull		= '';
+		//]]>
+		</script>
+		
+	
+				
+	
+
+				
+	
+
+				
+	
+
+				
+	
+
+				
+	
+	
+		<link rel="stylesheet" type="text/css" media="screen,print" href="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/index.css">
+	
+
+<!--[if lte IE 7]>
+	<link rel="stylesheet" type="text/css" title='Main' media="screen" href="http://www.bleepingcomputer.com/forums/public/style_css/css_7/ipb_ie.css" />
+<![endif]-->
+<!--[if lte IE 8]>
+	<style type='text/css'>
+		.ipb_table { table-layout: fixed; }
+		.ipsLayout_content { width: 99.5%; }
+	</style>
+<![endif]-->
+
+	<!-- Forces resized images to an admin-defined size -->
+	<style type="text/css">
+		img.bbc_img {
+			max-width: 730px !important;
+			max-height: 730px !important;
+		}
+	</style>
+
+		<meta property="og:title" content="BitCryptor ransomware in the wild from the same creators as CoinVault - News">
+		<meta property="og:site_name" content="BleepingComputer.com">
+		<meta property="og:type" content="article">
+		
+	
+		
+		
+			<meta property="og:updated_time" content="1431599237">
+		
+		
+		
+		
+	
+
+		
+		
+			<meta name="keywords" content="BitCryptor,ransomware,wild,from,same,creators,CoinVault,Introducing,another,encrypting,essentially,exact,infection">
+		
+		
+		
+		
+	
+
+		
+		
+			<meta name="description" content="Page 1 of 2 - BitCryptor ransomware in the wild from the same creators as CoinVault - posted in News: Introducing BitCryptor, another new encrypting ransomware from the creators of CoinVault. BitCryptor is essentially the same exact infection as CoinVault other than a user interface change. This ransomware encrypts your files using AES 256 encryption and demands 1 bitcoin in order to decrypt your files. At this time there is no way to decrypt your files for free. Unfortunately, the Kaspers...">
+		
+		
+		
+			<meta property="og:description" content="Page 1 of 2 - BitCryptor ransomware in the wild from the same creators as CoinVault - posted in News: Introducing BitCryptor, another new encrypting ransomware from the creators of CoinVault. BitCryptor is essentially the same exact infection as CoinVault other than a user interface change. This ransomware encrypts your files using AES 256 encryption and demands 1 bitcoin in order to decrypt your files. At this time there is no way to decrypt your files for free. Unfortunately, the Kaspers...">
+		
+		
+	
+
+		
+		
+			<meta name="identifier-url" content="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/">
+		
+		
+			<meta property="og:url" content="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/">
+		
+		
+		
+	
+
+<meta property="og:image" content="http://www.bleepingcomputer.com/forums/public/style_images/master/meta_image.png">
+		
+		
+		
+		<script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/index.js"></script>
+	
+	<script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/index_002.js" charset="iso-8859-1"></script>
+
+
+	
+		
+			
+			
+			
+			
+				<link id="ipsCanonical" rel="canonical" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/">
+			
+		
+
+			
+			
+			
+			
+				<link rel="stylesheet" type="text/css" title="Main" media="print" href="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/ipb_print.css">
+			
+		
+
+			
+			
+			
+			
+				<link rel="next" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/page-2">
+			
+		
+
+			
+			
+			
+			
+				<link rel="last" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/page-2">
+			
+		
+
+			
+			
+			
+			
+				<link rel="up" href="http://www.bleepingcomputer.com/forums/f/2/news/">
+			
+		
+
+			
+			
+			
+			
+				<link rel="author" href="http://www.bleepingcomputer.com/forums/u/3/grinler/">
+			
+		
+	
+
+	
+
+
+
+		
+		<script type="text/javascript">
+	//<![CDATA[
+		/* ---- URLs ---- */
+		ipb.vars['base_url'] 			= 'http://www.bleepingcomputer.com/forums/index.php?s=377724f2182abfab7963b045703e0ad5&';
+		ipb.vars['board_url']			= 'http://www.bleepingcomputer.com/forums';
+		ipb.vars['img_url'] 			= "http://www.bleepingcomputer.com/forums/public/style_images/master";
+		ipb.vars['loading_img'] 		= 'http://www.bleepingcomputer.com/forums/public/style_images/master/loading.gif';
+		ipb.vars['active_app']			= 'forums';
+		ipb.vars['upload_url']			= 'http://www.bleepingcomputer.com/forums/uploads';
+		/* ---- Member ---- */
+		ipb.vars['member_id']			= parseInt( 0 );
+		ipb.vars['is_supmod']			= parseInt( 0 );
+		ipb.vars['is_admin']			= parseInt( 0 );
+		ipb.vars['secure_hash'] 		= '880ea6a14ea49e853634fbdc5015a024';
+		ipb.vars['session_id']			= '377724f2182abfab7963b045703e0ad5';
+		ipb.vars['twitter_id']			= 0;
+		ipb.vars['fb_uid']				= 0;
+		ipb.vars['auto_dst']			= parseInt( 0 );
+		ipb.vars['dst_in_use']			= parseInt(  );
+		ipb.vars['is_touch']			= false;
+		ipb.vars['member_group']		= {"g_mem_info":"0"}
+		/* ---- cookies ----- */
+		ipb.vars['cookie_id'] 			= '';
+		ipb.vars['cookie_domain'] 		= '.bleepingcomputer.com';
+		ipb.vars['cookie_path']			= '/';
+		/* ---- Rate imgs ---- */
+		ipb.vars['rate_img_on']			= 'http://www.bleepingcomputer.com/forums/public/style_images/master/star.png';
+		ipb.vars['rate_img_off']		= 'http://www.bleepingcomputer.com/forums/public/style_images/master/star_off.png';
+		ipb.vars['rate_img_rated']		= 'http://www.bleepingcomputer.com/forums/public/style_images/master/star_rated.png';
+		/* ---- Uploads ---- */
+		ipb.vars['swfupload_swf']		= 'http://www.bleepingcomputer.com/forums/public/js/3rd_party/swfupload/swfupload.swf';
+		ipb.vars['swfupload_enabled']	= true;
+		ipb.vars['use_swf_upload']		= ( '' == 'flash' ) ? true : false;
+		ipb.vars['swfupload_debug']		= false;
+		/* ---- other ---- */
+		ipb.vars['highlight_color']     = "#ade57a";
+		ipb.vars['charset']				= "iso-8859-1";
+		ipb.vars['time_offset']			= "-5";
+		ipb.vars['hour_format']			= "12";
+		ipb.vars['seo_enabled']			= 1;
+		
+		ipb.vars['seo_params']			= {"start":"-","end":"\/","varBlock":"?","varPage":"page-","varSep":"&","varJoin":"="};
+		
+		/* Templates/Language */
+		ipb.templates['inlineMsg']		= "";
+		ipb.templates['ajax_loading'] 	= "<div id='ajax_loading'><img src='http://www.bleepingcomputer.com/forums/public/style_images/master/ajax_loading.gif' alt='" + ipb.lang['loading'] + "' /></div>";
+		ipb.templates['close_popup']	= "<img src='http://www.bleepingcomputer.com/forums/public/style_images/master/close_popup.png' alt='x' />";
+		ipb.templates['rss_shell']		= new Template("<ul id='rss_menu' class='ipbmenu_content'>#{items}</ul>");
+		ipb.templates['rss_item']		= new Template("<li><a href='#{url}' title='#{title}'>#{title}</a></li>");
+		
+		ipb.templates['autocomplete_wrap'] = new Template("<ul id='#{id}' class='ipb_autocomplete' style='width: 250px;'></ul>");
+		ipb.templates['autocomplete_item'] = new Template("<li id='#{id}' data-url='#{url}'><img src='#{img}' alt='' class='ipsUserPhoto ipsUserPhoto_mini' />&nbsp;&nbsp;#{itemvalue}</li>");
+		ipb.templates['page_jump']		= new Template("<div id='#{id}_wrap' class='ipbmenu_content'><h3 class='bar'>Jump to page</h3><p class='ipsPad'><input type='text' class='input_text' id='#{id}_input' size='8' /> <input type='submit' value='Go' class='input_submit add_folder' id='#{id}_submit' /></p></div>");
+		ipb.templates['global_notify'] 	= new Template("<div class='popupWrapper'><div class='popupInner'><div class='ipsPad'>#{message} #{close}</div></div></div>");
+		
+		
+		ipb.templates['header_menu'] 	= new Template("<div id='#{id}' class='ipsHeaderMenu boxShadow'></div>");
+		
+		Loader.boot();
+	//]]>
+	</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91740-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('set', 'contentGroup1', 'News'); 
+  ga('send', 'pageview');
+</script>
+
+	<link href="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/native-iframe-controls.css" type="text/css" rel="stylesheet"><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f8;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3a5795;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #2f477a;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f8;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/a" async="" type="text/javascript"></script></head>
+	<body id="ipboard_body"><iframe name="empty" scrolling="no" id="LOCSTORAGE" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/storageframe.htm" style="width: 1px; height: 1px; position: absolute; top: -7px; left: -7px; border: 0px none;" hidden="true"></iframe>
+		<p id="content_jump" class="hide"><a id="top"></a><a sl-processed="1" href="#j_content" title="Jump to content" accesskey="m">Jump to content</a></p>
+		<div style="position: absolute; left: -9999px; top: -9999px;"><object style="visibility: visible;" type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="moatMessageSender" height="1" width="1"><param name="allowScriptAccess" value="always"><param name="allowFullScreen" value="false"><param name="movie" value="http://s.moatads.com/swf/MessageSenderV2.swf"><param name="FlashVars" value="r=MoatSuperV5.yh.zb&amp;s=MoatSuperV5.yh.zc&amp;e=MoatSuperV5.yh.zd&amp;td=afs.moatads.com"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><embed style="visibility: visible;" type="application/x-shockwave-flash" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/MessageSenderV2.swf" quality="high" flashvars="r=MoatSuperV5.yh.zb&amp;s=MoatSuperV5.yh.zc&amp;e=MoatSuperV5.yh.zd&amp;td=afs.moatads.com" bgcolor="#ffffff" id="moatMessageSenderEmbed" allowscriptaccess="always" allowfullscreen="false" align="middle" height="1" width="1"></object></div><div style="position: absolute; left: -9999px; top: -9999px;"><object style="visibility: visible;" type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="moatCap" height="1" width="1"><param name="allowScriptAccess" value="always"><param name="allowFullScreen" value="false"><param name="movie" value="http://s.moatads.com/swf/cap.swf"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><embed style="visibility: visible;" type="application/x-shockwave-flash" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/cap.swf" quality="high" bgcolor="#ffffff" id="moatCapEmbed" allowscriptaccess="always" allowfullscreen="false" align="middle" height="1" width="1"></object></div><div id="ipbwrapper">
+			<!-- ::: TOP BAR: Sign in / register or user drop down and notification alerts ::: -->
+			<div id="header_bar" class="clearfix">
+				<div class="main_width">
+					
+					<div id="user_navigation" class="not_logged_in">
+							
+							<ul class="ipsList_inline right">
+								<li>
+									<span class="services">
+										
+										
+										
+									</span>
+									&nbsp;&nbsp;&nbsp;&nbsp;
+									<a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?app=core&amp;module=global&amp;section=login" title="Sign In" id="sign_in">Sign In</a>&nbsp;&nbsp;&nbsp;
+								</li>
+								<li>
+									<a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?app=core&amp;module=global&amp;section=register" title="Create Account" id="register_link">Create Account</a>
+								</li>
+							</ul>
+						</div>
+				</div>
+			</div>
+			<!-- ::: BRANDING STRIP: Logo and search box ::: -->
+			<div id="branding">
+				<div class="main_width">
+					<div id="logo">
+						
+							<a sl-processed="1" href="http://www.bleepingcomputer.com/forums" title="Go to community index" rel="home" accesskey="1"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/forum-logo.png" alt="Logo"></a>
+						
+					</div>
+					
+						<div id="search" class="right">
+	<form action="http://www.bleepingcomputer.com/forums/index.php?app=core&amp;module=search&amp;do=search&amp;fromMainBar=1" method="post" id="search-box">
+		<fieldset>
+			<label for="main_search" class="hide">Search</label>
+			<a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?app=core&amp;module=search&amp;search_in=forums" title="Advanced Search" accesskey="4" rel="search" id="adv_search" class="right">Advanced</a>
+			<span id="search_wrap" class="right">
+				<input placeholder="Search..." id="main_search" name="search_term" class="" size="17" tabindex="100" type="text">
+				<span class="choice ipbmenu clickable" id="search_options" style="">This topic</span>
+				<ul id="search_options_menucontent" class="ipbmenu_content ipsPad" style="display: none; position: absolute; z-index: 9999;">
+					<li style="z-index: 10000;" class="title"><strong style="z-index: 10000;">Search section:</strong></li>
+					<li style="z-index: 10000;" class="special">
+							<label style="z-index: 10000;" for="s_topic" title="This topic">
+								<input style="z-index: 10000;" name="search_app" value="forums:topic:575991" class="input_radio" id="s_topic" checked="checked" type="radio"><strong style="z-index: 10000;">This topic</strong>
+							</label>
+						</li>
+					
+					
+					<li style="z-index: 10000;" class="app"><label style="z-index: 10000;" for="s_forums" title="Forums"><input style="z-index: 10000;" name="search_app" class="input_radio" id="s_forums" value="forums" type="radio">Forums</label></li>
+					<li style="z-index: 10000;" class="app"><label style="z-index: 10000;" for="s_members" title="Members"><input style="z-index: 10000;" name="search_app" class="input_radio" id="s_members" value="members" type="radio">Members</label></li>
+					<li style="z-index: 10000;" class="app"><label style="z-index: 10000;" for="s_core" title="Help Files"><input style="z-index: 10000;" name="search_app" class="input_radio" id="s_core" value="core" type="radio">Help Files</label></li>
+									
+						
+					
+				
+						
+					
+				
+						
+					
+				
+						<li style="z-index: 10000;" class="app">
+								<label style="z-index: 10000;" for="s_calendar" title="Calendar">
+									<input style="z-index: 10000;" name="search_app" class="input_radio" id="s_calendar" value="calendar" type="radio">Calendar
+								</label>
+							</li>
+					
+				
+						
+					
+				
+						
+					
+				
+						
+					
+				</ul>
+				<input class="submit_input clickable" value="" type="submit">
+			</span>
+			
+		</fieldset>
+	</form>
+</div>
+					
+				</div>
+			</div>
+			<!-- ::: APPLICATION TABS ::: -->
+			<div id="primary_nav" class="clearfix">
+				<div class="main_width">
+					<ul class="ipsList_inline" id="community_app_menu">
+						
+							<li class="right">
+								<a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?app=core&amp;module=global&amp;section=navigation&amp;inapp=forums" rel="quickNavigation" accesskey="9" id="quickNavLaunch" title="Open Quick Navigation"><span>&nbsp;</span></a>
+							</li>
+						
+						<li id="nav_explore" class="right">
+							<a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?app=core&amp;module=search&amp;do=viewNewContent&amp;search_app=forums" accesskey="2">View New Content</a>
+						</li>
+						<li class="right"><a sl-processed="1" href="http://www.bleepingcomputer.com/forum-rules/">Forum Rules</a></li>
+						
+							<li id="nav_home" class="left"><a sl-processed="1" href="http://www.bleepingcomputer.com/" title="Homepage" rel="home">BleepingComputer.com</a></li>
+						
+
+						
+								
+									
+								
+
+									
+																				<li id="nav_app_forums" class="left active"><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/" title="Go to Forums">Forums</a></li>
+									
+								
+
+									
+																				<li id="nav_app_members" class="left "><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/members/" title="Go to Members">Members</a></li>
+									
+								
+
+									
+								
+
+									
+								
+							
+							
+						<li id="nav_home" class="left"> <a sl-processed="1" href="http://www.bleepingcomputer.com/tutorials/" title="Computer Tutorials">Tutorials</a> </li>
+            <li id="nav_home" class="left"> <a sl-processed="1" href="http://www.bleepingcomputer.com/startups/" title="Startup Database">Startup List</a> </li>
+            <li id="nav_home" class="left"> <a sl-processed="1" href="http://www.bleepingcomputer.com/virus-removal/" title="Virus Removal Guides">Virus Removal</a> </li>
+            
+            
+                                   
+						
+						<li id="nav_other_apps" style="">
+							<a sl-processed="1" href="#" class="ipbmenu" id="more_apps">More <img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/useropts_arrow.png"></a>
+						</li>
+					</ul>
+				</div>
+			</div>	
+			
+			<!-- ::: MAIN CONTENT AREA ::: -->
+			<div id="content" class="clearfix">
+				<!-- ::: NAVIGATION BREADCRUMBS ::: -->
+				<div id="secondary_navigation" class="clearfix">
+						<ol class="breadcrumb top ipsList_inline left">
+														<li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+									<a sl-processed="1" href="http://www.bleepingcomputer.com/forums/" itemprop="url">
+										<span itemprop="title">BleepingComputer.com</span>
+									</a>
+								</li>
+								
+							
+								<li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+									<span class="nav_sep">&#8594;</span>
+									 <a sl-processed="1" href="http://www.bleepingcomputer.com/forums/f/75/general-topics/" title="Return to General Topics" itemprop="url"><span itemprop="title">General Topics</span></a>
+								</li>
+								
+							
+
+								<li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+									<span class="nav_sep">&#8594;</span>
+									 <a sl-processed="1" href="http://www.bleepingcomputer.com/forums/f/2/news/" title="Return to News" itemprop="url"><span itemprop="title">News</span></a>
+								</li>
+								
+							
+						</ol>
+					</div>
+					<br>
+				<noscript style="display: none;">
+					<div class='message error'>
+						<strong>Javascript Disabled Detected</strong>
+						<p>You currently have javascript disabled. Several functions may not work. Please re-enable javascript to access full functionality.</p>
+					</div>
+					<br />
+				</noscript>
+				<!-- ::: CONTENT ::: -->
+				
+					<div class="ipsAd"><div align="center"><div class="side_box_a_cont">
+ <div class="side_box_ad">
+<script type="text/javascript"> 
+//<![CDATA[
+ord = window.ord || Math.floor(Math.random()*1E16);
+document.write('<script type="text/javascript" src="http://ad4.netshelter.net/adj/ns.bleepingcomputer/topic_top;ppos=atf;kw=;tile=1;dcopt=ist;sz=728x90,970x90,920x250;ord=' + ord + '?"><\/script>');
+//]]>
+</script><script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/topic_top"></script><div class="GoogleActiveViewClass" id="DfpVisibilityIdentifier_6467939149863040"><script data-ias-script-tag="found" language="JavaScript1.1" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/aclk3Fsa3DL26ai3DBYTzmPileVezHN5KPMOH4gMAPpO657AcAAAAQASAAOABYrK">
+</script><span style="width: 0px; height: 0px; display: block; overflow: hidden;">.</span><script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/__IntegralAS_Q_S__"></script><span id="te-clr1-68214696-ba9d-496e-918c-e00df48c2af0-icon" style="display: block; position: absolute; opacity: 0.8; overflow: hidden; margin: 0px; padding: 0px; z-index: 10003; width: 19px; height: 15px; cursor: pointer; left: 268px; top: 237px;"><span id="te-clr1-68214696-ba9d-496e-918c-e00df48c2af0-anch" style="font-weight:normal;font-family:arial,sans-serif;font-size:8pt;text-decoration:none;"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://active.macromedia.com/flash4/cabs/swflash.cab#version=4,0,0,0" id="tecafi" style="position: relative; visibility: visible;" height="16" width="19"><param name="flashVars" value="bindingId=te-clr1-68214696-ba9d-496e-918c-e00df48c2af0"><param name="allowScriptAccess" value="always"><param name="movie" value="http://choices.truste.com/get?name=ad_icon.swf"><param name="quality" value="high"><embed style="visibility: visible;" name="banner" allowscriptaccess="always" flashvars="bindingId=te-clr1-68214696-ba9d-496e-918c-e00df48c2af0" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/get_002" quality="high" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" height="16" width="19"></object></span><span style="font-weight: normal; font-family: arial,sans-serif; font-size: 8pt; text-decoration: none; display: none;" id="te-clr1-68214696-ba9d-496e-918c-e00df48c2af0-anch-mo"><span style="line-height:15px;vertical-align:top;"><span style="font-size:8pt;font-weight:normal;text-transform:none;color:#000;margin: 0 0px 0 0;"></span><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://active.macromedia.com/flash4/cabs/swflash.cab#version=4,0,0,0" id="tecafi" style="position: relative; visibility: visible;" height="16" width="58"><param name="flashVars" value="bindingId=te-clr1-68214696-ba9d-496e-918c-e00df48c2af0"><param name="allowScriptAccess" value="always"><param name="movie" value="http://choices.truste.com/get?name=wmodeIcon.swf"><param name="quality" value="high"><embed style="visibility: visible;" name="banner" allowscriptaccess="always" flashvars="bindingId=te-clr1-68214696-ba9d-496e-918c-e00df48c2af0" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/get" quality="high" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" height="16" width="58"></object></span></span></span><div class="GoogleActiveViewClass" id="DfaVisibilityIdentifier_1430492793"><div id="creative_62782349_0"><div style="position: relative; width: 728px; height: 90px; box-sizing: content-box;"><object style="outline: medium none; visibility: visible;" type="application/x-shockwave-flash" data="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/Intel_EliteBook1020_Series_0_728x90_Flash.swf" base="http://s0.2mdn.net/2309965" wmode="opaque" allowscriptaccess="always" flashvars="clickTag=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjst1y_5cc6o1s6vHZzceBp34WQIHr2rz7EVyaeiPPoVb27HlW1PnBjZQRA7T_k0yrj3QG2grMbvZQrtvxnbAe--JIRHR_CIrkNQ4m0nR9WKzGvYIazRgso8zarbH03HO70szp-YIgRkYTG-DqEs-Dew%26sig%3DCg0ArKJSzI214r7O9M-dEAE%26adurl%3Dhttp%3A%2F%2Fadclick.g.doubleclick.net%2Faclk%2525253Fsa%2525253DL%25252526ai%2525253DBYTzmPileVezHN5KPMOH4gMAPpO657AcAAAAQASAAOABYrKP8sbMBYMnGqYvApNgPggEXY2EtcHViLTU1MDU5MDU1Nzk1OTk5MDWyARh3d3cuYmxlZXBpbmdjb21wdXRlci5jb226AQlnZnBfaW1hZ2XIAQnaAXZodHRwOi8vd3d3LmJsZWVwaW5nY29tcHV0ZXIuY29tL2ZvcnVtcy90LzU3NTk5MS9iaXRjcnlwdG9yLXJhbnNvbXdhcmUtaW4tdGhlLXdpbGQtZnJvbS10aGUtc2FtZS1jcmVhdG9ycy1hcy1jb2ludmF1bHQvmALAPsACAuACAOoCIjQ1ODUvbnMuYmxlZXBpbmdjb21wdXRlci90b3BpY190b3D4AoHSHpAD4AOYA-ADqAMB4AQBkAYBoAYW2AcA%25252526num%2525253D0%25252526cid%2525253D5GiLGlskvovCW8QcdUWVJBbu%25252526sig%2525253DAOD64_0VMyaKSmtGysVLR4hT5MsQKGWZkw%25252526client%2525253Dca-pub-5505905579599905%25252526adurl%2525253Dhttp%3A%2F%2Fd.agkn.com%2Fpixel%2F2389%2F%253Fche%253D1430492793%2526col%253D8710576%2C1167858%2C117719367%2C290675473%2C62782349%2526l0%253Dhttp%3A%2F%2Fwww8.hp.com%2Fus%2Fen%2Fads%2Felitebook-folio-1020%2Foverview.html%253Fjumpid%253Dba_ebsvwc6571%2Fdm%3A_N5823.8256.ZIFFDAVISMEDIANETWORK_117719367_290675473_62782349_2309965&amp;each=function%20each(iterator%2Ccontext)%7Btry%7Bthis._each(iterator%2Ccontext)%3B%7Dcatch(e)%7Bif(e!%3D%24break)throw%20e%3B%7D%0Areturn%20this%3B%7D&amp;eachSlice=function%20eachSlice(number%2Citerator%2Ccontext)%7Bvar%20index%3D-number%2Cslices%3D%5B%5D%2Carray%3Dthis.toArray()%3Bif(number%3C1)return%20array%3Bwhile((index%2B%3Dnumber)%3Carray.length)%0Aslices.push(array.slice(index%2Cindex%2Bnumber))%3Breturn%20slices.collect(iterator%2Ccontext)%3B%7D&amp;all=function%20()%7Bif(arguments.length%3D%3D%3D0)%7Breturn%20method.call(this%2CPrototype.K)%3B%7Delse%20if(arguments%5B0%5D%3D%3D%3Dundefined)%7Bvar%20args%3Dslice.call(arguments%2C1)%3Bargs.unshift(Prototype.K)%3Breturn%20method.apply(this%2Cargs)%3B%7Delse%7Breturn%20method.apply(this%2Carguments)%3B%7D%7D&amp;any=function%20()%7Bif(arguments.length%3D%3D%3D0)%7Breturn%20method.call(this%2CPrototype.K)%3B%7Delse%20if(arguments%5B0%5D%3D%3D%3Dundefined)%7Bvar%20args%3Dslice.call(arguments%2C1)%3Bargs.unshift(Prototype.K)%3Breturn%20method.apply(this%2Cargs)%3B%7Delse%7Breturn%20method.apply(this%2Carguments)%3B%7D%7D&amp;collect=function%20()%7Bif(arguments.length%3D%3D%3D0)%7Breturn%20method.call(this%2CPrototype.K)%3B%7Delse%20if(arguments%5B0%5D%3D%3D%3Dundefined)%7Bvar%20args%3Dslice.call(arguments%2C1)%3Bargs.unshift(Prototype.K)%3Breturn%20method.apply(this%2Cargs)%3B%7Delse%7Breturn%20method.apply(this%2Carguments)%3B%7D%7D&amp;detect=function%20detect(iterator%2Ccontext)%7Bvar%20result%3Bthis.each(function(value%2Cindex)%7Bif(iterator.call(context%2Cvalue%2Cindex%2Cthis))%7Bresult%3Dvalue%3Bthrow%20%24break%3B%7D%7D%2Cthis)%3Breturn%20result%3B%7D&amp;findAll=function%20filter()%20%7B%0A%20%20%20%20%5Bnative%20code%5D%0A%7D&amp;select=function%20filter()%20%7B%0A%20%20%20%20%5Bnative%20code%5D%0A%7D&amp;grep=function%20grep(filter%2Citerator%2Ccontext)%7Biterator%3Diterator%7C%7CPrototype.K%3Bvar%20results%3D%5B%5D%3Bif(Object.isString(filter))%0Afilter%3Dnew%20RegExp(RegExp.escape(filter))%3Bthis.each(function(value%2Cindex)%7Bif(filter.match(value))%0Aresults.push(iterator.call(context%2Cvalue%2Cindex%2Cthis))%3B%7D%2Cthis)%3Breturn%20results%3B%7D&amp;include=function%20include(object)%7Bif(Object.isFunction(this.indexOf))%0Aif(this.indexOf(object)!%3D-1)return%20true%3Bvar%20found%3Dfalse%3Bthis.each(function(value)%7Bif(value%3D%3Dobject)%7Bfound%3Dtrue%3Bthrow%20%24break%3B%7D%7D)%3Breturn%20found%3B%7D&amp;member=function%20include(object)%7Bif(Object.isFunction(this.indexOf))%0Aif(this.indexOf(object)!%3D-1)return%20true%3Bvar%20found%3Dfalse%3Bthis.each(function(value)%7Bif(value%3D%3Dobject)%7Bfound%3Dtrue%3Bthrow%20%24break%3B%7D%7D)%3Breturn%20found%3B%7D&amp;inGroupsOf=function%20inGroupsOf(number%2CfillWith)%7BfillWith%3DObject.isUndefined(fillWith)%3Fnull%3AfillWith%3Breturn%20this.eachSlice(number%2Cfunction(slice)%7Bwhile(slice.length%3Cnumber)slice.push(fillWith)%3Breturn%20slice%3B%7D)%3B%7D&amp;inject=function%20inject(memo%2Citerator)%7Biterator%3Diterator%7C%7CPrototype.K%3Bvar%20context%3Darguments%5B2%5D%3Breturn%20_reduce.call(this%2Citerator.bind(context)%2Cmemo)%3B%7D&amp;invoke=function%20invoke(method)%7Bvar%20args%3D%24A(arguments).slice(1)%3Breturn%20this.map(function(value)%7Breturn%20value%5Bmethod%5D.apply(value%2Cargs)%3B%7D)%3B%7D&amp;max=function%20max(iterator%2Ccontext)%7Biterator%3Diterator%7C%7CPrototype.K%3Bvar%20result%3Bthis.each(function(value%2Cindex)%7Bvalue%3Diterator.call(context%2Cvalue%2Cindex%2Cthis)%3Bif(result%3D%3Dnull%7C%7Cvalue%3E%3Dresult)%0Aresult%3Dvalue%3B%7D%2Cthis)%3Breturn%20result%3B%7D&amp;min=function%20min(iterator%2Ccontext)%7Biterator%3Diterator%7C%7CPrototype.K%3Bvar%20result%3Bthis.each(function(value%2Cindex)%7Bvalue%3Diterator.call(context%2Cvalue%2Cindex%2Cthis)%3Bif(result%3D%3Dnull%7C%7Cvalue%3Cresult)%0Aresult%3Dvalue%3B%7D%2Cthis)%3Breturn%20result%3B%7D&amp;partition=function%20partition(iterator%2Ccontext)%7Biterator%3Diterator%7C%7CPrototype.K%3Bvar%20trues%3D%5B%5D%2Cfalses%3D%5B%5D%3Bthis.each(function(value%2Cindex)%7B(iterator.call(context%2Cvalue%2Cindex%2Cthis)%3Ftrues%3Afalses).push(value)%3B%7D%2Cthis)%3Breturn%5Btrues%2Cfalses%5D%3B%7D&amp;pluck=function%20pluck(property)%7Bvar%20results%3D%5B%5D%3Bthis.each(function(value)%7Bresults.push(value%5Bproperty%5D)%3B%7D)%3Breturn%20results%3B%7D&amp;reject=function%20reject(iterator%2Ccontext)%7Bvar%20results%3D%5B%5D%3Bthis.each(function(value%2Cindex)%7Bif(!iterator.call(context%2Cvalue%2Cindex%2Cthis))%0Aresults.push(value)%3B%7D%2Cthis)%3Breturn%20results%3B%7D&amp;sortBy=function%20sortBy(iterator%2Ccontext)%7Breturn%20this.map(function(value%2Cindex)%7Breturn%7Bvalue%3Avalue%2Ccriteria%3Aiterator.call(context%2Cvalue%2Cindex%2Cthis)%7D%3B%7D%2Cthis).sort(function(left%2Cright)%7Bvar%20a%3Dleft.criteria%2Cb%3Dright.criteria%3Breturn%20a%3Cb%3F-1%3Aa%3Eb%3F1%3A0%3B%7D).pluck('value')%3B%7D&amp;toArray=function%20clone()%7Breturn%20slice.call(this%2C0)%3B%7D&amp;zip=function%20zip()%7Bvar%20iterator%3DPrototype.K%2Cargs%3D%24A(arguments)%3Bif(Object.isFunction(args.last()))%0Aiterator%3Dargs.pop()%3Bvar%20collections%3D%5Bthis%5D.concat(args).map(%24A)%3Breturn%20this.map(function(value%2Cindex)%7Breturn%20iterator(collections.pluck(index))%3B%7D)%3B%7D&amp;size=function%20size()%7Breturn%20this.length%3B%7D&amp;inspect=function%20inspect()%7Breturn'%5B'%2Bthis.map(Object.inspect).join('%2C%20')%2B'%5D'%3B%7D&amp;_reverse=function%20reverse()%20%7B%0A%20%20%20%20%5Bnative%20code%5D%0A%7D&amp;_each=function%20forEach()%20%7B%0A%20%20%20%20%5Bnative%20code%5D%0A%7D&amp;clear=function%20clear()%7Bthis.length%3D0%3Breturn%20this%3B%7D&amp;first=function%20first()%7Breturn%20this%5B0%5D%3B%7D&amp;last=function%20last()%7Breturn%20this%5Bthis.length-1%5D%3B%7D&amp;compact=function%20compact()%7Breturn%20this.select(function(value)%7Breturn%20value!%3Dnull%3B%7D)%3B%7D&amp;flatten=function%20flatten()%7Breturn%20this.inject(%5B%5D%2Cfunction(array%2Cvalue)%7Bif(Object.isArray(value))%0Areturn%20array.concat(value.flatten())%3Barray.push(value)%3Breturn%20array%3B%7D)%3B%7D&amp;without=function%20without()%7Bvar%20values%3Dslice.call(arguments%2C0)%3Breturn%20this.select(function(value)%7Breturn!values.include(value)%3B%7D)%3B%7D&amp;uniq=function%20uniq(sorted)%7Breturn%20this.inject(%5B%5D%2Cfunction(array%2Cvalue%2Cindex)%7Bif(0%3D%3Dindex%7C%7C(sorted%3Farray.last()!%3Dvalue%3A!array.include(value)))%0Aarray.push(value)%3Breturn%20array%3B%7D)%3B%7D&amp;intersect=function%20intersect(array)%7Breturn%20this.uniq().findAll(function(item)%7Breturn%20array.indexOf(item)!%3D%3D-1%3B%7D)%3B%7D&amp;clone=function%20clone()%7Breturn%20slice.call(this%2C0)%3B%7D&amp;moviePath=http://s0.2mdn.net/2309965/&amp;moviepath=http://s0.2mdn.net/2309965/" name="FLASH_200_78_dfa7banner_flash_html_inpage_0" id="FLASH_200_78_dfa7banner_flash_html_inpage_0" allowfullscreeninteractive="true" allowfullscreen="true" height="90" width="728"></object></div></div><script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/modernizr_2.js"></script><script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/dfa7banner_flash_html_inpage_rendering_lib_200_78.js" async="async"></script>
+<noscript style="display: none;">
+  <a target="_blank" href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjst1y_5cc6o1s6vHZzceBp34WQIHr2rz7EVyaeiPPoVb27HlW1PnBjZQRA7T_k0yrj3QG2grMbvZQrtvxnbAe--JIRHR_CIrkNQ4m0nR9WKzGvYIazRgso8zarbH03HO70szp-YIgRkYTG-DqEs-Dew&sig=Cg0ArKJSzI214r7O9M-dEAE&adurl=http://adclick.g.doubleclick.net/aclk%25253Fsa%25253DL%252526ai%25253DBYTzmPileVezHN5KPMOH4gMAPpO657AcAAAAQASAAOABYrKP8sbMBYMnGqYvApNgPggEXY2EtcHViLTU1MDU5MDU1Nzk1OTk5MDWyARh3d3cuYmxlZXBpbmdjb21wdXRlci5jb226AQlnZnBfaW1hZ2XIAQnaAXZodHRwOi8vd3d3LmJsZWVwaW5nY29tcHV0ZXIuY29tL2ZvcnVtcy90LzU3NTk5MS9iaXRjcnlwdG9yLXJhbnNvbXdhcmUtaW4tdGhlLXdpbGQtZnJvbS10aGUtc2FtZS1jcmVhdG9ycy1hcy1jb2ludmF1bHQvmALAPsACAuACAOoCIjQ1ODUvbnMuYmxlZXBpbmdjb21wdXRlci90b3BpY190b3D4AoHSHpAD4AOYA-ADqAMB4AQBkAYBoAYW2AcA%252526num%25253D0%252526cid%25253D5GiLGlskvovCW8QcdUWVJBbu%252526sig%25253DAOD64_0VMyaKSmtGysVLR4hT5MsQKGWZkw%252526client%25253Dca-pub-5505905579599905%252526adurl%25253Dhttp://d.agkn.com/pixel/2389/%3Fche%3D1430492793%26col%3D8710576,1167858,117719367,290675473,62782349%26l0%3Dhttp://www8.hp.com/us/en/ads/elitebook-folio-1020/overview.html%3Fjumpid%3Dba_ebsvwc6571/dm:_N5823.8256.ZIFFDAVISMEDIANETWORK_117719367_290675473_62782349_2309965">
+    <img border="0" alt="" src="//s0.2mdn.net/2309965/Intel_EliteBook1020_Series_0_728x90_Gif.gif"
+        width="728" height="90" />
+  </a>
+</noscript>
+</div><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/a.gif" border="0" height="1" width="1">
+<noscript style="display: none;">
+<A HREF="http://adclick.g.doubleclick.net/aclk%253Fsa%253DL%2526ai%253DBYTzmPileVezHN5KPMOH4gMAPpO657AcAAAAQASAAOABYrKP8sbMBYMnGqYvApNgPggEXY2EtcHViLTU1MDU5MDU1Nzk1OTk5MDWyARh3d3cuYmxlZXBpbmdjb21wdXRlci5jb226AQlnZnBfaW1hZ2XIAQnaAXZodHRwOi8vd3d3LmJsZWVwaW5nY29tcHV0ZXIuY29tL2ZvcnVtcy90LzU3NTk5MS9iaXRjcnlwdG9yLXJhbnNvbXdhcmUtaW4tdGhlLXdpbGQtZnJvbS10aGUtc2FtZS1jcmVhdG9ycy1hcy1jb2ludmF1bHQvmALAPsACAuACAOoCIjQ1ODUvbnMuYmxlZXBpbmdjb21wdXRlci90b3BpY190b3D4AoHSHpAD4AOYA-ADqAMB4AQBkAYBoAYW2AcA%2526num%253D0%2526cid%253D5GiLGlskvovCW8QcdUWVJBbu%2526sig%253DAOD64_0VMyaKSmtGysVLR4hT5MsQKGWZkw%2526client%253Dca-pub-5505905579599905%2526adurl%253Dhttps://fw.adsafeprotected.com/rfw/dc/39337/4854151/ddm/jump/N5823.8256.ZIFFDAVISMEDIANETWORK/B8710576.117719367;sz=728x90;ord=1503229626?">
+<IMG SRC="https://fw.adsafeprotected.com/rfw/dc/39337/4854152/ddm/ad/N5823.8256.ZIFFDAVISMEDIANETWORK/B8710576.117719367;sz=728x90;ord=1503229626?" BORDER=0 WIDTH=728 HEIGHT=90 ALT="Advertisement"></A>
+</noscript>
+
+
+<span id="te-clearads-js-1503229626"><script data-ias-script-tag="found" type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/ca_002"></script><span style="width: 0px; height: 0px; display: block; overflow: hidden;">.</span><script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/ca_003"></script></span>
+<noscript class="MOAT-ziffdaviscwnew43828694654?moatClientLevel1=25286012&amp;moatClientLevel2=191435132&amp;moatClientLevel3=129920372&amp;moatClientLevel4=48154743212&amp;moatClientSlicer1=175565492&amp;moatClientSlicer2=175710692&amp;zMoatPS=&amp;zMoatST=;zMoatPPOS=atf&amp;zMoatTEMPLATE=&amp;zMoatBP=&amp;zMoatAB=&amp;zMoatTILE=1"></noscript>
+<script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/moatad.js" type="text/javascript"></script><script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/zdvtools.js" async="true"></script></div>                               
+<noscript><a href="http://ad4.netshelter.net/jump/ns.bleepingcomputer/topic_top;ppos=atf;kw=;tile=1;dcopt=ist;sz=728x90,970x90,920x250;ord=123456789?" target="_blank" ><img src="http://ad4.netshelter.net/ad/ns.bleepingcomputer/topic_top;ppos=atf;kw=;tile=1;dcopt=ist;sz=728x90,970x90,920x250;ord=123456789?" border="0" alt="" /></a></noscript>
+ </div>
+</div>
+</div></div>
+				
+				<div id="guestwelcome">
+<div id="guestwelcome-title">
+Register a free account to unlock additional features at BleepingComputer.com
+</div>
+<div id="guestwelcome-content">
+<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/keys.gif" style="float:left" height="50" width="50">Welcome to <b>BleepingComputer</b>,
+ a free community where people like yourself come together to discuss 
+and learn how to use their computers. Using the site is easy and fun. As
+ a guest, you can browse and view the various discussions in the forums,
+ but can not create a new topic or reply to an existing one unless you 
+are logged in. Other benefits of registering an account are subscribing 
+to topics and forums, creating a blog, and having <b>no ads</b> shown anywhere on the site.<br><br>
+<center><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?app=core&amp;module=global&amp;section=register"><b>Click here to Register a free account now!</b></a> or read our <a sl-processed="1" href="http://www.bleepingcomputer.com/welcome-guide/"><b>Welcome Guide</b></a> to learn how to use this site.</center>
+</div>
+</div>
+<br>
+<!-- wolf_restrictedReplyFunction 31F01 source -->
+
+<script type="text/javascript">
+//<![CDATA[
+	ipb.topic.inSection    = 'topicview';
+	ipb.topic.topic_id     = 575991;
+	ipb.topic.forum_id     = 2;
+	ipb.topic.redirectPost = 1;
+	ipb.topic.start_id     = 0;
+	ipb.topic.page_id      = 0;
+	ipb.topic.topPid       = 0;
+	ipb.topic.counts       = { postTotal: 28,
+							  curStart:  ipb.topic.start_id,
+							  perPage:   15 };
+	//Search Setup
+	ipb.vars['search_type']			= 'forum';
+	ipb.vars['search_type_id']		= 2;
+	ipb.vars['search_type_2']		= 'topic';
+	ipb.vars['search_type_id_2']	= 575991;
+	
+	
+	// Delete stuff set up
+	ipb.topic.deleteUrls['hardDelete'] = new Template( ipb.vars['base_url'] + "app=forums&module=moderate&section=moderate&do=04&f=2&t=575991&page=&auth_key=880ea6a14ea49e853634fbdc5015a024&p=#{pid}" );
+	ipb.topic.deleteUrls['softDelete'] = new Template( ipb.vars['base_url'] + "app=forums&module=moderate&section=moderate&do=postchoice&tact=sdelete&t=575991&f=2&auth_key=880ea6a14ea49e853634fbdc5015a024&selectedpids[#{pid}]=#{pid}&pid=#{pid}" );
+	
+	
+	ipb.topic.modPerms	  = [];
+	
+	
+	ipb.templates['post_moderation'] = new Template("<div id='comment_moderate_box' class='ipsFloatingAction' style='display: none'><span class='desc'>With <span id='comment_count'>#{count}</span> checked posts: </span><select id='tactInPopup' class='input_select'><option value='approve'>Approve</option><option value='delete'>Hide</option><option value='sundelete'>Unhide</option><option value='deletedo'>Delete</option><option value='merge'>Merge</option><option value='split'>Split</option><option value='move'>Move</option></select>&nbsp;&nbsp;<input type='button' class='input_submit' id='submitModAction' value='Go' /></div>");
+	
+//]]>
+</script>
+
+
+
+
+
+	<div class="left">
+
+<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/av-3.jpg" alt="Photo" class="ipsUserPhoto ipsUserPhoto_medium">
+
+	</div>
+
+<div itemscope="" itemtype="http://schema.org/Article" class="ipsBox_withphoto">
+	
+	<h1 itemprop="name" class="ipsType_pagetitle">BitCryptor ransomware in the wild from the same creators as CoinVault</h1>
+	<div class="desc lighter blend_links">
+		 Started by <span itemprop="creator">
+	Grinler
+</span>, <span itemprop="dateCreated" datetime="2015-05-12">May 12 2015 04:36 PM</span>
+	</div>
+	
+	<meta itemprop="interactionCount" content="UserComments:28">
+</div>
+
+
+
+<br>
+<div class="topic_controls">
+	<div class="pagination clearfix left ">
+		<ul class="ipsList_inline back left">
+			
+			
+		</ul>
+		<ul class="ipsList_inline left pages">
+			<li id="anonymous_element_1" class="pagejump clickable pj0442521001">
+					<a sl-processed="1" href="#">Page 1 of 2 <!--<img src='http://www.bleepingcomputer.com/forums/public/style_images/master/dropdown.png' alt='+' />--></a>
+					<script type="text/javascript">
+						ipb.global.registerPageJump( '0442521001', { url: "http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/", stKey: 'st', perPage: 15, totalPages: 2, anchor: '' } );
+					</script>
+				</li>
+			
+				
+					
+						<li class="page active">1</li>
+					
+				
+
+					<li class="page">
+							<a sl-processed="1" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/page-2" title="BitCryptor ransomware in the wild from the same creators as CoinVault - Page 2">2</a>
+						</li>
+				
+			
+		</ul>
+		<ul class="ipsList_inline forward left">
+			<li class="next"><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/page-2" title="BitCryptor ransomware in the wild from the same creators as CoinVault - Next page" rel="next">Next</a></li>
+			
+		</ul>
+	</div>
+	
+
+
+	<ul class="topic_buttons">
+			<li class="disabled"><span>Please log in to reply</span></li>
+			
+			
+		</ul>
+</div>
+
+<div class="maintitle clear clearfix">
+	<span class="ipsType_small">
+		27 replies to this topic
+	</span>
+		
+</div>
+
+<div class="topic hfeed clear clearfix">
+	
+	
+
+	<div class="ipsBox">
+		<div class="ipsBox_container" id="ips_Posts">
+			
+				<!--post:3704447-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3704447">
+		<a id="entry3704447"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3704447" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3704447" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #1">
+					
+					#1
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #1">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	Grinler
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">Grinler</span>
+	<ul class="basic_info">
+		
+			<p class="desc member_title">Lawrence Abrams</p>
+		
+		<br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/av-3.jpg" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			<span style="color:#FF0000; font-weight: bold; height: 2px;">Admin</span>
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			41,187 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_grey">OFFLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+						<li>
+							<span class="ft">Gender:</span><span class="fc">Male</span>
+						</li>
+					
+				
+
+					
+						<li>
+							<span class="ft">Location:</span><span class="fc">USA</span>
+						</li>
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">02:51 PM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-12T17:36:49-04:00">12 May 2015 - 04:36 PM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000-->Introducing <strong>BitCryptor</strong>, another new encrypting ransomware from the creators of <a sl-processed="1" href="http://www.bleepingcomputer.com/forums/t/555781/a-new-ransomware-called-coinvault-has-been-released/" class="bbc_url" title="">CoinVault</a>.
+ BitCryptor is essentially the same exact infection as CoinVault other 
+than a user interface change. This ransomware encrypts your files using 
+AES 256 encryption and demands 1 bitcoin in order to decrypt your files.
+ At this time there is no way to decrypt your files for free. 
+Unfortunately, the Kaspersky site for CoinVault keys will not work with 
+this infection.<br><br>&nbsp;<br><p style="text-align:center"><span rel="lightbox"><img class="bbc_img" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/bitcryptor.jpg" alt="bitcryptor.jpg"></span></p><br><br>When
+ BitCryptor is first started it will delete all shadow volume copies on 
+the computer so that you are unable to restore your files from them. It 
+will then set the Windows wallpaper to %Temp%\wallpaper.jpg and begin 
+encrypting your files. When BitCryptor encrypts your files it will do so
+ using certain rules. These are:<ul class="bbc"><li>BitCryptor will not encrypt any files found in the <strong>program files</strong>,<strong>appdata</strong>,<strong>programdata</strong>,<strong>boot</strong>,<strong>windows</strong>,<strong>winnt</strong>,<strong>recycle.bin</strong>,<strong>downloads</strong>,<strong>all users</strong>, or <strong>temp</strong> folders.</li><li>It will encrypt all files regardless of the extension if the folder contains the <strong>pictures</strong> or <strong>backup</strong> strings.</li><li>Otherwise
+ it will encrypt any files that match the following extensions: 
+.odt,.ods,.odp,.odm,.odc,.odb,.doc,.docx,.docm,.wps,.xls,.xlsx,.xlsm,.xlsb,.xlk,.ppt,.pptx,.pptm,.mdb,.accdb,.pst,.dwg,.dxf,.dxg,.wpd,.rtf,.wb2,.mdf,.dbf,.psd,.pdd,.pdf,.eps,.ai,.indd,.cdr,.dng,.3fr,.arw,.srf,.sr2,.mp3,.bay,.crw,.cr2,.dcr,.kdc,.erf,.mef,.mrw,.nef,.nrw,.orf,.raf,.raw,.rwl,.rw2,.r3d,.ptx,.pef,.srw,.x3f,.der,.cer,.crt,.pem,.pfx,.p12,.p7b,.p7c,.jpg,.png,.jfif,.jpeg,.gif,.bmp,.exif,.txt,.tc,.mov,.mp4,.rar,.zip,.iso,.vsdx,.3ds,
+ and .c4d</li></ul>Furthermore, while Bitcryptor is running it will terminate any process that contains the following keywords:<br>&nbsp;<br><pre style="" class="prettyprint lang-auto linenums:0 prettyprinted"><span class="pln">shadow</span><span class="pun">,</span><span class="pln">cmd</span><span class="pun">,</span><span class="pln">processhacker</span><span class="pun">,</span><span class="pln">mbam</span><span class="pun">,</span><span class="pln">sh4</span><span class="pun">,</span><span class="pln">spyhunter</span><span class="pun">,</span><span class="pln">msconfig</span><span class="pun">,</span><span class="pln">taskmgr</span><span class="pun">,</span><span class="pln">roguekiller</span><span class="pun">,</span><span class="pln">rstrui</span><span class="pun">,</span><span class="pln">regedit</span><span class="pun">,</span><span class="pln">procexp</span></pre>As
+ always we suggest you practice good computer safety to protect your 
+computer from being infected with this ransomware. This means only open 
+attachments that you are expecting and make sure you keep all your 
+programs and Windows updated.<br><br>We also suggest a behavior detection program such as <a sl-processed="1" href="https://www.easysyncsolutions.com/products.html" class="bbc_url" title="External link" rel="nofollow external">CryptoMonitor</a> and <a sl-processed="1" href="http://www.surfright.nl/en/alert" class="bbc_url" title="External link" rel="nofollow external">HitmanPro: Alert</a>.
+ CryptoMonitor was able to prevent this infection without any updates 
+and I am sure HitmanPro: Alert will be able to do soon, if not already.<br><br>If any new information is released on this ransomware, we will be sure to post about it here.<br><br><br><strong>Known BitCryptor Files:</strong><br><pre style="" class="prettyprint lang-auto linenums:0 prettyprinted"><span class="pun">%</span><span class="typ">Temp</span><span class="pun">%</span><span class="pln">\BitCryptorFileList</span><span class="pun">.</span><span class="pln">txt
+</span><span class="pun">%</span><span class="typ">Temp</span><span class="pun">%</span><span class="pln">\wallpaper</span><span class="pun">.</span><span class="pln">jpg
+</span><span class="pun">%</span><span class="typ">UserProfile</span><span class="pun">%</span><span class="pln">\filelist</span><span class="pun">.</span><span class="pln">locklst
+</span><span class="pun">%</span><span class="typ">UserProfile</span><span class="pun">%</span><span class="pln">\sfile</span></pre><strong>Known BitCryptor Ransomware Registry keys:</strong><br><pre style="" class="prettyprint lang-auto linenums:0 prettyprinted"><span class="pln">HKCU\Software\Microsoft\Windows\CurrentVersion\Run\BitC	</span><span class="str">"%UserProfile%\bclock.exe"</span><span class="pln">
+HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce\*</span><span class="typ">BitC</span><span class="pln">	</span><span class="str">"%UserProfile%\bclock.exe"</span><span class="pln">
+HKCU\Control </span><span class="typ">Panel</span><span class="pln">\Desktop\Wallpaper	</span><span class="str">"%Temp%\wallpaper.jpg"</span></pre>
+					
+           <div style="padding-top:10px">
+            <script data-fingerprint="1000" class="lockerdome-js-lite" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/widget_interest_1_0.js" data-owner="6622634788138753" data-style="text" data-width="full-width" data-size="custom-large" data-size_specifics="40" data-box="box-on" data-follow_up="share"></script><div style="height: 106px;" class="ld-interest-widget-cntnr"><iframe src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/interest.htm" class="ld-interest"></iframe><iframe data-known_content="true" style="height: 72px; top: 91px;" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/share.htm" class="ld-follow-up closed custom-large text box-on full-width"></iframe></div>
+           </div>
+          			
+					
+					<br>
+					
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3704447', { domLikeStripId: 'like_post_3704447', app: 'forums', type: 'pid', typeid: '3704447' }, parseInt('') );
+</script>
+				
+								
+				
+					<div class="signature" data-memberid="3">
+	
+	<!--signature-cached-Thu, 21 May 2015 18:50:15 +0000--><p><span style="color:#0000FF;"><span style="color:#4169E1;"><strong>Lawrence Abrams</strong><br>
+<br>Become a BleepingComputer fan: <a sl-processed="1" data-ipb="nomediaparse" href="http://facebook.bleepingcomputer.com/"><strong>Facebook</strong></a><br><a sl-processed="1" data-ipb="nomediaparse" href="http://twitter.com/BleepinComputer"><strong>Follow us on Twitter!</strong></a><br>
+<a sl-processed="1" data-ipb="nomediaparse" href="http://lockerdome.com/bleepingcomputer" rel="nofollow" target="_blank"><strong>Hang with us on LockerDome</strong></a><br><a sl-processed="1" data-ipb="nomediaparse" href="https://plus.google.com/112790257026281352252"><strong>Circle BleepingComputer on Google+!</strong></a><br><br><a sl-processed="1" data-ipb="nomediaparse" href="http://www.bleepingcomputer.com/tutorials/detect-vulnerable-programs-with-secunia-psi/"><strong>How to detect vulnerable programs using Secunia Personal Software Inspector</strong></a> &lt;- Everyone should do this!<br><a sl-processed="1" data-ipb="nomediaparse" href="http://www.bleepingcomputer.com/tutorials/keep-your-computer-safe-online/"><strong>Simple and easy ways to keep your computer safe and secure on the Internet</strong></a> &lt;- Everyone must read this!</span></span>
+</p></div>
+				
+				
+				
+				<ul id="postControlsNormal_3704447" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+			<div class="post_block hentry clear" id="post_id_2962293">
+ <div class="post_wrap">
+  <h3><font color="#226ca8">BC AdBot (Login to Remove)</font></h3>
+  <div class="author_info">
+   <ul class="basic_info">
+    <li class="avatar"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/bot.jpg" class="ipsUserPhoto ipsUserPhoto_large"></li>
+    <li class="group_title">BleepingComputer.com</li><li>
+    </li><li class="group_title"><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?app=core&amp;module=global&amp;section=register" target="_blank">Register to remove ads</a>
+   </li></ul>
+   <div style="margin: 0 auto;"></div>
+  </div>
+  <div class="post_body">
+   <div class="post entry-content ">
+    <div style="padding: 20px 0px 20px 0px" align="center">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3249370012249755";
+/* Forums - Topics inTopics */
+google_ad_slot = "8738858284";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/show_ads.js">
+</script><ins id="aswift_0_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;" frameborder="0" height="90" width="728"></iframe></ins></ins>    <p>&nbsp;</p>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<hr>
+		
+<script type="text/javascript">
+var pid = parseInt(3704447);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3704447') )
+	{
+		$('multiq_3704447').show();
+	}
+	
+	if( $('toggle_post_3704447') )
+	{
+		$('toggle_post_3704447').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3704447] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+
+				<!--post:3704455-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3704455">
+		<a id="entry3704455"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3704455" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3704455" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #2">
+					
+					#2
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #2">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	Aura.
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">Aura.</span>
+	<ul class="basic_info">
+		
+			<p class="desc member_title">Technical Support - Tier 2, Day Job</p>
+		
+		<br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/photo-861833.gif" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			Members
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			5,863 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_green">ONLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+						<li>
+							<span class="ft">Gender:</span><span class="fc">Male</span>
+						</li>
+					
+				
+
+					
+						<li>
+							<span class="ft">Location:</span><span class="fc">Quebec, Canada</span>
+						</li>
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">02:51 PM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-12T17:47:18-04:00">12 May 2015 - 04:47 PM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000-->It's the second thread today about a new Cryptoware. This is getting really out of hands.
+								
+					
+					<br>
+					
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3704455', { domLikeStripId: 'like_post_3704455', app: 'forums', type: 'pid', typeid: '3704455' }, parseInt('') );
+</script>
+				
+								
+				
+					<div class="signature" data-memberid="861833">
+	
+	<!--signature-cached-Thu, 21 May 2015 18:45:52 +0000--><p style="text-align:center"><span rel="lightbox"><img class="bbc_img" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/userbar_500.gif" alt="userbar_500.gif"></span><br><span class="bbc_hr">&nbsp;</span><br><strong><span style="color:#0000FF">Technical Support, Tier 2</span></strong><br>My
+ timezone UTC-05:00 (East. Coast), so if I'm assisting you in a thread, 
+and I've not been online for a while, please check the time to see if 
+I'm awake or asleep!<br>Skilled and experienced in Windows Technical 
+Support and Troubleshooting as well as General Computing Support and 
+Troubleshooting <img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/smile.png" class="bbc_emoticon" alt=":)">
+</p></div>
+				
+				
+				
+				<ul id="postControlsNormal_3704455" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+<script type="text/javascript">
+var pid = parseInt(3704455);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3704455') )
+	{
+		$('multiq_3704455').show();
+	}
+	
+	if( $('toggle_post_3704455') )
+	{
+		$('toggle_post_3704455').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3704455] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+
+				<!--post:3704461-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3704461">
+		<a id="entry3704461"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3704461" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3704461" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #3">
+					
+					#3
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #3">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	Cody Johnston
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">Cody Johnston</span>
+	<ul class="basic_info">
+		
+		<br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/photo-thumb-871879.png" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			Security Colleague
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			12 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_grey">OFFLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+						<li>
+							<span class="ft">Gender:</span><span class="fc">Male</span>
+						</li>
+					
+				
+
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">11:51 AM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-12T17:49:52-04:00">12 May 2015 - 04:49 PM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000--><p class="citation">Aura., on 12 May 2015 - 5:47 PM, said:<a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?app=forums&amp;module=forums&amp;section=findpost&amp;pid=3704455" rel="citation" class="snapback right"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/snapback.png"></a></p><blockquote class="ipsBlockquote built" data-author="Aura." data-cid="3704455" data-time="1431467238">
+<div>
+<p>It's the second thread today about a new Cryptoware. This is getting really out of hands.</p>
+</div>
+</blockquote>
+<p>&nbsp;</p>
+<p>The worst part is these were the notable ones, for each of these there are a dozen more.</p>
+								
+					
+					<br>
+					
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3704461', { domLikeStripId: 'like_post_3704461', app: 'forums', type: 'pid', typeid: '3704461' }, parseInt('') );
+</script>
+				
+								
+				
+				
+				
+				<ul id="postControlsNormal_3704461" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+<script type="text/javascript">
+var pid = parseInt(3704461);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3704461') )
+	{
+		$('multiq_3704461').show();
+	}
+	
+	if( $('toggle_post_3704461') )
+	{
+		$('toggle_post_3704461').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3704461] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+
+				<!--post:3704477-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3704477">
+		<a id="entry3704477"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3704477" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3704477" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #4">
+					
+					#4
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #4">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	awesomecooldude101
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">awesomecooldude101</span>
+	<ul class="basic_info">
+		
+		<br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/photo-thumb-931578.jpg" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			<span style="color:#FF9900"><b>Malware Study Hall Sophomore</b></span>
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			102 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_grey">OFFLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+						<li>
+							<span class="ft">Gender:</span><span class="fc">Male</span>
+						</li>
+					
+				
+
+					
+						<li>
+							<span class="ft">Location:</span><span class="fc">Some place in Australia</span>
+						</li>
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">04:21 AM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-12T18:18:57-04:00">12 May 2015 - 05:18 PM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000--><p>This is starting to
+ get bad. The more money people pay up to these hackers, the more it 
+will encourage them to make more and more forms of ransomware. But some 
+people need these files and the only way to get them back is to pay up 
+and as aura said this is getting really out of hands</p>
+
+								
+					
+					<br>
+					
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3704477', { domLikeStripId: 'like_post_3704477', app: 'forums', type: 'pid', typeid: '3704477' }, parseInt('') );
+</script>
+				
+								
+				
+				
+				
+				<ul id="postControlsNormal_3704477" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+<script type="text/javascript">
+var pid = parseInt(3704477);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3704477') )
+	{
+		$('multiq_3704477').show();
+	}
+	
+	if( $('toggle_post_3704477') )
+	{
+		$('toggle_post_3704477').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3704477] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+
+				<!--post:3704479-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3704479">
+		<a id="entry3704479"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3704479" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3704479" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #5">
+					
+					#5
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #5">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	devdaniel
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">devdaniel</span>
+	<ul class="basic_info">
+		
+		<br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/default_large.png" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			Members
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			1 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_grey">OFFLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+				
+
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">05:51 AM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-12T18:21:12-04:00">12 May 2015 - 05:21 PM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000--><p>Will probably take until AES flaws (if any) are well known before this type of ransomware stops becoming profitable :\</p>
+
+								
+					
+					<br>
+					
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3704479', { domLikeStripId: 'like_post_3704479', app: 'forums', type: 'pid', typeid: '3704479' }, parseInt('') );
+</script>
+				
+								
+				
+				
+				
+				<ul id="postControlsNormal_3704479" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+<script type="text/javascript">
+var pid = parseInt(3704479);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3704479') )
+	{
+		$('multiq_3704479').show();
+	}
+	
+	if( $('toggle_post_3704479') )
+	{
+		$('toggle_post_3704479').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3704479] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+
+				<!--post:3704510-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3704510">
+		<a id="entry3704510"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3704510" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3704510" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #6">
+					
+					#6
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #6">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	buddy215
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">buddy215</span>
+	<ul class="basic_info">
+		
+		<br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/photo-thumb-64042.jpg" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			<span style="color:#009933"><b>BC Advisor</b></span>
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			7,395 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_grey">OFFLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+						<li>
+							<span class="ft">Gender:</span><span class="fc">Male</span>
+						</li>
+					
+				
+
+					
+						<li>
+							<span class="ft">Location:</span><span class="fc">West Tennessee</span>
+						</li>
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">01:51 PM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-12T18:55:58-04:00">12 May 2015 - 05:55 PM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000--><p>Grinler....</p>
+<p><strong>The links in this sentence..</strong>.<em>We also suggest a behavior detection program such as <a sl-processed="1" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/CryptoMonitor" class="bbc_url" title="">CryptoMonitor</a> and <a sl-processed="1" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/null" class="bbc_url" title="">HitmanPro: Alert</a>.</em> <strong>when clicked return to this topic page. </strong></p>
+
+								
+					
+					<br>
+					
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3704510', { domLikeStripId: 'like_post_3704510', app: 'forums', type: 'pid', typeid: '3704510' }, parseInt('') );
+</script>
+				
+								
+				
+					<div class="signature" data-memberid="64042">
+	
+	<!--signature-cached-Wed, 20 May 2015 17:27:56 +0000--><p><span style="font-size:14px"><span style="color:rgb(0,0,128)"><strong>“Every
+ atom in your body came from a star that exploded and the atoms in your 
+left hand probably came from a different star than your right hand. It 
+really is the most poetic thing I know about physics...you are all 
+stardust.”</strong></span><br>
+&#8213; <a sl-processed="1" href="http://www.goodreads.com/author/show/1410.Lawrence_M_Krauss" class="bbc_url" title="External link" rel="nofollow external">Lawrence M. Krauss</a></span>
+</p></div>
+				
+				
+				
+				<ul id="postControlsNormal_3704510" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+<script type="text/javascript">
+var pid = parseInt(3704510);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3704510') )
+	{
+		$('multiq_3704510').show();
+	}
+	
+	if( $('toggle_post_3704510') )
+	{
+		$('toggle_post_3704510').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3704510] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+
+				<!--post:3704514-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3704514">
+		<a id="entry3704514"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3704514" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3704514" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #7">
+					
+					#7
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #7">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	Grinler
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">Grinler</span>
+	<ul class="basic_info">
+		
+			<p class="desc member_title">Lawrence Abrams</p>
+		
+		<li class="title"><span class="ipsBadge" style="background:green;">Topic Starter</span></li><br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/av-3.jpg" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			<span style="color:#FF0000; font-weight: bold; height: 2px;">Admin</span>
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			41,187 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_grey">OFFLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+						<li>
+							<span class="ft">Gender:</span><span class="fc">Male</span>
+						</li>
+					
+				
+
+					
+						<li>
+							<span class="ft">Location:</span><span class="fc">USA</span>
+						</li>
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">02:51 PM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-12T19:02:42-04:00">12 May 2015 - 06:02 PM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000-->Sorry..fixed
+								
+					
+					<br>
+					
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3704514', { domLikeStripId: 'like_post_3704514', app: 'forums', type: 'pid', typeid: '3704514' }, parseInt('') );
+</script>
+				
+								
+				
+					<div class="signature" data-memberid="3">
+	
+	<!--signature-cached-Thu, 21 May 2015 18:50:15 +0000--><p><span style="color:#0000FF;"><span style="color:#4169E1;"><strong>Lawrence Abrams</strong><br>
+<br>Become a BleepingComputer fan: <a sl-processed="1" data-ipb="nomediaparse" href="http://facebook.bleepingcomputer.com/"><strong>Facebook</strong></a><br><a sl-processed="1" data-ipb="nomediaparse" href="http://twitter.com/BleepinComputer"><strong>Follow us on Twitter!</strong></a><br>
+<a sl-processed="1" data-ipb="nomediaparse" href="http://lockerdome.com/bleepingcomputer" rel="nofollow" target="_blank"><strong>Hang with us on LockerDome</strong></a><br><a sl-processed="1" data-ipb="nomediaparse" href="https://plus.google.com/112790257026281352252"><strong>Circle BleepingComputer on Google+!</strong></a><br><br><a sl-processed="1" data-ipb="nomediaparse" href="http://www.bleepingcomputer.com/tutorials/detect-vulnerable-programs-with-secunia-psi/"><strong>How to detect vulnerable programs using Secunia Personal Software Inspector</strong></a> &lt;- Everyone should do this!<br><a sl-processed="1" data-ipb="nomediaparse" href="http://www.bleepingcomputer.com/tutorials/keep-your-computer-safe-online/"><strong>Simple and easy ways to keep your computer safe and secure on the Internet</strong></a> &lt;- Everyone must read this!</span></span>
+</p></div>
+				
+				
+				
+				<ul id="postControlsNormal_3704514" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+<script type="text/javascript">
+var pid = parseInt(3704514);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3704514') )
+	{
+		$('multiq_3704514').show();
+	}
+	
+	if( $('toggle_post_3704514') )
+	{
+		$('toggle_post_3704514').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3704514] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+
+				<!--post:3704756-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3704756">
+		<a id="entry3704756"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3704756" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3704756" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #8">
+					
+					#8
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #8">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	Alexstrasza
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">Alexstrasza</span>
+	<ul class="basic_info">
+		
+			<p class="desc member_title">Bleepin' Dark Ranger</p>
+		
+		<br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/photo-thumb-924029.jpg" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			<span style="color:#F2B900"><b>Malware Study Hall Junior</b></span>
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			2,348 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_green">ONLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+						<li>
+							<span class="ft">Gender:</span><span class="fc">Female</span>
+						</li>
+					
+				
+
+					
+						<li>
+							<span class="ft">Location:</span><span class="fc">Knowhere</span>
+						</li>
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">08:51 PM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-13T01:09:46-04:00">13 May 2015 - 12:09 AM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000-->Looks like it also tries to prevent the user from removing it by killing commonly used tools for removal.
+								
+					
+					<br>
+					
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3704756', { domLikeStripId: 'like_post_3704756', app: 'forums', type: 'pid', typeid: '3704756' }, parseInt('') );
+</script>
+				
+								
+				
+					<div class="signature" data-memberid="924029">
+	
+	<!--signature-cached-Thu, 21 May 2015 18:23:32 +0000--><p style="text-align:center">Member of the <strong><em>Bleeping Computer</em></strong> <a sl-processed="1" href="http://www.bleepingcomputer.com/forums/forum103.html" class="bbc_url" title=""><strong><span style="color:#0000FF">A.I.I.</span></strong></a> early response team!<br>&nbsp;<br><span style="color:#0000FF"><strong>If you need help, please post in the forum - I do not give support via PM. All requests made via PM will be ignored.</strong></span><br><br><span style="color:#008000">If I am helping you and have not returned in 48 hours, please send me a PM with a link to the topic.</span><br>&nbsp;<br><a sl-processed="1" href="http://www.bleepingcomputer.com/tutorials/keep-your-computer-safe-online/" class="bbc_url" title="">Common sense makes up 90% of security - software makes up the remaining 10%</a>.<br>&nbsp;<br><a sl-processed="1" href="http://www.emsisoft.com/en/software/internetsecurity" class="bbc_url" title="External link" rel="nofollow external"><img class="bbc_img" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/userbar_eis_500.gif" alt="userbar_eis_500.gif"></a>
+</p></div>
+				
+				
+				
+				<ul id="postControlsNormal_3704756" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+<script type="text/javascript">
+var pid = parseInt(3704756);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3704756') )
+	{
+		$('multiq_3704756').show();
+	}
+	
+	if( $('toggle_post_3704756') )
+	{
+		$('toggle_post_3704756').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3704756] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+
+				<!--post:3704855-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3704855">
+		<a id="entry3704855"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3704855" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3704855" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #9">
+					
+					#9
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #9">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	Aura.
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">Aura.</span>
+	<ul class="basic_info">
+		
+			<p class="desc member_title">Technical Support - Tier 2, Day Job</p>
+		
+		<br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/photo-861833.gif" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			Members
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			5,863 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_green">ONLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+						<li>
+							<span class="ft">Gender:</span><span class="fc">Male</span>
+						</li>
+					
+				
+
+					
+						<li>
+							<span class="ft">Location:</span><span class="fc">Quebec, Canada</span>
+						</li>
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">02:51 PM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-13T06:23:06-04:00">13 May 2015 - 05:23 AM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000-->I like the fact that it wants to kill that scam:<br><br><p class="citation">Quote<span></span></p><blockquote class="ipsBlockquote built"><p>spyhunter</p></blockquote>
+								
+					
+					<br>
+					
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3704855', { domLikeStripId: 'like_post_3704855', app: 'forums', type: 'pid', typeid: '3704855' }, parseInt('') );
+</script>
+				
+								
+				
+					<div class="signature" data-memberid="861833">
+	
+	<!--signature-cached-Thu, 21 May 2015 18:45:52 +0000--><p style="text-align:center"><span rel="lightbox"><img class="bbc_img" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/userbar_500.gif" alt="userbar_500.gif"></span><br><span class="bbc_hr">&nbsp;</span><br><strong><span style="color:#0000FF">Technical Support, Tier 2</span></strong><br>My
+ timezone UTC-05:00 (East. Coast), so if I'm assisting you in a thread, 
+and I've not been online for a while, please check the time to see if 
+I'm awake or asleep!<br>Skilled and experienced in Windows Technical 
+Support and Troubleshooting as well as General Computing Support and 
+Troubleshooting <img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/smile.png" class="bbc_emoticon" alt=":)">
+</p></div>
+				
+				
+				
+				<ul id="postControlsNormal_3704855" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+<script type="text/javascript">
+var pid = parseInt(3704855);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3704855') )
+	{
+		$('multiq_3704855').show();
+	}
+	
+	if( $('toggle_post_3704855') )
+	{
+		$('toggle_post_3704855').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3704855] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+
+				<!--post:3704952-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3704952">
+		<a id="entry3704952"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3704952" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3704952" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #10">
+					
+					#10
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #10">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	gatto
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">gatto</span>
+	<ul class="basic_info">
+		
+		<br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/default_large.png" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			Members
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			3 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_grey">OFFLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+				
+
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">01:51 PM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-13T09:59:58-04:00">13 May 2015 - 08:59 AM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000--><p>ok I did pay to get
+ my files back, and I did, it will create 2 file after you pay ..the 
+first is a text file with the decryption key and instructions, the 
+second is a .rar file with a decrition tool just in case some file didnt
+ decripted.</p>
+
+								
+					
+					<br>
+					
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3704952', { domLikeStripId: 'like_post_3704952', app: 'forums', type: 'pid', typeid: '3704952' }, parseInt('') );
+</script>
+				
+								
+				
+				
+				
+				<ul id="postControlsNormal_3704952" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+<script type="text/javascript">
+var pid = parseInt(3704952);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3704952') )
+	{
+		$('multiq_3704952').show();
+	}
+	
+	if( $('toggle_post_3704952') )
+	{
+		$('toggle_post_3704952').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3704952] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+
+				<!--post:3704959-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3704959">
+		<a id="entry3704959"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3704959" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3704959" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #11">
+					
+					#11
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #11">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	Grinler
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">Grinler</span>
+	<ul class="basic_info">
+		
+			<p class="desc member_title">Lawrence Abrams</p>
+		
+		<li class="title"><span class="ipsBadge" style="background:green;">Topic Starter</span></li><br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/av-3.jpg" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			<span style="color:#FF0000; font-weight: bold; height: 2px;">Admin</span>
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			41,187 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_grey">OFFLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+						<li>
+							<span class="ft">Gender:</span><span class="fc">Male</span>
+						</li>
+					
+				
+
+					
+						<li>
+							<span class="ft">Location:</span><span class="fc">USA</span>
+						</li>
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">02:51 PM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-13T10:06:32-04:00">13 May 2015 - 09:06 AM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000--><p class="citation">gatto, on 13 May 2015 - 09:59 AM, said:<a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?app=forums&amp;module=forums&amp;section=findpost&amp;pid=3704952" rel="citation" class="snapback right"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/snapback.png"></a></p><blockquote class="ipsBlockquote built" data-author="gatto" data-cid="3704952" data-time="1431525598"><p>ok
+ I did pay to get my files back, and I did, it will create 2 file after 
+you pay ..the first is a text file with the decryption key and 
+instructions, the second is a .rar file with a decrition tool just in 
+case some file didnt decripted.</p></blockquote><br>The backup decryptor looks like this, correct?<br><br><p style="text-align:center"><span rel="lightbox"><img class="bbc_img" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/backup-decrypter.jpg" alt="backup-decrypter.jpg"></span></p>
+								
+					
+					<br>
+					
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3704959', { domLikeStripId: 'like_post_3704959', app: 'forums', type: 'pid', typeid: '3704959' }, parseInt('') );
+</script>
+				
+								
+				
+					<div class="signature" data-memberid="3">
+	
+	<!--signature-cached-Thu, 21 May 2015 18:50:15 +0000--><p><span style="color:#0000FF;"><span style="color:#4169E1;"><strong>Lawrence Abrams</strong><br>
+<br>Become a BleepingComputer fan: <a sl-processed="1" data-ipb="nomediaparse" href="http://facebook.bleepingcomputer.com/"><strong>Facebook</strong></a><br><a sl-processed="1" data-ipb="nomediaparse" href="http://twitter.com/BleepinComputer"><strong>Follow us on Twitter!</strong></a><br>
+<a sl-processed="1" data-ipb="nomediaparse" href="http://lockerdome.com/bleepingcomputer" rel="nofollow" target="_blank"><strong>Hang with us on LockerDome</strong></a><br><a sl-processed="1" data-ipb="nomediaparse" href="https://plus.google.com/112790257026281352252"><strong>Circle BleepingComputer on Google+!</strong></a><br><br><a sl-processed="1" data-ipb="nomediaparse" href="http://www.bleepingcomputer.com/tutorials/detect-vulnerable-programs-with-secunia-psi/"><strong>How to detect vulnerable programs using Secunia Personal Software Inspector</strong></a> &lt;- Everyone should do this!<br><a sl-processed="1" data-ipb="nomediaparse" href="http://www.bleepingcomputer.com/tutorials/keep-your-computer-safe-online/"><strong>Simple and easy ways to keep your computer safe and secure on the Internet</strong></a> &lt;- Everyone must read this!</span></span>
+</p></div>
+				
+				
+				
+				<ul id="postControlsNormal_3704959" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+<script type="text/javascript">
+var pid = parseInt(3704959);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3704959') )
+	{
+		$('multiq_3704959').show();
+	}
+	
+	if( $('toggle_post_3704959') )
+	{
+		$('toggle_post_3704959').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3704959] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+
+				<!--post:3704964-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3704964">
+		<a id="entry3704964"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3704964" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3704964" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #12">
+					
+					#12
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #12">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	gatto
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">gatto</span>
+	<ul class="basic_info">
+		
+		<br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/default_large.png" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			Members
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			3 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_grey">OFFLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+				
+
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">01:51 PM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-13T10:13:07-04:00">13 May 2015 - 09:13 AM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000--><p>yes</p>
+								
+					
+					<br>
+					
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3704964', { domLikeStripId: 'like_post_3704964', app: 'forums', type: 'pid', typeid: '3704964' }, parseInt('') );
+</script>
+				
+								
+				
+				
+				
+				<ul id="postControlsNormal_3704964" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+<script type="text/javascript">
+var pid = parseInt(3704964);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3704964') )
+	{
+		$('multiq_3704964').show();
+	}
+	
+	if( $('toggle_post_3704964') )
+	{
+		$('toggle_post_3704964').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3704964] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+
+				<!--post:3705322-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3705322">
+		<a id="entry3705322"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3705322" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3705322" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #13">
+					
+					#13
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #13">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	neiremaove
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">neiremaove</span>
+	<ul class="basic_info">
+		
+		<br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/default_large.png" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			Members
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			2 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_grey">OFFLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+				
+
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">08:51 PM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-13T17:55:22-04:00">13 May 2015 - 04:55 PM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000--><p><span><span>A better option</span> <span>than paid is to launch a</span> <span>kickstarter</span> <span>to</span> <span>hire a private</span> <span>detective</span> <span>to accommodate</span> <span>this</span> <span>bleep</span> <span>and pay</span> <span>a henchman</span> <span>to stick</span> him <span>a bullet</span> <span>in the neck</span></span></p>
+
+								
+					
+					<br>
+					
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3705322', { domLikeStripId: 'like_post_3705322', app: 'forums', type: 'pid', typeid: '3705322' }, parseInt('') );
+</script>
+				
+								
+				
+				
+				
+				<ul id="postControlsNormal_3705322" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+<script type="text/javascript">
+var pid = parseInt(3705322);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3705322') )
+	{
+		$('multiq_3705322').show();
+	}
+	
+	if( $('toggle_post_3705322') )
+	{
+		$('toggle_post_3705322').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3705322] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+
+				<!--post:3705718-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3705718">
+		<a id="entry3705718"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3705718" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3705718" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #14">
+					
+					#14
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #14">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	awesomecooldude101
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">awesomecooldude101</span>
+	<ul class="basic_info">
+		
+		<br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/photo-thumb-931578.jpg" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			<span style="color:#FF9900"><b>Malware Study Hall Sophomore</b></span>
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			102 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_grey">OFFLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+						<li>
+							<span class="ft">Gender:</span><span class="fc">Male</span>
+						</li>
+					
+				
+
+					
+						<li>
+							<span class="ft">Location:</span><span class="fc">Some place in Australia</span>
+						</li>
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">04:21 AM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-14T04:19:25-04:00">14 May 2015 - 03:19 AM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000--><p>correct me if I'm 
+wrong, but couldn't you just get the bitcrypt decrypter (the .rar one) 
+from someone who paid and use it on you're computer?</p>
+<p>edit: never mind just looked at the phto properly, turns out you need a key...</p>
+
+								
+					
+					<br>
+					<p class="edit">
+							<strong>Edited by awesomecooldude101, 14 May 2015 - 03:20 AM.</strong>
+							
+						</p>
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3705718', { domLikeStripId: 'like_post_3705718', app: 'forums', type: 'pid', typeid: '3705718' }, parseInt('') );
+</script>
+				
+								
+				
+				
+				
+				<ul id="postControlsNormal_3705718" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+<script type="text/javascript">
+var pid = parseInt(3705718);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3705718') )
+	{
+		$('multiq_3705718').show();
+	}
+	
+	if( $('toggle_post_3705718') )
+	{
+		$('toggle_post_3705718').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3705718] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+
+				<!--post:3705807-->
+
+<div class="post_block hentry clear clearfix  " id="post_id_3705807">
+		<a id="entry3705807"></a>
+		
+	
+		
+		<div class="post_wrap">
+			
+				<h3 class="row2">
+			
+				<span class="post_id right ipsType_small desc blend_links">
+					
+						<a sl-processed="1" itemprop="replyToUrl" data-entry-pid="3705807" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/#entry3705807" rel="bookmark" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #15">
+					
+					#15
+					<img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/icon_share.png" class="small" title="BitCryptor ransomware in the wild from the same creators as CoinVault: post #15">
+					</a>
+				</span>
+				
+				
+					<span itemprop="creator name" class="author vcard">
+	Aura.
+</span>
+				
+			
+				
+			</h3>
+			<div class="author_info">
+				<div itemscope="" itemtype="http://schema.org/Person" class="user_details">
+	<span class="hide" itemprop="name">Aura.</span>
+	<ul class="basic_info">
+		
+			<p class="desc member_title">Technical Support - Tier 2, Day Job</p>
+		
+		<br><li class="avatar">
+				
+				
+					<img itemprop="image" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/photo-861833.gif" class="ipsUserPhoto ipsUserPhoto_large">
+				
+				
+			</li>
+		<li class="group_title">
+			Members
+		</li>
+		
+		
+		<li class="post_count desc lighter">
+			5,863 posts
+		</li>
+		
+	<li class="group_title"><span class="ipsBadge ipsBadge_green">ONLINE</span></li>
+ &nbsp;
+		
+	</ul>
+	
+	
+		<ul class="custom_fields">
+			
+				
+					
+						<li>
+							<span class="ft">Gender:</span><span class="fc">Male</span>
+						</li>
+					
+				
+
+					
+						<li>
+							<span class="ft">Location:</span><span class="fc">Quebec, Canada</span>
+						</li>
+					
+				
+
+			<li><span class="ft">Local time:</span><span class="fc">02:51 PM</span>
+			</li>
+					
+		</ul>
+	
+	
+</div>
+			</div>
+			<div class="post_body">
+				<p class="posted_info desc lighter ipsType_small">
+					Posted <abbr class="published" itemprop="commentTime" title="2015-05-14T06:27:17-04:00">14 May 2015 - 05:27 AM</abbr>
+					
+				</p>
+				
+				<div itemprop="commentText" class="post entry-content ">
+					<!--cached-Wed, 20 May 2015 21:13:48 +0000--><p class="citation">Quote<span></span></p><blockquote class="ipsBlockquote built"><p>edit: never mind just looked at the phto properly, turns out you need a key...</p></blockquote><br>You
+ need a private key for pretty much every Cryptoware. Hence why someone 
+can't just pay the ransom once and give the decrypter to everyone else. 
+Sure, you now have the a decrypting utility for your files, but without 
+the private key used for their encryption, it's useless.
+								
+					
+					<br>
+					
+				</div>
+				
+				
+				
+<script type="text/javascript">
+	ipb.global.registerReputation( 'rep_post_3705807', { domLikeStripId: 'like_post_3705807', app: 'forums', type: 'pid', typeid: '3705807' }, parseInt('') );
+</script>
+				
+								
+				
+					<div class="signature" data-memberid="861833">
+	
+	<!--signature-cached-Thu, 21 May 2015 18:45:52 +0000--><p style="text-align:center"><span rel="lightbox"><img class="bbc_img" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/userbar_500.gif" alt="userbar_500.gif"></span><br><span class="bbc_hr">&nbsp;</span><br><strong><span style="color:#0000FF">Technical Support, Tier 2</span></strong><br>My
+ timezone UTC-05:00 (East. Coast), so if I'm assisting you in a thread, 
+and I've not been online for a while, please check the time to see if 
+I'm awake or asleep!<br>Skilled and experienced in Windows Technical 
+Support and Troubleshooting as well as General Computing Support and 
+Troubleshooting <img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/smile.png" class="bbc_emoticon" alt=":)">
+</p></div>
+				
+				
+				
+				<ul id="postControlsNormal_3705807" class="post_controls clear clearfix">
+					<li class="top"><a sl-processed="1" href="#ipboard_body" class="top" title="&lt;img src=&quot;http://www.bleepstatic.com/skin_images/bc/post_top.png&quot;&gt; Back to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/post_top.png"> Back to top</a></li>
+					
+					
+					
+					
+					
+					
+				</ul>
+					
+			</div>
+		</div>
+	</div>
+		
+		
+		<hr>
+		
+		
+<script type="text/javascript">
+var pid = parseInt(3705807);
+if ( pid > ipb.topic.topPid ){
+	ipb.topic.topPid = pid;
+}
+
+	// Show multiquote for JS browsers
+	if ( $('multiq_3705807') )
+	{
+		$('multiq_3705807').show();
+	}
+	
+	if( $('toggle_post_3705807') )
+	{
+		$('toggle_post_3705807').show();
+	}
+	
+	// Add perm data
+	ipb.topic.deletePerms[3705807] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+
+</script>
+			
+		</div>
+	</div>
+
+<hr>
+<div class="topic_controls clear ipsPad_top_bottom_half">
+	
+		<div class="left"><div class="pagination clearfix left ">
+		<ul class="ipsList_inline back left">
+			
+			
+		</ul>
+		<ul class="ipsList_inline left pages">
+			<li id="anonymous_element_2" class="pagejump clickable pj0442521001">
+					<a sl-processed="1" href="#">Page 1 of 2 <!--<img src='http://www.bleepingcomputer.com/forums/public/style_images/master/dropdown.png' alt='+' />--></a>
+					<script type="text/javascript">
+						ipb.global.registerPageJump( '0442521001', { url: "http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/", stKey: 'st', perPage: 15, totalPages: 2, anchor: '' } );
+					</script>
+				</li>
+			
+				
+					
+						<li class="page active">1</li>
+					
+				
+
+					<li class="page">
+							<a sl-processed="1" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/page-2" title="BitCryptor ransomware in the wild from the same creators as CoinVault - Page 2">2</a>
+						</li>
+				
+			
+		</ul>
+		<ul class="ipsList_inline forward left">
+			<li class="next"><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/page-2" title="BitCryptor ransomware in the wild from the same creators as CoinVault - Next page" rel="next">Next</a></li>
+			
+		</ul>
+	</div></div>
+	
+	<div class="ipsPad_top_slimmer right">
+		
+		<a sl-processed="1" href="http://www.bleepingcomputer.com/forums/f/2/news/" class="ipsType_small desc">Back to News</a>
+		
+	</div>	
+</div>
+
+<!-- Close topic -->
+</div>
+<!-- BOTTOM BUTTONS -->
+
+	<br>
+	<div class="clear clearfix left">
+		
+
+	<ul class="topic_share left shareButtons ipsList_inline">
+	
+		<li><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?sharelink=twitter;aHR0cDovL3d3dy5ibGVlcGluZ2NvbXB1dGVyLmNvbS9mb3J1bXMvdC81NzU5OTEvYml0Y3J5cHRvci1yYW5zb213YXJlLWluLXRoZS13aWxkLWZyb20tdGhlLXNhbWUtY3JlYXRvcnMtYXMtY29pbnZhdWx0Lw,,;Qml0Q3J5cHRvciByYW5zb213YXJlIGluIHRoZSB3aWxkIGZyb20gdGhlIHNhbWUgY3JlYXRvcnMgYXMgQ29pblZhdWx0" rel="nofollow" target="_blank" title="Share this link via Twitter" class="_slink" id="slink_twitter"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/twitter.png"></a></li>
+	
+
+		
+				<li class="fbLike"><div fb-iframe-plugin-query="action=like&amp;app_id=875027339201683&amp;container_width=0&amp;href=http%3A%2F%2Fwww.bleepingcomputer.com%2Fforums%2Ft%2F575991%2Fbitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=150" fb-xfbml-state="rendered" class="fb-like fb_iframe_widget" data-href="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-action="like"><span style="vertical-align: bottom; width: 78px; height: 20px;"><iframe class="" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/like.htm" style="border: medium none; visibility: visible; width: 78px; height: 20px;" title="fb:like Facebook Social Plugin" scrolling="no" allowfullscreen="true" allowtransparency="true" name="f24815c8aa8bc88" frameborder="0" height="1000px" width="150px"></iframe></span></div><div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/NM7BtzAR8RM.htm" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_http" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_http" frameborder="0"></iframe><iframe src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/NM7BtzAR8RM_002.htm" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div></li>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=875027339201683";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+			
+	
+
+		
+				<script gapi_processed="true" type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/plusone.js">
+	
+		{lang: 'en-GB'}
+	
+</script>
+<li><div class="googlePlusOne"><div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat scroll 0% 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 24px; height: 15px;"><iframe title="+1" data-gapiattached="true" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/fastbutton.htm" name="I0_1432234308271" id="I0_1432234308271" vspace="0" tabindex="0" style="position: static; top: 0px; width: 24px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 15px;" scrolling="no" marginwidth="0" marginheight="0" hspace="0" frameborder="0" width="100%"></iframe></div></div></li>
+			
+	
+
+		<li><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?sharelink=digg;aHR0cDovL3d3dy5ibGVlcGluZ2NvbXB1dGVyLmNvbS9mb3J1bXMvdC81NzU5OTEvYml0Y3J5cHRvci1yYW5zb213YXJlLWluLXRoZS13aWxkLWZyb20tdGhlLXNhbWUtY3JlYXRvcnMtYXMtY29pbnZhdWx0Lw,,;Qml0Q3J5cHRvciByYW5zb213YXJlIGluIHRoZSB3aWxkIGZyb20gdGhlIHNhbWUgY3JlYXRvcnMgYXMgQ29pblZhdWx0" rel="nofollow" target="_blank" title="Share this link via Digg" class="_slink" id="slink_digg"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/digg.png"></a></li>
+	
+
+		<li><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?sharelink=delicious;aHR0cDovL3d3dy5ibGVlcGluZ2NvbXB1dGVyLmNvbS9mb3J1bXMvdC81NzU5OTEvYml0Y3J5cHRvci1yYW5zb213YXJlLWluLXRoZS13aWxkLWZyb20tdGhlLXNhbWUtY3JlYXRvcnMtYXMtY29pbnZhdWx0Lw,,;Qml0Q3J5cHRvciByYW5zb213YXJlIGluIHRoZSB3aWxkIGZyb20gdGhlIHNhbWUgY3JlYXRvcnMgYXMgQ29pblZhdWx0" rel="nofollow" target="_blank" title="Share this link via Del.icio.us" class="_slink" id="slink_delicious"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/delicious.png"></a></li>
+	
+
+		<li><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?sharelink=reddit;aHR0cDovL3d3dy5ibGVlcGluZ2NvbXB1dGVyLmNvbS9mb3J1bXMvdC81NzU5OTEvYml0Y3J5cHRvci1yYW5zb213YXJlLWluLXRoZS13aWxkLWZyb20tdGhlLXNhbWUtY3JlYXRvcnMtYXMtY29pbnZhdWx0Lw,,;Qml0Q3J5cHRvciByYW5zb213YXJlIGluIHRoZSB3aWxkIGZyb20gdGhlIHNhbWUgY3JlYXRvcnMgYXMgQ29pblZhdWx0" rel="nofollow" target="_blank" title="Share this link via Reddit" class="_slink" id="slink_reddit"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/reddit.png"></a></li>
+	
+
+		<li><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?sharelink=stumble;aHR0cDovL3d3dy5ibGVlcGluZ2NvbXB1dGVyLmNvbS9mb3J1bXMvdC81NzU5OTEvYml0Y3J5cHRvci1yYW5zb213YXJlLWluLXRoZS13aWxkLWZyb20tdGhlLXNhbWUtY3JlYXRvcnMtYXMtY29pbnZhdWx0Lw,,;Qml0Q3J5cHRvciByYW5zb213YXJlIGluIHRoZSB3aWxkIGZyb20gdGhlIHNhbWUgY3JlYXRvcnMgYXMgQ29pblZhdWx0" rel="nofollow" target="_blank" title="Share this link via StumbleUpon" class="_slink" id="slink_stumble"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/stumble.png"></a></li>
+	
+
+		<li><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?sharelink=email;aHR0cDovL3d3dy5ibGVlcGluZ2NvbXB1dGVyLmNvbS9mb3J1bXMvdC81NzU5OTEvYml0Y3J5cHRvci1yYW5zb213YXJlLWluLXRoZS13aWxkLWZyb20tdGhlLXNhbWUtY3JlYXRvcnMtYXMtY29pbnZhdWx0Lw,,;Qml0Q3J5cHRvciByYW5zb213YXJlIGluIHRoZSB3aWxkIGZyb20gdGhlIHNhbWUgY3JlYXRvcnMgYXMgQ29pblZhdWx0" rel="nofollow" target="_blank" title="Share this link via Email" class="_slink" id="slink_email"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/email.png"></a></li>
+	
+
+		<li><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?sharelink=print;aHR0cDovL3d3dy5ibGVlcGluZ2NvbXB1dGVyLmNvbS9mb3J1bXMvdC81NzU5OTEvYml0Y3J5cHRvci1yYW5zb213YXJlLWluLXRoZS13aWxkLWZyb20tdGhlLXNhbWUtY3JlYXRvcnMtYXMtY29pbnZhdWx0Lw,,;Qml0Q3J5cHRvciByYW5zb213YXJlIGluIHRoZSB3aWxkIGZyb20gdGhlIHNhbWUgY3JlYXRvcnMgYXMgQ29pblZhdWx0" rel="nofollow" target="_blank" title="Print" class="_slink" id="slink_print"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/print.png"></a></li>
+	
+
+		<li><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?sharelink=download;aHR0cDovL3d3dy5ibGVlcGluZ2NvbXB1dGVyLmNvbS9mb3J1bXMvdC81NzU5OTEvYml0Y3J5cHRvci1yYW5zb213YXJlLWluLXRoZS13aWxkLWZyb20tdGhlLXNhbWUtY3JlYXRvcnMtYXMtY29pbnZhdWx0Lw,,;Qml0Q3J5cHRvciByYW5zb213YXJlIGluIHRoZSB3aWxkIGZyb20gdGhlIHNhbWUgY3JlYXRvcnMgYXMgQ29pblZhdWx0" rel="nofollow" target="_blank" title="Download" class="_slink" id="slink_download"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/download.png"></a></li>
+	
+	</ul>
+	<script type="text/javascript">
+		ipb.sharelinks.url   = "http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/";
+		ipb.sharelinks.title = "BitCryptor ransomware in the wild from the same creators as CoinVault";
+		ipb.sharelinks.bname = "BleepingComputer.com";
+	</script>
+
+	</div>
+	<br>
+
+<!-- SAME TAGGED -->
+
+<!-- ACTIVE USERS -->
+<div id="topic_stats" class="statistics clear clearfix">
+		<div id="topic_active_users" class="active_users">
+			<h4 class="statistics_head">11 user(s) are reading this topic</h4>
+			<p class="statistics_brief desc">1 members, 10 guests, 0 anonymous users</p>
+			
+				<br>
+				<ul class="ipsList_inline">
+					JCL31
+				</ul>
+			
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/prettify.js"></script>
+	<script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/lang-sql.js"></script>
+	<!-- By default we load generic code, php, css, sql and xml/html; load others here if desired -->
+	<script type="text/javascript">
+	//<![CDATA[
+		Event.observe( window, 'load', function(e){ prettyPrint() });
+	//]]>
+	</script>
+<div id="multiQuoteInsert" style="display: none;" class="ipsFloatingAction">
+	<span class="ipsButton no_width" id="mqbutton">Reply to quoted posts</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a sl-processed="1" href="#" id="multiQuoteClear" class="ipsType_smaller desc" title="Clear the posts you have selected with MultiQuote">Clear</a> &nbsp;&nbsp;&nbsp;
+</div>
+<form id="modform" method="post" action="http://www.bleepingcomputer.com/forums/index.php?">
+	<input name="app" value="forums" type="hidden">
+	<input name="module" value="moderate" type="hidden">
+	<input name="section" value="moderate" type="hidden">
+	<input name="do" value="postchoice" type="hidden">
+	<input name="f" value="2" type="hidden">
+	<input name="t" value="575991" type="hidden">
+	<input name="auth_key" value="880ea6a14ea49e853634fbdc5015a024" type="hidden">
+	<input name="st" value="" type="hidden">
+	<input name="page" value="" type="hidden">
+	<input value="" name="selectedpidsJS" id="selectedpidsJS" type="hidden">
+	<input name="tact" id="tact" value="" type="hidden">
+</form>
+
+
+<!-- begin ad tag (tile=2) -->
+<script type="text/javascript">
+//<![CDATA[
+ord = window.ord || Math.floor(Math.random()*1E16);
+document.write('<script type="text/javascript" src="http://ad1.netshelter.net/adj/ns.bleepingcomputer/sophia;ppos=atf;kw=;tile=2;sz=300x250;ord=' + ord + '?"><\/script>');
+//]]>
+</script><script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/sophia"></script>
+<noscript><a href="http://ad1.netshelter.net/jump/ns.bleepingcomputer/sophia;ppos=atf;kw=;tile=2;sz=300x250;ord=123456789?" target="_blank" ><img src="http://ad1.netshelter.net/ad/ns.bleepingcomputer/sophia;ppos=atf;kw=;tile=2;sz=300x250;ord=123456789?" border="0" alt="" /></a></noscript>
+<!-- end ad tag -->
+
+				
+					<div class="ipsAd"><div style="margin:0px auto; width:970px" class="clear" align="center">
+<br>
+<script type="text/javascript">
+//<![CDATA[
+ord = window.ord || Math.floor(Math.random()*1E16);
+document.write('<script type="text/javascript" src="http://ad4.netshelter.net/adj/ns.bleepingcomputer/topics_bottom;ppos=btf;kw=;tile=1;sz=728x90,970x90,920x250;ord=' + ord + '?"><\/script>');
+//]]>
+
+</script><script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/topics_bottom"></script><div class="GoogleActiveViewClass" id="DfpVisibilityIdentifier_8396194388125763">
+<!--/* OpenX JavaScript tag */-->
+
+<!-- /*
+ * The tag in this template has been generated for use on a
+ * non-SSL page. If this tag is to be placed on an SSL page, change the
+ * 'http://mediaservices-d.openxenterprise.com/...'
+ * to
+ * 'https://mediaservices-d.openxenterprise.com/...'
+ */ -->
+
+<script type="text/javascript">
+if (!window.OX_ads) { OX_ads = []; }
+OX_ads.push({ "auid" : "562912" });
+</script>
+<script type="text/javascript">
+document.write('<scr'+'ipt src="http://mediaservices-d.openxenterprise.com/w/1.0/jstag"><\/scr'+'ipt>');
+</script><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/jstag"></script><script type="text/javascript" id="ox_acj_530627757" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/acj"></script><iframe src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/pd_002.htm" style="display:none;" height="0" width="0"></iframe><div style="position:absolute;left:0px;top:0px;visibility:hidden;"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/rr.gif"></div><!--/* OpenX JavaScript tag */-->
+
+<!-- /*
+ * The tag in this template has been generated for use on a
+ * non-SSL page. If this tag is to be placed on an SSL page, change the
+ * 'http://mediaservices-d.openxenterprise.com/...'
+ * to
+ * 'https://mediaservices-d.openxenterprise.com/...'
+ */ -->
+
+<script type="text/javascript">
+if (!window.OX_ads) { OX_ads = []; }
+OX_ads.push({ "auid" : "537188534" });
+</script>
+<script type="text/javascript">
+document.write('<scr'+'ipt src="http://mediaservices-d.openxenterprise.com/w/1.0/jstag"><\/scr'+'ipt>');
+</script><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/jstag"></script><script type="text/javascript" id="ox_acj_2280527440" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/acj_002"></script><iframe src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/pd_002.htm" style="display:none;" height="0" width="0"></iframe>
+<noscript><iframe id="9e434d02b1" name="9e434d02b1" src="http://mediaservices-d.openxenterprise.com/w/1.0/afr?auid=537188534&cb=INSERT_RANDOM_NUMBER_HERE" frameborder="0" scrolling="no" width="728" height="90"><a href="http://mediaservices-d.openxenterprise.com/w/1.0/rc?cs=9e434d02b1&cb=INSERT_RANDOM_NUMBER_HERE" ><img src="http://mediaservices-d.openxenterprise.com/w/1.0/ai?auid=537188534&cs=9e434d02b1&cb=INSERT_RANDOM_NUMBER_HERE" border="0" alt=""></a></iframe></noscript><div style="position:absolute;left:0px;top:0px;visibility:hidden;"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/ri.gif"></div>
+<noscript><iframe id="537bf32013e0e" name="537bf32013e0e" src="http://mediaservices-d.openxenterprise.com/w/1.0/afr?auid=562912&cb=INSERT_RANDOM_NUMBER_HERE" frameborder="0" scrolling="no" width="728" height="90"><a href="http://mediaservices-d.openxenterprise.com/w/1.0/rc?cs=537bf32013e0e&cb=795186257" ><img src="http://mediaservices-d.openxenterprise.com/w/1.0/ai?auid=562912&cs=537bf32013e0e&cb=795186257" border="0" alt=""></a></iframe></noscript><noscript class="MOAT-ziffdaviscwnew43828694654?moatClientLevel1=26258252&amp;moatClientLevel2=174616292&amp;moatClientLevel3=107587292&amp;moatClientLevel4=41127686972&amp;moatClientSlicer1=175565492&amp;moatClientSlicer2=175713452&amp;zMoatPS=&amp;zMoatST=;zMoatPPOS=btf&amp;zMoatTEMPLATE=&amp;zMoatBP=&amp;zMoatAB=&amp;zMoatTILE=1"></noscript>
+<script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/moatad_002.js" type="text/javascript"></script><script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/zdvtools.js" async="true"></script></div>
+<noscript><a href="http://ad4.netshelter.net/jump/ns.bleepingcomputer/topics_bottom;ppos=btf;kw=;tile=1;sz=728x90,970x90,920x250;ord=123456789?" target="_blank" ><img src="http://ad4.netshelter.net/ad/ns.bleepingcomputer/topics_bottom;ppos=btf;kw=;tile=1;sz=728x90,970x90,920x250;ord=123456789?" border="0" alt="" /></a></noscript>
+<!-- end ad tag -->
+</div></div>
+				
+				<ol class="breadcrumb bottom ipsList_inline left clearfix clear">
+											<li><a sl-processed="1" href="http://www.bleepingcomputer.com/forums/">BleepingComputer.com</a></li>
+							
+						
+							<li><span class="nav_sep">&#8594;</span> <a sl-processed="1" href="http://www.bleepingcomputer.com/forums/f/75/general-topics/" title="Return to General Topics"><span>General Topics</span></a></li>
+							
+						
+
+							<li><span class="nav_sep">&#8594;</span> <a sl-processed="1" href="http://www.bleepingcomputer.com/forums/f/2/news/" title="Return to News"><span>News</span></a></li>
+							
+						
+
+					
+					<li class="right ipsType_smaller">
+						<a sl-processed="1" rel="nofollow" href="http://www.bleepingcomputer.com/privacy/">Privacy Policy</a>
+					</li>
+					
+					<li class="right ipsType_smaller">
+							<a sl-processed="1" href="http://www.bleepingcomputer.com/forum-rules/">Rules</a> · 
+						</li>	
+				</ol>
+			</div>
+			<!-- ::: FOOTER (Change skin, language, mark as read, etc) ::: -->
+			<div id="footer_utilities" class="main_width clearfix clear">
+				<a sl-processed="1" rel="nofollow" href="#top" id="backtotop" title="Go to top"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/top.png" alt=""></a>
+				<ul class="ipsList_inline left">
+					<li>
+						<img style="display: none;" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/feed.png" alt="RSS Feed" id="rss_feed" class="clickable">
+					</li>
+					
+							
+								<li>
+									<a class="" sl-processed="1" rel="nofollow" id="new_skin" href="#">Change Theme</a>			
+									<ul id="new_skin_menucontent" class="ipbmenu_content with_checks" style="display: none; position: absolute; z-index: 9999;">
+										
+											<li style="z-index: 10000;" class="selected">
+												<a sl-processed="1" style="z-index: 10000;" href="#" data-clicklaunch="changeSkin" data-skinid="7">BleepingComputer.com</a>
+											</li>
+										
+
+											<li style="z-index: 10000;">
+												<a sl-processed="1" style="z-index: 10000;" href="#" data-clicklaunch="changeSkin" data-skinid="8">IPS Test</a>
+											</li>
+										
+									</ul>
+								</li>
+							
+					
+					
+					<li>
+						<a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?app=core&amp;module=help" title="View help" rel="help" accesskey="6">Help</a>
+					</li>				
+				</ul>
+<div style="margin-top: 30px; clear: both;">
+  <table border="0" cellpadding="0" cellspacing="4" width="100%">
+    <tbody><tr>
+      <td align="center">
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/advertise/" rel="nofollow">Advertise</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/about/" rel="nofollow">About Us</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/user-agreement/" rel="nofollow">User Agreement</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/privacy/" rel="nofollow">Privacy Policy</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/sitemap/">Sitemap</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/chat/" rel="nofollow">Chat</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/rss-feeds/">RSS Feeds</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/contact/" rel="nofollow">Contact Us</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/forums/">Tech Support Forums</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/virus-removal/">Virus Removal Guides</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/download/">Downloads</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/tutorials/">Tutorials</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/glossary/">The Computer Glossary</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/uninstall/">Uninstall List</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/startups/">Startups</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a sl-processed="1" href="http://www.bleepingcomputer.com/filedb/">The File Database</a>
+      </td>
+    </tr>
+  </tbody></table>                                                      
+ <br>
+  <div align="center"> <font size="1">©&nbsp;2004-2015 All Rights Reserved <a sl-processed="1" href="http://www.bleepingcomputer.com/"> <b>Bleeping Computer LLC</b> </a>.</font><br>
+<a sl-processed="1" href="http://www.bleepingcomputer.com/changelog/">Site Changelog</a> </div>
+ <br>				
+</div>
+				<!-- Copyright Information -->
+        				  <p id="copyright">
+        				  	<a sl-processed="1" href="http://www.invisionpower.com/apps/board/" title="Community Forum Software by Invision Power Services">Community Forum Software by IP.Board</a></p>
+		<!-- / Copyright -->
+			</div>
+			
+			
+			
+				<script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/lightbox.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+	// Lightbox Configuration
+	LightboxOptions = Object.extend({
+	    fileLoadingImage:        'http://www.bleepingcomputer.com/forums/public/style_images/master/lightbox/loading.gif',     
+	    fileBottomNavCloseImage: 'http://www.bleepingcomputer.com/forums/public/style_images/master/lightbox/closelabel.gif',
+	    overlayOpacity: 0.8,   // controls transparency of shadow overlay
+	    animate: true,         // toggles resizing animations
+	    resizeSpeed: 10,        // controls the speed of the image resizing animations (1=slowest and 10=fastest)
+	    borderSize: 10,         //if you adjust the padding in the CSS, you will need to update this variable
+		// When grouping images this is used to write: Image # of #.
+		// Change it for non-english localization
+		labelImage: "Image",
+		labelOf: "of"
+	}, window.LightboxOptions || {});
+/* Watch for a lightbox image and set up our downloadbutton watcher */
+document.observe('click', (function(event){
+    var target = event.findElement('a[rel*="lightbox"]') || event.findElement('area[rel*="lightbox"]') || event.findElement('span[rel*="lightbox"]');
+    if (target) {
+        event.stop();
+        gbl_addDownloadButton();
+    }
+}).bind(this));
+var _to    = '';
+var _last  = '';
+function gbl_addDownloadButton()
+{
+	if ( typeof( ipsLightbox.lightboxImage ) != 'undefined' && ipsLightbox.lightboxImage.src )
+	{
+		if ( _last != ipsLightbox.lightboxImage.src )
+		{
+			if ( ! $('gbl_d') )
+			{
+				$('bottomNav').insert( { top: "<div id='gbl_d' style='text-align:right;padding-bottom:4px;'></div>" } );
+			}
+			
+			$('gbl_d').update( "<a href='"+ ipsLightbox.lightboxImage.src + "' target='_blank'><img src='http://www.bleepingcomputer.com/forums/public/style_images/master/lightbox/download-icon.png' /></a>" );
+			
+			_last = ipsLightbox.lightboxImage.src;
+		}
+	}
+	
+	/* Check for init and then keep checking for new image */
+	_to = setTimeout( "gbl_addDownloadButton()", 1000 );
+}
+//]]>
+</script>
+			
+<script type="text/javascript" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/3687X620620.js"></script>
+
+			<div id="inline_login_form" style="display:none">
+		<form action="http://www.bleepingcomputer.com/forums/index.php?app=core&amp;module=global&amp;section=login&amp;do=process" method="post" id="login">
+				<input name="auth_key" value="880ea6a14ea49e853634fbdc5015a024" type="hidden">
+				<input name="referer" value="http://www.bleepingcomputer.com/forums/t/575991/bitcryptor-ransomware-in-the-wild-from-the-same-creators-as-coinvault/" type="hidden">
+				<h3>Sign In</h3>
+				
+				<br>
+				<div class="ipsForm ipsForm_horizontal">
+					<fieldset>
+						<ul>
+							<li class="ipsField">
+								<div class="ipsField_content">
+									Need an account? <a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?app=core&amp;module=global&amp;section=register" title="Register now!">Register now!</a>
+								</div>
+							</li>
+							<li class="ipsField ipsField_primary">
+								<label for="ips_username" class="ipsField_title">Username</label>
+								<div class="ipsField_content">
+									<input id="ips_username" class="input_text" name="ips_username" size="30" tabindex="0" type="text">
+								</div>
+							</li>
+							<li class="ipsField ipsField_primary">
+								<label for="ips_password" class="ipsField_title">Forum Password</label>
+								<div class="ipsField_content">
+									<input id="ips_password" class="input_text" name="ips_password" size="30" tabindex="0" type="password"><br>
+									<a sl-processed="1" href="http://www.bleepingcomputer.com/forums/index.php?app=core&amp;module=global&amp;section=lostpass" title="Retrieve password">I've forgotten my password</a>
+								</div>
+							</li>
+							<li class="ipsField ipsField_checkbox">
+								<input id="inline_remember" checked="checked" name="rememberMe" value="1" class="input_check" tabindex="0" type="checkbox">
+								<div class="ipsField_content">
+									<label for="inline_remember">
+										<strong>Remember me</strong><br>
+										<span class="desc lighter">This is not recommended for shared computers</span>
+									</label>
+								</div>
+							</li>
+							
+								<li class="ipsField ipsField_checkbox">
+									<input id="inline_invisible" name="anonymous" value="1" class="input_check" tabindex="0" type="checkbox">
+									<div class="ipsField_content">
+										<label for="inline_invisible">
+											<strong>Sign in anonymously</strong><br>
+											<span class="desc lighter">Don't add me to the active users list</span>
+										</label>
+									</div>
+								</li>
+							
+							
+							<li class="ipsPad_top ipsForm_center desc ipsType_smaller">
+								<a sl-processed="1" rel="nofollow" href="http://www.bleepingcomputer.com/forums/privacypolicy/">Privacy Policy</a>
+							</li>
+							
+						</ul>
+					</fieldset>
+					
+					<div class="ipsForm_submit ipsForm_center">
+						<input class="ipsButton" value="Sign In" tabindex="0" type="submit">
+					</div>
+				</div>
+			</form>
+	</div>
+		</div><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/ca"></script><iframe name="ox_2280527440_537188534" id="ox_2280527440_537188534" scrolling="no" framespacing="0" frameborder="no" height="90" width="728"></iframe>
+		
+		
+		<script type="text/javascript">
+			if( $('primary_nav') ){	ipb.global.activateMainMenu(); }
+		</script><div style="display: none; z-index: 9999; position: absolute;" id="more_apps_menucontent" class="submenu_container clearfix boxShadow"><div style="z-index: 10000;" class="left"><ul style="z-index: 10000;" class="submenu_links" id="more_apps_menucontentul"><li style="z-index: 10000;" id="nav_home" class="submenu_li"> <a sl-processed="1" style="z-index: 10000;" href="http://www.bleepingcomputer.com/download/" title="Downloads">Downloads</a> </li><li style="z-index: 10000;" id="nav_home" class="submenu_li"> <a sl-processed="1" style="z-index: 10000;" href="http://www.bleepingcomputer.com/uninstall/" title="Uninstall List">Uninstall List</a> </li><li style="z-index: 10000;" id="nav_home" class="submenu_li"> <a sl-processed="1" style="z-index: 10000;" href="http://www.bleepingcomputer.com/welcome-guide/" title="Welcome Guide">Welcome Guide</a> </li></ul></div></div>
+
+
+<script type="text/javascript">
+(function() {
+    var nstrack = document.createElement("script"), el_nstrack = document.getElementsByTagName("script")[0]; nstrack.async = true;
+    nstrack.src = "http://track.netshelter.net/async/js/sites/bleepingcomputer.com-async.js";
+    el_nstrack.parentNode.insertBefore(nstrack, el_nstrack);
+  })();
+</script>
+
+
+	
+<div style="position: absolute; display: none; z-index: 9999;" jumpid="0442521001" id="pj_anonymous_element_1_wrap" class="ipbmenu_content pj0442521001"><h3 style="z-index: 10000;" class="bar">Jump to page</h3><p style="z-index: 10000;" class="ipsPad"><input style="z-index: 10000;" class="input_text" id="pj_anonymous_element_1_input" size="8" type="text"> <input style="z-index: 10000;" value="Go" class="input_submit add_folder" id="pj_anonymous_element_1_submit" type="submit"></p></div><div style="position: absolute; display: none; z-index: 9999;" jumpid="0442521001" id="pj_anonymous_element_2_wrap" class="ipbmenu_content pj0442521001"><h3 style="z-index: 10000;" class="bar">Jump to page</h3><p style="z-index: 10000;" class="ipsPad"><input style="z-index: 10000;" class="input_text" id="pj_anonymous_element_2_input" size="8" type="text"> <input style="z-index: 10000;" value="Go" class="input_submit add_folder" id="pj_anonymous_element_2_submit" type="submit"></p></div><div style="width: 1263px; height: 8936px; opacity: 0.8; display: none;" id="overlay"></div><div style="top: 889.3px; left: 0px; display: none;" id="lightbox"><div style="width: 915px; height: 601px; font-size: 114.382px;" id="outerImageContainer"><div id="imageContainer"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/bitcryptor.jpg" style="" id="lightboxImage" height="581" width="895"><div style="" id="hoverNav"><a style="display: none; height: 581px;" sl-processed="1" id="prevLink" href="#"></a><a style="display: none; height: 581px;" sl-processed="1" id="nextLink" href="#"></a></div><div style="display: none;" id="loading"><a sl-processed="1" id="loadingLink" href="#"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/loading.gif"></a></div></div></div><div style="width: 915px;" id="imageDataContainer"><div style="" id="imageData"><div id="imageDetails"><span id="caption">bitcryptor.jpg</span><span style="display: none;" id="numberDisplay"></span></div><div id="bottomNav"><div id="gbl_d" style="text-align:right;padding-bottom:4px;"><a href="http://www.bleepstatic.com/swr-guides/b/bitcryptor/bitcryptor.jpg" target="_blank"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/download-icon.png"></a></div><a sl-processed="1" id="bottomNavClose" href="#"><img src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/closelabel.gif"></a></div></div></div></div><object style="position: absolute; width: 1px; opacity: 0; height: 2px; left: 365px; top: 46px; visibility: visible;" type="application/x-shockwave-flash" data="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/detector3.pix"><param name="allowscriptaccess" value="always"></object><script src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/walker-min.js"></script><iframe name="__bkframe" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/a.htm" style="display: none; position: absolute; clip: rect(0px, 0px, 0px, 0px);" height="0" width="0"></iframe><iframe tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;" src="BitCryptor%20ransomware%20in%20the%20wild%20from%20the%20same%20creators%20as%20CoinVault%20-%20News_files/postmessageRelay.htm" id="oauth2relay256773049" name="oauth2relay256773049"></iframe></body></html>

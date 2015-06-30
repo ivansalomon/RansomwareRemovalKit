@@ -1,0 +1,29 @@
+/** ShCart Menu **/
+#shopcart,#shopcartMobile { position: relative; }
+#shopContent,#shopContentMobile { display: none; position: absolute; right:0.1em; top: 2.7em; width:20em !important; min-width:20em !important; height:auto; padding:1.4em; padding-top:0em; white-space: nowrap; float: none;
+ -webkit-box-shadow: 3px 4px 5px rgba(0,0,0,.28); -moz-box-shadow: 3px 4px 5px rgba(0,0,0,.28); box-shadow: 3px 4px 5px rgba(0,0,0,.28); background-color: #fff; z-index: 100000; margin-top: 0!important;}
+#shopNotif,#shopNotifMobile { display: inline-block !important; }
+
+#shopContent .triangle,#shopContentMobile .triangle { margin-left: 17em; }
+#shopcart #shopContent span,#shopcartMobile #shopContentMobile span { height: auto; }
+
+#shopContent #shopInnerHead,#shopContentMobile #shopInnerHead { clear:both; height: auto; line-height: 50px; margin-bottom: .5em; padding: 0; }
+#shopContent #shopInnerHead h4,#shopContentMobile #shopInnerHead h4{ float:left; padding:0; font:700 1.5em/1.15em 'Roboto', sans-serif; color:#2c2c2c; letter-spacing:-0.02em; white-space: normal; text-align: center; }
+.de #shopContent #shopInnerHead h4, .de #shopContentMobile #shopInnerHead h4{ font:700 1em/1.15em 'Roboto', sans-serif;  }
+.frint #shopContent #shopInnerHead h4, .frint #shopContentMobile #shopInnerHead h4{ font:700 1.3em/1.15em 'Roboto', sans-serif;  }
+#shopContent #shopInnerHead a, #shopContentMobile #shopInnerHead a{ text-align: center; padding: 0; }
+.de #shopContent #shopInnerHead a,.de #shopContentMobile #shopInnerHead a{ font-size: 0.7em; }
+.frint #shopContent #shopInnerHead a,.frint #shopContentMobile #shopInnerHead a { font-size: 1em; line-height: 40px; }
+
+#shopContent .shopRow,#shopContentMobile .shopRow { float:right; width: 18em; height: auto; margin-bottom: 1em; padding-top:.5em; border-top: 1px dashed #ddd; }
+#shopContent .shopRow .shopProdImage,#shopContentMobile .shopRow .shopProdImage { float:right; }
+#shopContent .shopRow .shopProductName,#shopContentMobile .shopRow .shopProductName { background:none; color:#000; margin:0 !important; white-space: normal;}
+#shopContent .shopRow .shopPrice, #shopContentMobile .shopRow .shopPrice{ background:none; color:#000; font-weight:bold; margin-top: -15px !important; margin-left: -15px; }
+
+#shopContent .discountZone,#shopContentMobile .discountZone { white-space: normal; padding: .5em 0 .5em 0; border-top: 1px dashed #ddd; }
+#shopContent .discountZone .shopProductName,#shopContentMobile .discountZone .shopProductName { background:none; color:#000; margin: 0; padding-right:.75em; white-space: normal;}
+#shopContent .discountZone .shopPrice,#shopContentMobile .discountZone .shopPrice { background:none; color:#000; font-weight: bold; margin: 0; white-space: normal;}
+
+#shopContent .total,#shopContentMobile .total { margin-top: 25px!important; margin-bottom: 15px; }
+#shopContent .total .right,#shopContentMobile .total .right { background:none; color:#000; font-family: 'Roboto', sans-serif; font-size: 1.3em; font-weight: 500; text-align:left; }
+#shopContent .total .left,#shopContentMobile .total .left { background:none; color:#000; font-family: 'Roboto', sans-serif; font-size: 1.3em; font-weight: 500;  text-align:right; }

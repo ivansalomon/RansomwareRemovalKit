@@ -1,0 +1,65 @@
+OX_2280527440({
+  "ads":{
+    "chain":1,
+    "medium":"w",
+    "record_tmpl":"http://mediaservices-d.openxenterprise.com/{medium}/1.0/{rtype}?ee=res&ts={txn_state}",
+    "pixels":"http://us-u.openx.net/w/1.0/pd?plm=6&ph=946c394266a4fae6069935c05abcb7b20f9be4d4",
+    "adunits" : [
+      {
+        "auid":"537188534",
+        "chain_timeout":"",
+        "chain":[
+          {
+            "is_fallback":0,
+            "ad_id":"537368475",
+            "adv_acct_id":"108468",
+            "width":"728",
+            "height":"90",
+            "html":"<script type=\"text/javascript\"><!--\ngoogle_ad_client = \"ca-pub-4639102848520068\";\n/* Ziff Davis Netshelter RON 728 Low Tier */\ngoogle_ad_slot = \"5399098453\";\ngoogle_ad_width = 728;\ngoogle_ad_height = 90;\ngoogle_page_url = \"macrumors.com\";\n//-->\n</script>\n<script type=\"text/javascript\"\nsrc=\"//pagead2.googlesyndication.com/pagead/show_ads.js\">\n</script>",
+            "target":"_blank",
+            "ts":"1fHJpZD1hZGI5YTA5Mi05OGMxLTQ0ZmItYmNmZi05NDViZWM3MjEyNDB8cnQ9MTQzMjIzNTA2OHxhdWlkPTUzNzE4ODUzNHxhdW09RE1JRC5XRUJ8c2lkPTUzNzEyMjkwMXxwdWI9MTQxMjcxfHBjPVVTRHx4dD1yZXN8cmFpZD1jZmQ0MDc1MC0xYjc2LTQ2MDQtYWFjNS0yYTE4ZmI3YzA2OTB8Y2w9NHxhaWQ9NTM3MzY4NDc1fHQ9NHxhcz03Mjh4OTB8bGlkPTUzNzI1MDQwNXxvaWQ9NTM3MTc1NTI4fHA9ODI4fHByPTgyOHxhZHY9MTA4NDY4fGFjPVVTRHxwbT1QUklDSU5HLkNQTXxibT1CVVlJTkcuTk9OR1VBUkFOVEVFRHxjaT0xfHVyPVBMYVpvc1FEZFM",
+            "type":"html",
+            "ad_url":"<script type=\"text/javascript\"><!--\ngoogle_ad_client = \"ca-pub-4639102848520068\";\n/* Ziff Davis Netshelter RON 728 Low Tier */\ngoogle_ad_slot = \"5399098453\";\ngoogle_ad_width = 728;\ngoogle_ad_height = 90;\ngoogle_page_url = \"macrumors.com\";\n//-->\n</script>\n<script type=\"text/javascript\"\nsrc=\"//pagead2.googlesyndication.com/pagead/show_ads.js\">\n</script>"
+          },
+          {
+            "is_fallback":0,
+            "framed":1,
+            "ad_id":"537662934",
+            "adv_acct_id":"537078095",
+            "width":"728",
+            "height":"90",
+            "html":"<!-- Begin Cox Digital Solutions Page Tag for [page name] on \"ZiffDavis\" -->\n<script type=\"text/javascript\">\n        cdsTag = {  };\n        cdsTag.zones = {  };\n        cdsTag.zones.as1000014417807 = { \"size\" : \"728x90\", \"id\" : \"1000014417807\" };\n        cdsTag.siteId = 1000103816780;\n        cdsTag.keywords = null;\n        cdsTag.user = null;\n        cdsTag.onLoad = function() {cdsPlaceAd(\"as1000014417807\");};\n</script>\n<script type=\"text/javascript\" src=\"http://ad.afy11.net/cdsad.js\"></script>\n<!-- End Cox Digital Solutions Page Tag for [page name] on \"ZiffDavis\" -->",
+            "target":"_blank",
+            "ts":"1fHJpZD1hZGI5YTA5Mi05OGMxLTQ0ZmItYmNmZi05NDViZWM3MjEyNDB8cnQ9MTQzMjIzNTA2OHxhdWlkPTUzNzE4ODUzNHxhdW09RE1JRC5XRUJ8c2lkPTUzNzEyMjkwMXxwdWI9MTQxMjcxfHBjPVVTRHx4dD1yZXN8cmFpZD1jZmQ0MDc1MC0xYjc2LTQ2MDQtYWFjNS0yYTE4ZmI3YzA2OTB8Y2w9NHxhaWQ9NTM3NjYyOTM0fHQ9NHxhcz03Mjh4OTB8bGlkPTUzNzQxNzY4MnxvaWQ9NTM3MjU0MDk3fHA9MjgwfHByPTI4MHxhZHY9NTM3MDc4MDk1fGFjPVVTRHxwbT1DUE18bj0xfGFpPTE1MmQwN2IxLWRhNDEtNGM0MC1hZDE4LWZlNzRjMjY5NTM0YXxibT18bXVpPTA4NmIxNTRmLTgwNWItNDJhYi1mNmNmLTQ4OWY0ODdhZjZmZnxjaT0yfHVyPVBMYVpvc1FEZFM",
+            "type":"html",
+            "ad_url":"<!-- Begin Cox Digital Solutions Page Tag for [page name] on \"ZiffDavis\" -->\n<script type=\"text/javascript\">\n        cdsTag = {  };\n        cdsTag.zones = {  };\n        cdsTag.zones.as1000014417807 = { \"size\" : \"728x90\", \"id\" : \"1000014417807\" };\n        cdsTag.siteId = 1000103816780;\n        cdsTag.keywords = null;\n        cdsTag.user = null;\n        cdsTag.onLoad = function() {cdsPlaceAd(\"as1000014417807\");};\n</script>\n<script type=\"text/javascript\" src=\"http://ad.afy11.net/cdsad.js\"></script>\n<!-- End Cox Digital Solutions Page Tag for [page name] on \"ZiffDavis\" -->"
+          },
+          {
+            "is_fallback":0,
+            "ad_id":"1811774",
+            "adv_acct_id":"33853",
+            "width":"728",
+            "height":"90",
+            "html":"<!-- Conversant Media 728x90 LEADERBOARD CODE for MacRumors -->\n<script type=\"text/javascript\">var vclk_options = {sid:90917,media_type:5,version:\"1.4\"};</script><script class=\"vclk_pub_code\" type=\"text/javascript\" src=\"http://cdn.fastclick.net/js/adcodes/pubcode.min.js?sid=90917&media_type=5&version=1.4&exc=1\"></script><noscript><a href=\"http://media.fastclick.net/w/click.here?sid=90917&m=1&c=1\" target=\"_blank\"><img src=\"http://media.fastclick.net/w/get.media?sid=90917&tp=5&d=s&c=1&vcm_acv=1.4\" width=\"728\" height=\"90\" border=\"1\"></a></noscript>\n<!-- Conversant Media 728x90 LEADERBOARD CODE for MacRumors -->",
+            "target":"_blank",
+            "ts":"1fHJpZD1hZGI5YTA5Mi05OGMxLTQ0ZmItYmNmZi05NDViZWM3MjEyNDB8cnQ9MTQzMjIzNTA2OHxhdWlkPTUzNzE4ODUzNHxhdW09RE1JRC5XRUJ8c2lkPTUzNzEyMjkwMXxwdWI9MTQxMjcxfHBjPVVTRHx4dD1yZXN8cmFpZD1jZmQ0MDc1MC0xYjc2LTQ2MDQtYWFjNS0yYTE4ZmI3YzA2OTB8Y2w9NHxhaWQ9MTgxMTc3NHx0PTR8YXM9NzI4eDkwfGxpZD0xMDQ5ODE3fG9pZD0yODI5MTN8cD0xMTJ8cHI9MTEyfGFkdj0zMzg1M3xhYz1VU0R8cG09UFJJQ0lORy5DUE18Ym09QlVZSU5HLk5PTkdVQVJBTlRFRUR8Y2k9M3x1cj1QTGFab3NRRGRT",
+            "type":"html",
+            "ad_url":"<!-- Conversant Media 728x90 LEADERBOARD CODE for MacRumors -->\n<script type=\"text/javascript\">var vclk_options = {sid:90917,media_type:5,version:\"1.4\"};</script><script class=\"vclk_pub_code\" type=\"text/javascript\" src=\"http://cdn.fastclick.net/js/adcodes/pubcode.min.js?sid=90917&media_type=5&version=1.4&exc=1\"></script><noscript><a href=\"http://media.fastclick.net/w/click.here?sid=90917&m=1&c=1\" target=\"_blank\"><img src=\"http://media.fastclick.net/w/get.media?sid=90917&tp=5&d=s&c=1&vcm_acv=1.4\" width=\"728\" height=\"90\" border=\"1\"></a></noscript>\n<!-- Conversant Media 728x90 LEADERBOARD CODE for MacRumors -->"
+          },
+          {
+            "is_fallback":0,
+            "ad_id":"1379180",
+            "adv_acct_id":"45302",
+            "width":"728",
+            "height":"90",
+            "html":"<iframe id=\"4ec6da0c1b4ce\" name=\"4ec6da0c1b4ce\" src=\"http://psa-d.openx.com/w/1.0/afr?auid=34591&cb=OYWFDVvWzg\" frameborder=\"0\" scrolling=\"no\" width=\"728\" height=\"90\"><a href=\"http://psa-d.openx.com/w/1.0/rc?cs=4ec6da0c1b4ce&cb=CsRc1oWq5t\" ><img src=\"http://psa-d.openx.com/w/1.0/ai?auid=34591&cs=4ec6da0c1b4ce&amp;cb=jZL744HLz3\" border=\"0\" alt=\"\"></a></iframe>",
+            "target":"_blank",
+            "ts":"1fHJpZD1hZGI5YTA5Mi05OGMxLTQ0ZmItYmNmZi05NDViZWM3MjEyNDB8cnQ9MTQzMjIzNTA2OHxhdWlkPTUzNzE4ODUzNHxhdW09RE1JRC5XRUJ8c2lkPTUzNzEyMjkwMXxwdWI9MTQxMjcxfHBjPVVTRHx4dD1yZXN8cmFpZD1jZmQ0MDc1MC0xYjc2LTQ2MDQtYWFjNS0yYTE4ZmI3YzA2OTB8Y2w9NHxhaWQ9MTM3OTE4MHx0PTR8YXM9NzI4eDkwfGxpZD04MDcwMDJ8b2lkPTIzNjMyOHxwPTB8cHI9MHxhZHY9NDUzMDJ8YWM9VVNEfHBtPVBSSUNJTkcuQ1BNfGJtPUJVWUlORy5OT05HVUFSQU5URUVEfGNpPTR8dXI9UExhWm9zUURkUw",
+            "type":"html",
+            "ad_url":"<iframe id=\"4ec6da0c1b4ce\" name=\"4ec6da0c1b4ce\" src=\"http://psa-d.openx.com/w/1.0/afr?auid=34591&cb=OYWFDVvWzg\" frameborder=\"0\" scrolling=\"no\" width=\"728\" height=\"90\"><a href=\"http://psa-d.openx.com/w/1.0/rc?cs=4ec6da0c1b4ce&cb=CsRc1oWq5t\" ><img src=\"http://psa-d.openx.com/w/1.0/ai?auid=34591&cs=4ec6da0c1b4ce&amp;cb=jZL744HLz3\" border=\"0\" alt=\"\"></a></iframe>"
+          }
+        ]
+      }
+    ]
+  }
+});
